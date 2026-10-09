@@ -1,0 +1,6 @@
+# Runtime dependencies of the curate Lambda image (versions come from uv.lock via make curate-requirements).
+boto3
+pyarrow
+pyiceberg[glue,pyarrow]
+fsspec
+duckdb
