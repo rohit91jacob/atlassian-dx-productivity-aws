@@ -1,0 +1,845 @@
+[
+ {
+  "archived": false,
+  "id": "12317242",
+  "name": "0.6",
+  "releaseDate": "2011-05-24",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12317243",
+  "name": "0.7",
+  "releaseDate": "2012-01-04",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12319140",
+  "name": "0.7.1",
+  "releaseDate": "2012-06-27",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12322475",
+  "name": "0.7.2",
+  "releaseDate": "2012-10-10",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12317244",
+  "name": "0.8.0",
+  "releaseDate": "2013-12-03",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12322960",
+  "name": "0.8.1",
+  "releaseDate": "2014-03-12",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12326539",
+  "name": "0.8.1.1",
+  "releaseDate": "2014-04-29",
+  "released": true,
+  "startDate": "2014-03-20"
+ },
+ {
+  "archived": false,
+  "id": "12328645",
+  "name": "0.8.1.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12326167",
+  "name": "0.8.2.0",
+  "releaseDate": "2015-02-02",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12329463",
+  "name": "0.8.2.1",
+  "releaseDate": "2015-03-11",
+  "released": true,
+  "startDate": "2015-02-17"
+ },
+ {
+  "archived": false,
+  "id": "12333296",
+  "name": "0.8.2.2",
+  "releaseDate": "2015-10-02",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12328745",
+  "name": "0.9.0.0",
+  "releaseDate": "2015-11-23",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12333395",
+  "name": "0.9.0.1",
+  "releaseDate": "2016-02-19",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12335668",
+  "name": "0.9.0.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12333882",
+  "name": "0.10.0.0",
+  "releaseDate": "2016-05-22",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12334962",
+  "name": "0.10.0.1",
+  "releaseDate": "2016-08-10",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12338031",
+  "name": "0.10.0.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12323928",
+  "name": "0.10.1.0",
+  "releaseDate": "2016-10-20",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12338247",
+  "name": "0.10.1.1",
+  "releaseDate": "2016-12-20",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12338926",
+  "name": "0.10.1.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12338248",
+  "name": "0.10.2.0",
+  "releaseDate": "2017-02-21",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12339452",
+  "name": "0.10.2.1",
+  "releaseDate": "2017-04-26",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12340570",
+  "name": "0.10.2.2",
+  "releaseDate": "2018-07-02",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12343640",
+  "name": "0.10.2.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12338986",
+  "name": "0.11.0.0",
+  "releaseDate": "2017-06-28",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12340632",
+  "name": "0.11.0.1",
+  "releaseDate": "2017-09-12",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12341355",
+  "name": "0.11.0.2",
+  "releaseDate": "2017-11-16",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12342167",
+  "name": "0.11.0.3",
+  "releaseDate": "2018-07-02",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12343413",
+  "name": "0.11.0.4",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12340539",
+  "name": "1.0.0",
+  "releaseDate": "2017-11-01",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12341619",
+  "name": "1.0.1",
+  "releaseDate": "2018-03-02",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12342647",
+  "name": "1.0.2",
+  "releaseDate": "2018-07-08",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12343414",
+  "name": "1.0.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12339769",
+  "name": "1.1.0",
+  "releaseDate": "2018-03-28",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12342953",
+  "name": "1.1.1",
+  "releaseDate": "2018-07-19",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12343473",
+  "name": "1.1.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12341243",
+  "name": "2.0.0",
+  "releaseDate": "2018-07-30",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12343442",
+  "name": "2.0.1",
+  "releaseDate": "2018-11-09",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12344309",
+  "name": "2.0.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12343311",
+  "name": "2.1.0",
+  "releaseDate": "2018-11-20",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12344250",
+  "name": "2.1.1",
+  "releaseDate": "2019-02-15",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12344977",
+  "name": "2.1.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12344063",
+  "name": "2.2.0",
+  "releaseDate": "2019-03-22",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12345010",
+  "name": "2.2.1",
+  "releaseDate": "2019-06-01",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12345460",
+  "name": "2.2.2",
+  "releaseDate": "2019-12-01",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12346169",
+  "name": "2.2.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12344926",
+  "name": "2.3.0",
+  "releaseDate": "2019-06-25",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12345689",
+  "name": "2.3.1",
+  "releaseDate": "2019-10-24",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12346376",
+  "name": "2.3.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12345555",
+  "name": "2.4.0",
+  "releaseDate": "2019-12-16",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12346538",
+  "name": "2.4.1",
+  "releaseDate": "2020-03-10",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12347540",
+  "name": "2.4.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12346342",
+  "name": "2.5.0",
+  "releaseDate": "2020-04-14",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12347782",
+  "name": "2.5.1",
+  "releaseDate": "2020-08-10",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12348381",
+  "name": "2.5.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12346918",
+  "name": "2.6.0",
+  "releaseDate": "2020-08-03",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12348434",
+  "name": "2.6.1",
+  "releaseDate": "2021-01-07",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12349390",
+  "name": "2.6.2",
+  "releaseDate": "2021-04-19",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12349692",
+  "name": "2.6.3",
+  "releaseDate": "2021-11-12",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351443",
+  "name": "2.6.4",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12348356",
+  "name": "2.7.0",
+  "releaseDate": "2020-12-18",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12349260",
+  "name": "2.7.1",
+  "releaseDate": "2021-05-10",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12350014",
+  "name": "2.7.2",
+  "releaseDate": "2021-11-12",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351442",
+  "name": "2.7.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12348710",
+  "name": "2.8.0",
+  "releaseDate": "2021-04-18",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12350016",
+  "name": "2.8.1",
+  "releaseDate": "2021-09-17",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12350615",
+  "name": "2.8.2",
+  "releaseDate": "2022-09-19",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352929",
+  "name": "2.8.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12343427",
+  "name": "3.0.0",
+  "releaseDate": "2021-09-20",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12350423",
+  "name": "3.0.1",
+  "releaseDate": "2022-03-11",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351441",
+  "name": "3.0.2",
+  "releaseDate": "2022-09-19",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352561",
+  "name": "3.0.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12349690",
+  "name": "3.1.0",
+  "releaseDate": "2022-01-24",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351255",
+  "name": "3.1.1",
+  "releaseDate": "2022-05-12",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351558",
+  "name": "3.1.2",
+  "releaseDate": "2022-09-19",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352560",
+  "name": "3.1.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12350645",
+  "name": "3.2.0",
+  "releaseDate": "2022-05-17",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351729",
+  "name": "3.2.1",
+  "releaseDate": "2022-08-01",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352170",
+  "name": "3.2.2",
+  "releaseDate": "2022-09-19",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352294",
+  "name": "3.2.3",
+  "releaseDate": "2022-09-19",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352466",
+  "name": "3.2.4",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12351265",
+  "name": "3.3.0",
+  "releaseDate": "2022-09-28",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352298",
+  "name": "3.3.1",
+  "releaseDate": "2022-10-03",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352392",
+  "name": "3.3.2",
+  "releaseDate": "2023-01-23",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352719",
+  "name": "3.3.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12352112",
+  "name": "3.4.0",
+  "releaseDate": "2023-02-07",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352670",
+  "name": "3.4.1",
+  "releaseDate": "2023-06-06",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353354",
+  "name": "3.4.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12352634",
+  "name": "3.5.0",
+  "releaseDate": "2023-06-15",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353339",
+  "name": "3.5.1",
+  "releaseDate": "2023-07-21",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353416",
+  "name": "3.5.2",
+  "releaseDate": "2023-12-11",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354191",
+  "name": "3.5.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12353133",
+  "name": "3.6.0",
+  "releaseDate": "2023-10-10",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353677",
+  "name": "3.6.1",
+  "releaseDate": "2023-12-07",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353995",
+  "name": "3.6.2",
+  "releaseDate": "2024-04-04",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354414",
+  "name": "3.6.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12353579",
+  "name": "3.7.0",
+  "releaseDate": "2024-02-27",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354122",
+  "name": "3.7.1",
+  "releaseDate": "2024-06-28",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354953",
+  "name": "3.7.2",
+  "releaseDate": "2024-12-13",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355514",
+  "name": "3.7.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12354033",
+  "name": "3.8.0",
+  "releaseDate": "2024-07-29",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354982",
+  "name": "3.8.1",
+  "releaseDate": "2024-10-29",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355280",
+  "name": "3.8.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12354779",
+  "name": "3.9.0",
+  "releaseDate": "2024-11-07",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355122",
+  "name": "3.9.1",
+  "releaseDate": "2025-05-21",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355853",
+  "name": "3.9.2",
+  "releaseDate": "2026-02-21",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12350048",
+  "name": "4.0.0",
+  "releaseDate": "2025-03-18",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355599",
+  "name": "4.0.1",
+  "releaseDate": "2025-10-13",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355011",
+  "name": "4.1.0",
+  "releaseDate": "2025-09-02",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355509",
+  "name": "4.2.0",
+  "releaseDate": "2026-02-17",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354386",
+  "name": "5.0.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12356014",
+  "name": "4.3.0",
+  "releaseDate": "2026-05-22",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356148",
+  "name": "4.0.2",
+  "releaseDate": "2026-03-16",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356245",
+  "name": "4.1.1",
+  "releaseDate": "2025-11-14",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356403",
+  "name": "4.1.2",
+  "releaseDate": "2026-03-17",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356566",
+  "name": "4.2.1",
+  "releaseDate": "2026-05-30",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356677",
+  "name": "3.9.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12356773",
+  "name": "4.1.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12356774",
+  "name": "4.0.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12356783",
+  "name": "4.3.1",
+  "releaseDate": "2026-06-25",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356784",
+  "name": "4.4.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12356955",
+  "name": "4.2.2",
+  "releaseDate": "2026-09-29",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12357193",
+  "name": "4.3.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357379",
+  "name": "4.5.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357446",
+  "name": "4.4.1",
+  "released": false
+ }
+]

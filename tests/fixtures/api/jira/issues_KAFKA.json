@@ -1,0 +1,3538 @@
+[
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-fd57ee96"
+     },
+     "created": "2026-10-09T12:04:42.019+0000",
+     "id": "23321778",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Patch Available"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-fd57ee96"
+   },
+   "components": [
+    {
+     "name": "streams"
+    }
+   ],
+   "created": "2026-10-09T11:47:07.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-fd57ee96"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Patch Available",
+    "statusCategory": {
+     "key": "indeterminate"
+    }
+   },
+   "summary": "kafka-streams-groups.sh --describe --topology: global store sub-topology label can collide with a real subtopology id",
+   "updated": "2026-10-09T12:04:42.000+0000",
+   "versions": []
+  },
+  "id": "13671100",
+  "key": "KAFKA-21251"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-76e2d38f"
+     },
+     "created": "2026-03-18T20:09:01.925+0000",
+     "id": "22979192",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-76e2d38f"
+   },
+   "components": [
+    {
+     "name": "streams"
+    }
+   ],
+   "created": "2026-03-07T19:06:42.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "kip"
+   ],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-fd57ee96"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "In Progress",
+    "statusCategory": {
+     "key": "indeterminate"
+    }
+   },
+   "summary": "Refactor and clean the code in HeadersStoreUpgradeIntegrationTest",
+   "updated": "2026-10-09T11:40:56.000+0000",
+   "versions": []
+  },
+  "id": "13644234",
+  "key": "KAFKA-20278"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-50756952"
+   },
+   "components": [
+    {
+     "name": "group-coordinator"
+    },
+    {
+     "name": "streams"
+    }
+   ],
+   "created": "2026-09-16T23:40:04.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [],
+   "priority": {
+    "name": "Critical"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-50756952"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "Ensure refiner backward compatibility",
+   "updated": "2026-10-09T11:12:45.000+0000",
+   "versions": []
+  },
+  "id": "13666989",
+  "key": "KAFKA-21111"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-049c6f4b"
+   },
+   "components": [],
+   "created": "2026-10-09T09:20:26.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "clients",
+    "consumer"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-049c6f4b"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "Pre-rebalance auto-commit retries may commit offsets beyond unprocessed records",
+   "updated": "2026-10-09T09:23:27.000+0000",
+   "versions": []
+  },
+  "id": "13671077",
+  "key": "KAFKA-21249"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-049c6f4b"
+   },
+   "components": [],
+   "created": "2026-10-09T07:53:21.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "clients",
+    "consumer"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-049c6f4b"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "AsyncKafkaConsumer may auto-commit offsets for records not yet returned to the application",
+   "updated": "2026-10-09T07:58:09.000+0000",
+   "versions": []
+  },
+  "id": "13671059",
+  "key": "KAFKA-21248"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-33d76ed2"
+     },
+     "created": "2026-10-02T14:00:52.234+0000",
+     "id": "23306689",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-33d76ed2"
+   },
+   "components": [
+    {
+     "name": "group-coordinator"
+    }
+   ],
+   "created": "2026-10-01T08:57:10.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357193",
+     "name": "4.3.2",
+     "released": false
+    },
+    {
+     "id": "12357379",
+     "name": "4.5.0",
+     "released": false
+    },
+    {
+     "id": "12357446",
+     "name": "4.4.1",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-87b8f8fb"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-02T14:00:52.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Release memory held by CoordinatorExecutorImpl tasks when cancelled",
+   "updated": "2026-10-09T07:26:44.000+0000",
+   "versions": []
+  },
+  "id": "13669532",
+  "key": "KAFKA-21196"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-7b058c15"
+   },
+   "components": [
+    {
+     "name": "streams"
+    }
+   ],
+   "created": "2026-10-01T08:39:26.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-7b058c15"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "Speed up the balanced task assignor and register it as a built-in assignor",
+   "updated": "2026-10-09T06:43:03.000+0000",
+   "versions": [
+    {
+     "id": "12357379",
+     "name": "4.5.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13669530",
+  "key": "KAFKA-21194"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-e609f766"
+     },
+     "created": "2026-09-24T14:31:47.528+0000",
+     "id": "23289862",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Patch Available"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-3f20f457"
+     },
+     "created": "2026-09-27T14:32:27.384+0000",
+     "id": "23294643",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Patch Available",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-e609f766"
+   },
+   "components": [],
+   "created": "2026-09-24T14:30:04.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Task",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-e609f766"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-09-27T14:32:27.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Bump Jackson version to 2.22.3",
+   "updated": "2026-10-09T05:02:30.000+0000",
+   "versions": []
+  },
+  "id": "13668348",
+  "key": "KAFKA-21157"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-e609f766"
+     },
+     "created": "2026-10-07T08:25:12.347+0000",
+     "id": "23315710",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Patch Available"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-59762686"
+     },
+     "created": "2026-10-07T18:23:50.059+0000",
+     "id": "23317206",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Patch Available",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-e609f766"
+   },
+   "components": [],
+   "created": "2026-10-07T08:22:26.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357379",
+     "name": "4.5.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Task",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-e609f766"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-07T18:23:50.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Remove accidental JUnit 4 usage",
+   "updated": "2026-10-08T20:59:33.000+0000",
+   "versions": []
+  },
+  "id": "13670552",
+  "key": "KAFKA-21237"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-232b138d"
+     },
+     "created": "2026-10-07T13:52:18.091+0000",
+     "id": "23316582",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-232b138d"
+   },
+   "components": [
+    {
+     "name": "kraft"
+    }
+   ],
+   "created": "2026-10-06T17:20:04.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-232b138d"
+   },
+   "resolution": {
+    "name": "Duplicate"
+   },
+   "resolutiondate": "2026-10-07T13:52:18.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "MetadataLoader can receive uncommitted data when log reads exceed MAX_BATCH_SIZE_BYTES",
+   "updated": "2026-10-07T13:52:54.000+0000",
+   "versions": []
+  },
+  "id": "13670434",
+  "key": "KAFKA-21234"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-87b8f8fb"
+   },
+   "components": [
+    {
+     "name": "group-coordinator"
+    }
+   ],
+   "created": "2026-03-10T04:26:46.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357379",
+     "name": "4.5.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-87b8f8fb"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "Implement assignor offload",
+   "updated": "2026-10-07T12:53:50.000+0000",
+   "versions": []
+  },
+  "id": "13644422",
+  "key": "KAFKA-20292"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-33d76ed2"
+   },
+   "components": [],
+   "created": "2026-10-05T08:03:09.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-33d76ed2"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "Spread every topic over its subscribers, without rack awareness",
+   "updated": "2026-10-07T07:39:07.000+0000",
+   "versions": []
+  },
+  "id": "13670085",
+  "key": "KAFKA-21214"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-e609f766"
+     },
+     "created": "2026-07-21T11:20:58.384+0000",
+     "id": "23165713",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-e609f766"
+     },
+     "created": "2026-07-21T11:21:01.802+0000",
+     "id": "23165714",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Patch Available"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-e609f766"
+   },
+   "components": [],
+   "created": "2026-07-21T11:17:07.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-e609f766"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Patch Available",
+    "statusCategory": {
+     "key": "indeterminate"
+    }
+   },
+   "summary": "Broker fails to start when log.dirs is a symbolic link",
+   "updated": "2026-10-06T15:24:21.000+0000",
+   "versions": []
+  },
+  "id": "13658783",
+  "key": "KAFKA-20820"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-e609f766"
+     },
+     "created": "2026-06-08T23:17:20.038+0000",
+     "id": "23095294",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-e609f766"
+     },
+     "created": "2026-06-08T23:17:42.389+0000",
+     "id": "23095295",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Patch Available"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-e609f766"
+   },
+   "components": [
+    {
+     "name": "core"
+    },
+    {
+     "name": "security"
+    }
+   ],
+   "created": "2026-06-08T22:46:02.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Task",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-e609f766"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Patch Available",
+    "statusCategory": {
+     "key": "indeterminate"
+    }
+   },
+   "summary": "Broker fails to start when ssl.cipher.suites contains ciphers unavailable in the JSSE provider",
+   "updated": "2026-10-06T15:24:18.000+0000",
+   "versions": []
+  },
+  "id": "13653861",
+  "key": "KAFKA-20676"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-df703d10"
+   },
+   "components": [
+    {
+     "name": "clients"
+    },
+    {
+     "name": "consumer"
+    }
+   ],
+   "created": "2025-10-16T20:49:52.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357379",
+     "name": "4.5.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Task",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-e5c7dfcf"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "Improve heartbeat request manager initial HB interval ",
+   "updated": "2026-10-06T15:19:59.000+0000",
+   "versions": []
+  },
+  "id": "13631758",
+  "key": "KAFKA-19804"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": null,
+   "components": [
+    {
+     "name": "streams"
+    }
+   ],
+   "created": "2026-10-06T10:36:43.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-f5297582"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "Long rebalances can cause OOM errors with transactional state stores enabled",
+   "updated": "2026-10-06T14:54:39.000+0000",
+   "versions": [
+    {
+     "id": "12356784",
+     "name": "4.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13670354",
+  "key": "KAFKA-21230"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-44826f55"
+     },
+     "created": "2026-09-30T17:18:10.407+0000",
+     "id": "23302329",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Patch Available"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-44826f55"
+   },
+   "components": [
+    {
+     "name": "Tiered-Storage"
+    }
+   ],
+   "created": "2026-09-30T17:03:32.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-44826f55"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Patch Available",
+    "statusCategory": {
+     "key": "indeterminate"
+    }
+   },
+   "summary": "Empty follower fails to start when the KIP-1023 fetch start offset equals the leader's log start offset",
+   "updated": "2026-10-06T14:43:36.000+0000",
+   "versions": [
+    {
+     "id": "12356014",
+     "name": "4.3.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13669417",
+  "key": "KAFKA-21190"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-049c6f4b"
+   },
+   "components": [
+    {
+     "name": "clients"
+    }
+   ],
+   "created": "2026-10-06T10:00:22.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357379",
+     "name": "4.5.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "clients"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-049c6f4b"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "AsyncKafkaConsumer passes null offsets to OffsetCommitCallback when an asynchronous commit fails",
+   "updated": "2026-10-06T12:56:53.000+0000",
+   "versions": []
+  },
+  "id": "13670348",
+  "key": "KAFKA-21229"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-50756952"
+     },
+     "created": "2026-03-20T02:46:03.209+0000",
+     "id": "22981563",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Patch Available"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-aca535fb"
+     },
+     "created": "2026-10-06T11:22:16.243+0000",
+     "id": "23313396",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Patch Available",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-1560f896"
+   },
+   "components": [
+    {
+     "name": "streams"
+    }
+   ],
+   "created": "2026-02-25T15:00:33.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-aca535fb"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-06T11:22:16.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Revisit iterator adapters to see if these could use parameterized converter functions and eliminate code duplication",
+   "updated": "2026-10-06T11:54:03.000+0000",
+   "versions": []
+  },
+  "id": "13643148",
+  "key": "KAFKA-20224"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-59762686"
+     },
+     "created": "2026-10-04T18:04:15.081+0000",
+     "id": "23310030",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-59762686"
+   },
+   "components": [],
+   "created": "2026-09-10T16:20:15.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357379",
+     "name": "4.5.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-59762686"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-04T18:04:15.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Streamline `BytesApiMessageSerde` and `RemoteLogMetadataSerde`",
+   "updated": "2026-10-04T18:04:15.000+0000",
+   "versions": []
+  },
+  "id": "13665884",
+  "key": "KAFKA-21065"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-59762686"
+     },
+     "created": "2026-10-03T19:20:24.163+0000",
+     "id": "23308553",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-33d76ed2"
+   },
+   "components": [],
+   "created": "2025-05-13T19:25:16.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357379",
+     "name": "4.5.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-33d76ed2"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-03T19:20:24.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Introduce `ConsumerGroupMessageFormatter` for the console-consumer",
+   "updated": "2026-10-03T19:20:24.000+0000",
+   "versions": []
+  },
+  "id": "13618030",
+  "key": "KAFKA-19277"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-f1bae01e"
+   },
+   "components": [
+    {
+     "name": "clients"
+    },
+    {
+     "name": "streams"
+    }
+   ],
+   "created": "2026-09-11T22:57:32.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-2e12d9bb"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "Telemetry reporter pushes metrics whose sensors are disabled by metrics.recording.level",
+   "updated": "2026-09-14T06:04:33.000+0000",
+   "versions": [
+    {
+     "id": "12356783",
+     "name": "4.3.1",
+     "released": true
+    }
+   ]
+  },
+  "id": "13666083",
+  "key": "KAFKA-21078"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-76e2d38f"
+   },
+   "components": [
+    {
+     "name": "security"
+    }
+   ],
+   "created": "2026-09-22T14:53:35.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Critical"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-6b24e754"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "Server-only OAUTHBEARER listener with private JWKS CA triggers token login and fails broker startup",
+   "updated": "2026-10-08T17:56:41.000+0000",
+   "versions": [
+    {
+     "id": "12356955",
+     "name": "4.2.2",
+     "released": true
+    }
+   ]
+  },
+  "id": "13667935",
+  "key": "KAFKA-21143"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-c3735226"
+     },
+     "created": "2026-08-04T21:27:16.154+0000",
+     "id": "23189179",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Patch Available"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-03c76999"
+     },
+     "created": "2026-08-17T14:08:52.960+0000",
+     "id": "23215073",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Patch Available",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-03c76999"
+   },
+   "components": [
+    {
+     "name": "streams"
+    }
+   ],
+   "created": "2026-07-31T19:53:54.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357193",
+     "name": "4.3.2",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Blocker"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-03c76999"
+   },
+   "resolution": {
+    "name": "Resolved"
+   },
+   "resolutiondate": "2026-08-17T14:08:52.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Headers store adapters bypass the `WrappedStateStore` chain",
+   "updated": "2026-10-07T11:56:52.000+0000",
+   "versions": [
+    {
+     "id": "12356784",
+     "name": "4.4.0",
+     "released": false
+    },
+    {
+     "id": "12357193",
+     "name": "4.3.2",
+     "released": false
+    }
+   ]
+  },
+  "id": "13660175",
+  "key": "KAFKA-20875"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-99d83eaa"
+     },
+     "created": "2026-06-02T14:21:04.192+0000",
+     "id": "23086950",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Patch Available"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-99d83eaa"
+   },
+   "components": [
+    {
+     "name": "controller"
+    },
+    {
+     "name": "tools"
+    }
+   ],
+   "created": "2026-04-27T11:04:51.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357379",
+     "name": "4.5.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "Availability",
+    "kraft",
+    "migration",
+    "regression"
+   ],
+   "priority": {
+    "name": "Critical"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-99d83eaa"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Patch Available",
+    "statusCategory": {
+     "key": "indeterminate"
+    }
+   },
+   "summary": "Defensive trimming of min.insync.replicas in controller and kafka-topics to tolerate whitespace-contaminated configs",
+   "updated": "2026-10-05T14:04:43.000+0000",
+   "versions": [
+    {
+     "id": "12353579",
+     "name": "3.7.0",
+     "released": true
+    },
+    {
+     "id": "12354033",
+     "name": "3.8.0",
+     "released": true
+    },
+    {
+     "id": "12354982",
+     "name": "3.8.1",
+     "released": true
+    },
+    {
+     "id": "12354779",
+     "name": "3.9.0",
+     "released": true
+    },
+    {
+     "id": "12355122",
+     "name": "3.9.1",
+     "released": true
+    },
+    {
+     "id": "12355853",
+     "name": "3.9.2",
+     "released": true
+    },
+    {
+     "id": "12350048",
+     "name": "4.0.0",
+     "released": true
+    },
+    {
+     "id": "12355599",
+     "name": "4.0.1",
+     "released": true
+    },
+    {
+     "id": "12355011",
+     "name": "4.1.0",
+     "released": true
+    },
+    {
+     "id": "12355509",
+     "name": "4.2.0",
+     "released": true
+    },
+    {
+     "id": "12356014",
+     "name": "4.3.0",
+     "released": true
+    },
+    {
+     "id": "12356148",
+     "name": "4.0.2",
+     "released": true
+    },
+    {
+     "id": "12356245",
+     "name": "4.1.1",
+     "released": true
+    },
+    {
+     "id": "12356403",
+     "name": "4.1.2",
+     "released": true
+    },
+    {
+     "id": "12356783",
+     "name": "4.3.1",
+     "released": true
+    }
+   ]
+  },
+  "id": "13649258",
+  "key": "KAFKA-20532"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-c3735226"
+     },
+     "created": "2026-09-15T14:40:54.430+0000",
+     "id": "23269578",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-c3735226"
+     },
+     "created": "2026-09-18T19:47:48.302+0000",
+     "id": "23278700",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Resolved",
+       "toString": "Reopened"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-c3735226"
+     },
+     "created": "2026-09-18T19:48:40.307+0000",
+     "id": "23278704",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Reopened",
+       "toString": "Patch Available"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-c3735226"
+     },
+     "created": "2026-09-21T18:19:50.845+0000",
+     "id": "23283278",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Patch Available",
+       "toString": "Open"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-c3735226"
+     },
+     "created": "2026-09-21T18:19:54.342+0000",
+     "id": "23283279",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-c3735226"
+     },
+     "created": "2026-09-23T22:50:24.773+0000",
+     "id": "23288439",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Patch Available"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-c3735226"
+     },
+     "created": "2026-09-25T14:13:25.452+0000",
+     "id": "23292135",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Patch Available",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 7
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-c3735226"
+   },
+   "components": [
+    {
+     "name": "streams"
+    }
+   ],
+   "created": "2026-04-08T08:13:53.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356784",
+     "name": "4.4.0",
+     "released": false
+    },
+    {
+     "id": "12357193",
+     "name": "4.3.2",
+     "released": false
+    },
+    {
+     "id": "12357379",
+     "name": "4.5.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Critical"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-1ed339da"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-09-25T14:13:25.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "RocksDB loses entries during broker patches.",
+   "updated": "2026-10-05T11:12:49.000+0000",
+   "versions": [
+    {
+     "id": "12355122",
+     "name": "3.9.1",
+     "released": true
+    }
+   ]
+  },
+  "id": "13647468",
+  "key": "KAFKA-20416"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-583441a6"
+     },
+     "created": "2026-06-26T07:03:50.696+0000",
+     "id": "23122090",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-583441a6"
+     },
+     "created": "2026-06-26T07:04:18.070+0000",
+     "id": "23122091",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Open"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-583441a6"
+     },
+     "created": "2026-06-26T07:04:25.262+0000",
+     "id": "23122092",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-583441a6"
+     },
+     "created": "2026-07-02T02:07:14.479+0000",
+     "id": "23129788",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Patch Available"
+      }
+     ]
+    }
+   ],
+   "total": 4
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-583441a6"
+   },
+   "components": [],
+   "created": "2026-06-24T00:02:35.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Blocker"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-f6bb2dea"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Patch Available",
+    "statusCategory": {
+     "key": "indeterminate"
+    }
+   },
+   "summary": "Offline partition can cause loss of transaction markers",
+   "updated": "2026-10-05T08:38:21.000+0000",
+   "versions": [
+    {
+     "id": "12356014",
+     "name": "4.3.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13655448",
+  "key": "KAFKA-20734"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-df703d10"
+     },
+     "created": "2026-04-04T15:41:11.076+0000",
+     "id": "23008163",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-df703d10"
+   },
+   "components": [],
+   "created": "2025-04-09T16:39:57.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Critical"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-59762686"
+   },
+   "resolution": {
+    "name": "Won't Fix"
+   },
+   "resolutiondate": "2026-04-04T15:41:11.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "updateClusterMetadata receives multiples PartitionInfo",
+   "updated": "2026-10-04T01:37:24.000+0000",
+   "versions": [
+    {
+     "id": "12350048",
+     "name": "4.0.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13614722",
+  "key": "KAFKA-19122"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-5b727854"
+     },
+     "created": "2021-01-18T01:04:59.436+0000",
+     "id": "19472946",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Patch Available"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-59762686"
+     },
+     "created": "2021-01-18T16:00:46.012+0000",
+     "id": "19474884",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Patch Available",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-59762686"
+   },
+   "components": [],
+   "created": "2018-08-25T17:01:47.000+0000",
+   "fixVersions": [
+    {
+     "id": "12348710",
+     "name": "2.8.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-5b727854"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2021-01-18T16:00:45.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Migrate core module to JUnit 5",
+   "updated": "2026-10-07T08:29:50.000+0000",
+   "versions": []
+  },
+  "id": "13181137",
+  "key": "KAFKA-7341"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-50756952"
+     },
+     "created": "2026-08-19T16:28:43.137+0000",
+     "id": "23218584",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Patch Available"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-aca535fb"
+     },
+     "created": "2026-09-11T12:36:44.158+0000",
+     "id": "23261896",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Patch Available",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-aca535fb"
+   },
+   "components": [
+    {
+     "name": "streams"
+    }
+   ],
+   "created": "2026-07-31T15:42:05.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356955",
+     "name": "4.2.2",
+     "released": true
+    },
+    {
+     "id": "12357193",
+     "name": "4.3.2",
+     "released": false
+    },
+    {
+     "id": "12357379",
+     "name": "4.5.0",
+     "released": false
+    },
+    {
+     "id": "12357446",
+     "name": "4.4.1",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Critical"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-aca535fb"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-09-11T12:36:44.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "KafkaStreams.removeStreamThread can deadlock with a concurrent REPLACE_THREAD uncaught-exception handler",
+   "updated": "2026-10-06T08:04:54.000+0000",
+   "versions": []
+  },
+  "id": "13660149",
+  "key": "KAFKA-20873"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-720a223a"
+     },
+     "created": "2024-05-24T20:02:09.866+0000",
+     "id": "22020102",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-c9fbb288"
+     },
+     "created": "2026-04-15T08:16:36.547+0000",
+     "id": "23022367",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-720a223a"
+   },
+   "components": [],
+   "created": "2023-09-05T12:05:08.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356014",
+     "name": "4.3.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-bf2c8ec4"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-04-15T08:16:36.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Follower fetch from tiered offset ",
+   "updated": "2026-09-30T17:08:16.000+0000",
+   "versions": []
+  },
+  "id": "13549661",
+  "key": "KAFKA-15433"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-50756952"
+     },
+     "created": "2026-02-27T19:01:50.695+0000",
+     "id": "22954926",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-f70e5218"
+   },
+   "components": [
+    {
+     "name": "streams"
+    }
+   ],
+   "created": "2019-05-23T17:57:01.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356014",
+     "name": "4.3.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "newbie"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-c3735226"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-02-27T19:01:50.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Improve Documentation for Enabling Optimizations",
+   "updated": "2026-09-28T17:05:04.000+0000",
+   "versions": []
+  },
+  "id": "13235196",
+  "key": "KAFKA-8416"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-3e07a258"
+     },
+     "created": "2026-09-14T04:45:29.808+0000",
+     "id": "23266017",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-c3735226"
+     },
+     "created": "2026-09-14T14:48:03.334+0000",
+     "id": "23267123",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-3e07a258"
+   },
+   "components": [
+    {
+     "name": "streams"
+    }
+   ],
+   "created": "2026-04-17T16:07:23.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356784",
+     "name": "4.4.0",
+     "released": false
+    },
+    {
+     "id": "12356955",
+     "name": "4.2.2",
+     "released": true
+    },
+    {
+     "id": "12357193",
+     "name": "4.3.2",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-7a909674"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-09-14T14:48:03.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Linking stores using ConnectedStoreProvider causes corrupt topology",
+   "updated": "2026-09-26T09:44:51.000+0000",
+   "versions": []
+  },
+  "id": "13648398",
+  "key": "KAFKA-20464"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-c97bb5f6"
+     },
+     "created": "2026-02-16T10:51:43.624+0000",
+     "id": "22939417",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Patch Available"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-c97bb5f6"
+     },
+     "created": "2026-03-30T13:38:22.844+0000",
+     "id": "23000329",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Patch Available",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-c97bb5f6"
+   },
+   "components": [
+    {
+     "name": "clients"
+    },
+    {
+     "name": "security"
+    }
+   ],
+   "created": "2025-01-21T14:43:58.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356014",
+     "name": "4.3.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "New Feature",
+    "subtask": false
+   },
+   "labels": [
+    "JWT",
+    "OAuth2",
+    "authentication",
+    "kafka",
+    "kip-1258",
+    "oauth2"
+   ],
+   "priority": {
+    "name": "Critical"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-588c2347"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-03-30T13:38:22.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Enhancing Apache Kafka OAuth2 Authentication: Adding Support for private_key_jwt Client Assertion",
+   "updated": "2026-09-26T03:20:11.000+0000",
+   "versions": []
+  },
+  "id": "13605742",
+  "key": "KAFKA-18608"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-7adc4a29"
+     },
+     "created": "2020-03-05T11:43:21.420+0000",
+     "id": "18664894",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Patch Available"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-1012eede"
+     },
+     "created": "2026-03-02T00:36:09.608+0000",
+     "id": "22956253",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Patch Available",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-1560f896"
+   },
+   "components": [],
+   "created": "2020-03-04T19:04:17.000+0000",
+   "fixVersions": [
+    {
+     "id": "12346918",
+     "name": "2.6.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-7adc4a29"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-03-02T00:36:09.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Divide by zero in DefaultPartitioner",
+   "updated": "2026-09-19T03:39:48.000+0000",
+   "versions": []
+  },
+  "id": "13289609",
+  "key": "KAFKA-9651"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-03ba2c00"
+     },
+     "created": "2025-04-15T17:40:39.325+0000",
+     "id": "22510710",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-03ba2c00"
+   },
+   "components": [],
+   "created": "2025-02-27T11:43:28.000+0000",
+   "fixVersions": [
+    {
+     "id": "12355011",
+     "name": "4.1.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-03ba2c00"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2025-04-15T17:40:39.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Add support for Authorizer",
+   "updated": "2026-09-18T17:24:22.000+0000",
+   "versions": []
+  },
+  "id": "13610006",
+  "key": "KAFKA-18888"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-65ab9366"
+     },
+     "created": "2021-12-06T16:05:36.399+0000",
+     "id": "20242234",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-65ab9366"
+     },
+     "created": "2021-12-16T15:01:21.651+0000",
+     "id": "20275788",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-65ab9366"
+   },
+   "components": [
+    {
+     "name": "producer "
+    }
+   ],
+   "created": "2021-11-29T16:18:04.000+0000",
+   "fixVersions": [
+    {
+     "id": "12350615",
+     "name": "2.8.2",
+     "released": true
+    },
+    {
+     "id": "12350423",
+     "name": "3.0.1",
+     "released": true
+    },
+    {
+     "id": "12349690",
+     "name": "3.1.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Blocker"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-65ab9366"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2021-12-16T15:01:21.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Producer fails to recover if topic gets deleted (and gets auto-created)",
+   "updated": "2026-09-17T17:54:09.000+0000",
+   "versions": [
+    {
+     "id": "12345460",
+     "name": "2.2.2",
+     "released": true
+    },
+    {
+     "id": "12345689",
+     "name": "2.3.1",
+     "released": true
+    },
+    {
+     "id": "12346538",
+     "name": "2.4.1",
+     "released": true
+    },
+    {
+     "id": "12347782",
+     "name": "2.5.1",
+     "released": true
+    },
+    {
+     "id": "12349692",
+     "name": "2.6.3",
+     "released": true
+    },
+    {
+     "id": "12350014",
+     "name": "2.7.2",
+     "released": true
+    },
+    {
+     "id": "12350016",
+     "name": "2.8.1",
+     "released": true
+    }
+   ]
+  },
+  "id": "13414349",
+  "key": "KAFKA-13488"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-9523715e"
+     },
+     "created": "2025-09-27T16:30:21.371+0000",
+     "id": "22748178",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-9523715e"
+     },
+     "created": "2025-11-20T11:14:16.868+0000",
+     "id": "22822035",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-9523715e"
+   },
+   "components": [],
+   "created": "2025-06-03T14:06:16.000+0000",
+   "fixVersions": [
+    {
+     "id": "12355509",
+     "name": "4.2.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-9523715e"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2025-11-20T11:14:16.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Production-ready documentation",
+   "updated": "2026-09-15T20:21:58.000+0000",
+   "versions": []
+  },
+  "id": "13619944",
+  "key": "KAFKA-19364"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-6a14f072"
+     },
+     "created": "2026-10-04T10:42:54.797+0000",
+     "id": "23309640",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-6a14f072"
+     },
+     "created": "2026-10-06T09:56:08.629+0000",
+     "id": "23313171",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Patch Available"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-6a14f072"
+   },
+   "components": [],
+   "created": "2023-10-24T16:07:50.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-41fac95e"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Patch Available",
+    "statusCategory": {
+     "key": "indeterminate"
+    }
+   },
+   "summary": "Add support for re2/j regex parsing for patterns",
+   "updated": "2026-10-09T09:46:16.000+0000",
+   "versions": []
+  },
+  "id": "13555372",
+  "key": "KAFKA-15677"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-311fd6a3"
+     },
+     "created": "2026-09-17T18:04:30.589+0000",
+     "id": "23276201",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-311fd6a3"
+     },
+     "created": "2026-09-17T18:07:15.022+0000",
+     "id": "23276208",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Open"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-311fd6a3"
+     },
+     "created": "2026-09-17T18:07:18.614+0000",
+     "id": "23276209",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-03ba2c00"
+     },
+     "created": "2026-10-09T09:41:45.794+0000",
+     "id": "23321469",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 4
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-311fd6a3"
+   },
+   "components": [],
+   "created": "2026-09-17T18:03:33.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357379",
+     "name": "4.5.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-311fd6a3"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-09T09:41:45.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Generator, Tools, test-common module: replace temp file handler with JUnit 5 Temporary Directory Support",
+   "updated": "2026-10-09T09:41:45.000+0000",
+   "versions": []
+  },
+  "id": "13667153",
+  "key": "KAFKA-21119"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-7b058c15"
+     },
+     "created": "2026-09-03T02:18:48.184+0000",
+     "id": "23246103",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-7b058c15"
+   },
+   "components": [
+    {
+     "name": "streams"
+    }
+   ],
+   "created": "2026-09-03T02:17:59.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-7b058c15"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "In Progress",
+    "statusCategory": {
+     "key": "indeterminate"
+    }
+   },
+   "summary": "Design JHM benchmark for \"refiner\"",
+   "updated": "2026-10-09T08:45:43.000+0000",
+   "versions": []
+  },
+  "id": "13664747",
+  "key": "KAFKA-21026"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-fac68f39"
+     },
+     "created": "2026-04-08T15:25:04.756+0000",
+     "id": "23012739",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-fac68f39"
+   },
+   "components": [
+    {
+     "name": "connect"
+    }
+   ],
+   "created": "2026-04-01T20:37:45.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-03ba2c00"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "In Progress",
+    "statusCategory": {
+     "key": "indeterminate"
+    }
+   },
+   "summary": "Improve types returned by the Connect REST API",
+   "updated": "2026-10-09T06:40:15.000+0000",
+   "versions": []
+  },
+  "id": "13646974",
+  "key": "KAFKA-20391"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-3f4fb76c"
+     },
+     "created": "2026-08-03T06:58:26.836+0000",
+     "id": "23185246",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Patch Available"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-e5c7dfcf"
+   },
+   "components": [],
+   "created": "2026-07-30T20:16:19.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-e5c7dfcf"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Patch Available",
+    "statusCategory": {
+     "key": "indeterminate"
+    }
+   },
+   "summary": "Remove incremental-only fields from RecordAppendResult",
+   "updated": "2026-10-09T05:27:47.000+0000",
+   "versions": []
+  },
+  "id": "13660060",
+  "key": "KAFKA-20866"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-27e183a3"
+     },
+     "created": "2025-09-03T11:53:53.552+0000",
+     "id": "22707329",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-27e183a3"
+   },
+   "components": [],
+   "created": "2025-08-17T19:04:45.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Wish",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-59762686"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "In Progress",
+    "statusCategory": {
+     "key": "indeterminate"
+    }
+   },
+   "summary": "Enable to ducker-ak to \"isolate\" the ducker containers",
+   "updated": "2026-10-09T03:47:47.000+0000",
+   "versions": []
+  },
+  "id": "13626566",
+  "key": "KAFKA-19615"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-95d09033"
+     },
+     "created": "2026-09-17T20:33:40.211+0000",
+     "id": "23276553",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-95d09033"
+   },
+   "components": [
+    {
+     "name": "clients"
+    },
+    {
+     "name": "producer "
+    }
+   ],
+   "created": "2026-05-13T18:51:44.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-e5c7dfcf"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "In Progress",
+    "statusCategory": {
+     "key": "indeterminate"
+    }
+   },
+   "summary": "Implement dynamic allocation for compressed data",
+   "updated": "2026-10-08T22:07:46.000+0000",
+   "versions": []
+  },
+  "id": "13651022",
+  "key": "KAFKA-20579"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-96181577"
+     },
+     "created": "2026-09-30T21:33:59.114+0000",
+     "id": "23302732",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-96181577"
+   },
+   "components": [],
+   "created": "2026-09-29T16:27:55.000+0000",
+   "fixVersions": [
+    {
+     "id": "12350048",
+     "name": "4.0.0",
+     "released": true
+    },
+    {
+     "id": "12355011",
+     "name": "4.1.0",
+     "released": true
+    },
+    {
+     "id": "12355509",
+     "name": "4.2.0",
+     "released": true
+    },
+    {
+     "id": "12356014",
+     "name": "4.3.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-96181577"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "In Progress",
+    "statusCategory": {
+     "key": "indeterminate"
+    }
+   },
+   "summary": "Transaction coordinator could return INVALID_TXN_STATE from stale cache after losing __transaction_state leadership",
+   "updated": "2026-10-08T20:45:00.000+0000",
+   "versions": [
+    {
+     "id": "12350048",
+     "name": "4.0.0",
+     "released": true
+    },
+    {
+     "id": "12355011",
+     "name": "4.1.0",
+     "released": true
+    },
+    {
+     "id": "12355509",
+     "name": "4.2.0",
+     "released": true
+    },
+    {
+     "id": "12356014",
+     "name": "4.3.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13669199",
+  "key": "KAFKA-21181"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-5da93fcf"
+     },
+     "created": "2026-08-11T20:36:38.353+0000",
+     "id": "23200202",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-5da93fcf"
+     },
+     "created": "2026-10-08T18:12:31.574+0000",
+     "id": "23320170",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-5da93fcf"
+   },
+   "components": [
+    {
+     "name": "clients"
+    },
+    {
+     "name": "producer "
+    }
+   ],
+   "created": "2026-05-27T18:25:56.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-5da93fcf"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-08T18:12:31.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Additional tests",
+   "updated": "2026-10-08T18:12:31.000+0000",
+   "versions": []
+  },
+  "id": "13652585",
+  "key": "KAFKA-20632"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-c8de4b65"
+     },
+     "created": "2026-05-26T14:01:09.497+0000",
+     "id": "23076714",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-c8de4b65"
+     },
+     "created": "2026-08-11T05:01:50.544+0000",
+     "id": "23198592",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Patch Available"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-c8de4b65"
+   },
+   "components": [
+    {
+     "name": "clients"
+    },
+    {
+     "name": "consumer"
+    }
+   ],
+   "created": "2026-03-31T20:42:46.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357379",
+     "name": "4.5.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "kip"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "KAFKA"
+   },
+   "reporter": {
+    "name": "user-c8de4b65"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Patch Available",
+    "statusCategory": {
+     "key": "indeterminate"
+    }
+   },
+   "summary": "Extend ConsumerRebalanceListener with Consumer-Aware methods",
+   "updated": "2026-10-08T17:54:02.000+0000",
+   "versions": []
+  },
+  "id": "13646858",
+  "key": "KAFKA-20385"
+ }
+]

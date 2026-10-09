@@ -1,0 +1,2468 @@
+[
+ {
+  "archived": true,
+  "id": "12343750",
+  "name": "shaded-5.0",
+  "releaseDate": "2018-10-15",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12327104",
+  "name": "pre-apache-0.4",
+  "releaseDate": "2014-01-13",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12327103",
+  "name": "pre-apache-0.5",
+  "releaseDate": "2014-05-31",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12327105",
+  "name": "pre-apache-0.5.1",
+  "releaseDate": "2014-06-12",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12327114",
+  "name": "pre-apache-0.5.2",
+  "releaseDate": "2014-07-15",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12327099",
+  "name": "pre-apache",
+  "released": false
+ },
+ {
+  "archived": true,
+  "id": "12327101",
+  "name": "0.6-incubating",
+  "releaseDate": "2014-08-22",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12327957",
+  "name": "0.6.1-incubating",
+  "released": false
+ },
+ {
+  "archived": true,
+  "id": "12327648",
+  "name": "0.7.0-incubating",
+  "releaseDate": "2014-10-26",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12328699",
+  "name": "0.8.0",
+  "releaseDate": "2015-01-18",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12328925",
+  "name": "0.7.1-incubating",
+  "released": false
+ },
+ {
+  "archived": true,
+  "id": "12329162",
+  "name": "0.9",
+  "released": false
+ },
+ {
+  "archived": true,
+  "id": "12329289",
+  "name": "0.8.1",
+  "releaseDate": "2015-02-19",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12329484",
+  "name": "0.8.2",
+  "released": false
+ },
+ {
+  "archived": true,
+  "id": "12332827",
+  "name": "0.9.1",
+  "releaseDate": "2015-09-01",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12333034",
+  "name": "0.9.0",
+  "releaseDate": "2015-06-24",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12333337",
+  "name": "0.9.2",
+  "released": false
+ },
+ {
+  "archived": true,
+  "id": "12332755",
+  "name": "0.10.0",
+  "releaseDate": "2015-11-13",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12334025",
+  "name": "0.10.1",
+  "releaseDate": "2015-11-27",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12334215",
+  "name": "0.10.2",
+  "released": false
+ },
+ {
+  "archived": true,
+  "id": "12334849",
+  "name": "0.10.3",
+  "released": false
+ },
+ {
+  "archived": true,
+  "id": "12333960",
+  "name": "1.0.0",
+  "releaseDate": "2016-03-04",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12334941",
+  "name": "1.0.1",
+  "releaseDate": "2016-04-05",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12335536",
+  "name": "1.0.2",
+  "releaseDate": "2016-04-22",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12335650",
+  "name": "1.0.3",
+  "releaseDate": "2016-05-11",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12335738",
+  "name": "1.0.4",
+  "released": false
+ },
+ {
+  "archived": true,
+  "id": "12334896",
+  "name": "1.1.0",
+  "releaseDate": "2016-08-04",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12338050",
+  "name": "1.1.1",
+  "releaseDate": "2016-08-08",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12338096",
+  "name": "1.1.2",
+  "releaseDate": "2016-09-05",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12338202",
+  "name": "1.1.3",
+  "releaseDate": "2016-10-12",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12338400",
+  "name": "1.1.4",
+  "releaseDate": "2016-12-21",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12338794",
+  "name": "1.1.5",
+  "released": false
+ },
+ {
+  "archived": true,
+  "id": "12336947",
+  "name": "1.2.0",
+  "releaseDate": "2017-02-02",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12339199",
+  "name": "1.2.1",
+  "releaseDate": "2017-04-26",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12340308",
+  "name": "1.2.2",
+  "released": false
+ },
+ {
+  "archived": true,
+  "id": "12338766",
+  "name": "1.3.0",
+  "releaseDate": "2017-05-31",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12340448",
+  "name": "1.3.1",
+  "releaseDate": "2017-06-22",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12340984",
+  "name": "1.3.2",
+  "releaseDate": "2017-08-05",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12344544",
+  "name": "shaded-6.0",
+  "releaseDate": "2019-02-12",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12345226",
+  "name": "shaded-7.0",
+  "releaseDate": "2019-05-30",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12345488",
+  "name": "shaded-8.0",
+  "releaseDate": "2019-08-28",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12346089",
+  "name": "shaded-9.0",
+  "releaseDate": "2019-11-23",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12346746",
+  "name": "shaded-10.0",
+  "releaseDate": "2020-02-17",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12347784",
+  "name": "shaded-11.0",
+  "releaseDate": "2020-05-29",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12348339",
+  "name": "shaded-12.0",
+  "releaseDate": "2020-10-05",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12349618",
+  "name": "shaded-13.0",
+  "releaseDate": "2021-04-06",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12341142",
+  "name": "1.3.3",
+  "releaseDate": "2018-03-15",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12342899",
+  "name": "1.3.4",
+  "released": false,
+  "startDate": "2018-03-12"
+ },
+ {
+  "archived": true,
+  "id": "12340533",
+  "name": "1.4.0",
+  "releaseDate": "2017-12-12",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12342212",
+  "name": "1.4.1",
+  "releaseDate": "2018-02-15",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12342745",
+  "name": "1.4.2",
+  "releaseDate": "2018-03-08",
+  "released": true,
+  "startDate": "2018-02-08"
+ },
+ {
+  "archived": true,
+  "id": "12342837",
+  "name": "1.4.3",
+  "released": false
+ },
+ {
+  "archived": true,
+  "id": "12341764",
+  "name": "1.5.0",
+  "releaseDate": "2018-05-25",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12343053",
+  "name": "1.5.1",
+  "releaseDate": "2018-07-12",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12343588",
+  "name": "1.5.2",
+  "releaseDate": "2018-07-31",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12343777",
+  "name": "1.5.3",
+  "releaseDate": "2018-08-21",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12343899",
+  "name": "1.5.4",
+  "releaseDate": "2018-09-20",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12344112",
+  "name": "1.5.5",
+  "releaseDate": "2018-10-29",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12344315",
+  "name": "1.5.6",
+  "releaseDate": "2018-12-22",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12342760",
+  "name": "1.6.0",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12343752",
+  "name": "1.6.1",
+  "releaseDate": "2018-09-20",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12344110",
+  "name": "1.6.2",
+  "releaseDate": "2018-10-29",
+  "released": true,
+  "startDate": "2018-09-14"
+ },
+ {
+  "archived": false,
+  "id": "12344314",
+  "name": "1.6.3",
+  "releaseDate": "2018-12-22",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12344627",
+  "name": "1.6.4",
+  "releaseDate": "2019-02-22",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12344967",
+  "name": "1.6.5",
+  "released": false
+ },
+ {
+  "archived": true,
+  "id": "12343585",
+  "name": "1.7.0",
+  "releaseDate": "2018-11-29",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12344412",
+  "name": "1.7.1",
+  "releaseDate": "2018-12-21",
+  "released": true,
+  "startDate": "2018-11-03"
+ },
+ {
+  "archived": false,
+  "id": "12344632",
+  "name": "1.7.2",
+  "releaseDate": "2019-02-15",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12344954",
+  "name": "1.7.3",
+  "released": false,
+  "startDate": "2019-02-11"
+ },
+ {
+  "archived": false,
+  "id": "12344274",
+  "name": "1.8.0",
+  "releaseDate": "2019-04-09",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12345164",
+  "name": "1.8.1",
+  "releaseDate": "2019-07-02",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12345670",
+  "name": "1.8.2",
+  "releaseDate": "2019-09-12",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12346112",
+  "name": "1.8.3",
+  "releaseDate": "2019-12-11",
+  "released": true,
+  "startDate": "2019-09-04"
+ },
+ {
+  "archived": false,
+  "id": "12346552",
+  "name": "1.8.4",
+  "released": false,
+  "startDate": "2019-11-27"
+ },
+ {
+  "archived": false,
+  "id": "12344601",
+  "name": "1.9.0",
+  "releaseDate": "2019-08-22",
+  "released": true,
+  "startDate": "2019-02-25"
+ },
+ {
+  "archived": false,
+  "id": "12346003",
+  "name": "1.9.1",
+  "releaseDate": "2019-10-19",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12346278",
+  "name": "1.9.2",
+  "releaseDate": "2020-01-30",
+  "released": true,
+  "startDate": "2019-09-29"
+ },
+ {
+  "archived": false,
+  "id": "12346867",
+  "name": "1.9.3",
+  "releaseDate": "2020-04-24",
+  "released": true,
+  "startDate": "2020-01-22"
+ },
+ {
+  "archived": false,
+  "id": "12348090",
+  "name": "1.9.4",
+  "released": false,
+  "startDate": "2020-04-17"
+ },
+ {
+  "archived": false,
+  "id": "12348167",
+  "name": "docker-1.9.3.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12348187",
+  "name": "docker-1.9.3.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12345845",
+  "name": "1.10.0",
+  "releaseDate": "2020-02-11",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12346891",
+  "name": "1.10.1",
+  "releaseDate": "2020-05-12",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12348156",
+  "name": "docker-1.10.1.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12347791",
+  "name": "1.10.2",
+  "releaseDate": "2020-08-21",
+  "released": true,
+  "startDate": "2020-03-13"
+ },
+ {
+  "archived": false,
+  "id": "12348668",
+  "name": "1.10.3",
+  "releaseDate": "2021-01-29",
+  "released": true,
+  "startDate": "2020-08-07"
+ },
+ {
+  "archived": false,
+  "id": "12349605",
+  "name": "1.10.4",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12346364",
+  "name": "1.11.0",
+  "releaseDate": "2020-07-07",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12348157",
+  "name": "docker-1.11.0.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12348323",
+  "name": "1.11.1",
+  "releaseDate": "2020-07-21",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12348575",
+  "name": "1.11.2",
+  "releaseDate": "2020-09-15",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12348761",
+  "name": "1.11.3",
+  "releaseDate": "2020-12-17",
+  "released": true,
+  "startDate": "2020-09-03"
+ },
+ {
+  "archived": false,
+  "id": "12349404",
+  "name": "1.11.4",
+  "releaseDate": "2021-08-06",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12348263",
+  "name": "1.12.0",
+  "releaseDate": "2020-12-08",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12349459",
+  "name": "1.12.1",
+  "releaseDate": "2021-01-19",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12349502",
+  "name": "1.12.2",
+  "releaseDate": "2021-03-03",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12349287",
+  "name": "1.13.0",
+  "releaseDate": "2021-04-29",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12349614",
+  "name": "1.14.0",
+  "releaseDate": "2021-09-28",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12335344",
+  "name": "2.0.0",
+  "releaseDate": "2025-03-18",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12346878",
+  "name": "statefun-2.0.0",
+  "releaseDate": "2020-04-07",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12347841",
+  "name": "statefun-2.0.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12347861",
+  "name": "statefun-2.1.0",
+  "releaseDate": "2020-06-08",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12348350",
+  "name": "statefun-2.2.0",
+  "releaseDate": "2020-09-27",
+  "released": true,
+  "startDate": "2020-06-01"
+ },
+ {
+  "archived": false,
+  "id": "12349291",
+  "name": "statefun-2.2.1",
+  "releaseDate": "2020-11-10",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12349366",
+  "name": "statefun-2.2.2",
+  "releaseDate": "2020-12-31",
+  "released": true,
+  "startDate": "2020-11-10"
+ },
+ {
+  "archived": false,
+  "id": "12348822",
+  "name": "statefun-3.0.0",
+  "releaseDate": "2021-04-08",
+  "released": true,
+  "startDate": "2020-09-21"
+ },
+ {
+  "archived": false,
+  "id": "12350039",
+  "name": "statefun-3.0.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12350038",
+  "name": "statefun-3.1.0",
+  "releaseDate": "2021-08-31",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12349691",
+  "name": "1.12.3",
+  "releaseDate": "2021-04-29",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12350058",
+  "name": "1.13.1",
+  "releaseDate": "2021-05-28",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12350110",
+  "name": "1.12.4",
+  "releaseDate": "2021-05-20",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12350166",
+  "name": "1.12.5",
+  "releaseDate": "2021-08-02",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12350176",
+  "name": "docker-1.13.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12350202",
+  "name": "docker-1.13.0.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12350218",
+  "name": "1.13.2",
+  "releaseDate": "2021-08-05",
+  "released": true,
+  "startDate": "2021-05-21"
+ },
+ {
+  "archived": false,
+  "id": "12350274",
+  "name": "statefun-2.2.3",
+  "released": false
+ },
+ {
+  "archived": true,
+  "id": "12350327",
+  "name": "1.11.5",
+  "releaseDate": "2021-12-15",
+  "released": false
+ },
+ {
+  "archived": true,
+  "id": "12350328",
+  "name": "1.12.6",
+  "releaseDate": "2021-12-15",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12350329",
+  "name": "1.13.3",
+  "releaseDate": "2021-10-19",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12350512",
+  "name": "1.14.1",
+  "releaseDate": "2021-12-15",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12350540",
+  "name": "statefun-3.2.0",
+  "releaseDate": "2022-01-31",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12350408",
+  "name": "shaded-14.0",
+  "releaseDate": "2021-07-21",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12350640",
+  "name": "0.1.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12350665",
+  "name": "shaded-15.0",
+  "releaseDate": "2022-01-21",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12350686",
+  "name": "1.13.4",
+  "releaseDate": "2021-12-15",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12351056",
+  "name": "1.11.6",
+  "releaseDate": "2021-12-16",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351057",
+  "name": "1.12.7",
+  "releaseDate": "2021-12-16",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351058",
+  "name": "1.13.5",
+  "releaseDate": "2021-12-16",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351059",
+  "name": "1.14.2",
+  "releaseDate": "2021-12-16",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351072",
+  "name": "1.11.7",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12351073",
+  "name": "1.12.8",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12351074",
+  "name": "1.13.6",
+  "releaseDate": "2022-02-16",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351075",
+  "name": "1.14.3",
+  "releaseDate": "2022-01-17",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351231",
+  "name": "1.14.4",
+  "releaseDate": "2022-03-11",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351388",
+  "name": "1.14.5",
+  "releaseDate": "2022-06-21",
+  "released": true,
+  "startDate": "2022-02-25"
+ },
+ {
+  "archived": false,
+  "id": "12350442",
+  "name": "1.15.0",
+  "releaseDate": "2022-04-26",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351546",
+  "name": "1.15.1",
+  "releaseDate": "2022-07-05",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351096",
+  "name": "statefun-3.1.1",
+  "releaseDate": "2021-12-21",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351079",
+  "name": "ml-2.0.0",
+  "releaseDate": "2022-01-07",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351141",
+  "name": "ml-2.1.0",
+  "releaseDate": "2022-07-08",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351158",
+  "name": "statefun-3.1.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12351234",
+  "name": "table-store-0.1.0",
+  "releaseDate": "2022-05-10",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351275",
+  "name": "1.16.0",
+  "releaseDate": "2022-10-26",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351276",
+  "name": "statefun-3.3.0",
+  "releaseDate": "2023-09-19",
+  "released": true,
+  "startDate": "2022-01-25"
+ },
+ {
+  "archived": false,
+  "id": "12351283",
+  "name": "statefun-3.2.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12351300",
+  "name": "1.13.7",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12351499",
+  "name": "kubernetes-operator-0.1.0",
+  "releaseDate": "2022-04-02",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351500",
+  "name": "kubernetes-operator-1.0.0",
+  "releaseDate": "2022-06-04",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351570",
+  "name": "table-store-0.2.0",
+  "releaseDate": "2022-08-29",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351571",
+  "name": "table-store-0.1.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12351585",
+  "name": "1.17.0",
+  "releaseDate": "2023-03-23",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351723",
+  "name": "kubernetes-operator-1.1.0",
+  "releaseDate": "2022-07-25",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351812",
+  "name": "kubernetes-operator-1.0.1",
+  "releaseDate": "2022-06-27",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351829",
+  "name": "1.15.2",
+  "releaseDate": "2022-08-23",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351834",
+  "name": "1.14.6",
+  "releaseDate": "2022-09-27",
+  "released": true,
+  "startDate": "2022-06-09"
+ },
+ {
+  "archived": false,
+  "id": "12351884",
+  "name": "ml-2.2.0",
+  "releaseDate": "2023-04-19",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352091",
+  "name": "kubernetes-operator-1.2.0",
+  "releaseDate": "2022-10-07",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352111",
+  "name": "table-store-0.3.0",
+  "releaseDate": "2023-01-13",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12352128",
+  "name": "kubernetes-operator-1.1.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12352210",
+  "name": "1.15.3",
+  "releaseDate": "2022-11-24",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352238",
+  "name": "table-store",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12352257",
+  "name": "table-store-0.2.1",
+  "releaseDate": "2022-10-13",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352271",
+  "name": "1.14.7",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12352277",
+  "name": "aws-connector-3.0.0",
+  "releaseDate": "2022-12-02",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352291",
+  "name": "elasticsearch-3.0.0",
+  "releaseDate": "2022-11-09",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352293",
+  "name": "opensearch-1.0.0",
+  "releaseDate": "2022-12-21",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352322",
+  "name": "kubernetes-operator-1.3.0",
+  "releaseDate": "2022-12-14",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352331",
+  "name": "shaded-16.0",
+  "releaseDate": "2022-10-07",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352344",
+  "name": "1.16.1",
+  "releaseDate": "2023-01-30",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352349",
+  "name": "rabbitmq-3.0.0",
+  "releaseDate": "2022-12-20",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352386",
+  "name": "mongodb-1.0.0",
+  "releaseDate": "2023-04-03",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352393",
+  "name": "table-store-0.2.2",
+  "released": false
+ },
+ {
+  "archived": true,
+  "id": "12352408",
+  "name": "kubernetes-operator-1.2.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12352445",
+  "name": "shaded-17.0",
+  "releaseDate": "2023-05-08",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352503",
+  "name": "shaded-16.1",
+  "releaseDate": "2022-11-24",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352520",
+  "name": "elasticsearch-3.1.0",
+  "releaseDate": "2025-04-15",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352521",
+  "name": "elasticsearch-3.0.1",
+  "releaseDate": "2023-05-08",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352526",
+  "name": "1.15.4",
+  "releaseDate": "2023-03-14",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352538",
+  "name": "aws-connector-4.0.0",
+  "releaseDate": "2022-12-09",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352577",
+  "name": "kafka-3.0.0",
+  "releaseDate": "2023-04-20",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352578",
+  "name": "hbase-3.0.0",
+  "releaseDate": "2023-09-12",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352588",
+  "name": "pulsar-3.0.0",
+  "releaseDate": "2022-12-20",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352589",
+  "name": "gcp-pubsub-3.0.0",
+  "releaseDate": "2023-01-31",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352590",
+  "name": "jdbc-3.0.0",
+  "releaseDate": "2022-12-20",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352591",
+  "name": "hive-3.0.0",
+  "releaseDate": "2025-02-10",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352593",
+  "name": "cassandra-3.0.0",
+  "releaseDate": "2022-12-01",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352595",
+  "name": "cassandra-4.0.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12352604",
+  "name": "kubernetes-operator-1.4.0",
+  "releaseDate": "2023-02-22",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352640",
+  "name": "pulsar-3.0.1",
+  "releaseDate": "2023-06-07",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352646",
+  "name": "aws-connector-4.1.0",
+  "releaseDate": "2023-04-03",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352647",
+  "name": "aws-connector-3.1.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12352653",
+  "name": "pulsar-4.0.0",
+  "releaseDate": "2023-05-09",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352678",
+  "name": "jdbc-3.1.0",
+  "releaseDate": "2023-05-05",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352686",
+  "name": "opensearch-1.0.1",
+  "releaseDate": "2023-05-08",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352697",
+  "name": "kubernetes-operator-1.3.1",
+  "releaseDate": "2023-01-10",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352698",
+  "name": "jdbc-3.0.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12352699",
+  "name": "rabbitmq-3.0.1",
+  "releaseDate": "2023-05-08",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352701",
+  "name": "table-store-0.4.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12352742",
+  "name": "table-store-0.3.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12352762",
+  "name": "connector-parent-1.0.0",
+  "releaseDate": "2023-03-21",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352765",
+  "name": "1.16.2",
+  "releaseDate": "2023-05-25",
+  "released": true,
+  "startDate": "2023-01-19"
+ },
+ {
+  "archived": false,
+  "id": "12352770",
+  "name": "gcp-pubsub-3.0.1",
+  "releaseDate": "2023-05-09",
+  "released": true,
+  "startDate": "2023-01-20"
+ },
+ {
+  "archived": false,
+  "id": "12352885",
+  "name": "1.18.0",
+  "releaseDate": "2023-10-26",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352886",
+  "name": "1.17.1",
+  "releaseDate": "2023-05-25",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352910",
+  "name": "kafka-3.0.1",
+  "releaseDate": "2023-10-30",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352911",
+  "name": "cassandra-3.0.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12352912",
+  "name": "redis-1.0.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12352917",
+  "name": "kafka-4.0.0",
+  "releaseDate": "2025-04-24",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352931",
+  "name": "kubernetes-operator-1.5.0",
+  "releaseDate": "2023-05-17",
+  "released": true,
+  "startDate": "2023-02-15"
+ },
+ {
+  "archived": false,
+  "id": "12352939",
+  "name": "1.15.5",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12353011",
+  "name": "aws-connector-4.2.0",
+  "releaseDate": "2023-11-30",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353030",
+  "name": "cassandra-3.1.0",
+  "releaseDate": "2023-05-25",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353081",
+  "name": "shaded-18.0",
+  "releaseDate": "2024-01-11",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353094",
+  "name": "mongodb-1.0.1",
+  "releaseDate": "2023-04-24",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353096",
+  "name": "ml-2.3.0",
+  "releaseDate": "2023-07-01",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353135",
+  "name": "kafka-3.1.0",
+  "releaseDate": "2024-02-07",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353138",
+  "name": "pulsar-3.0.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12353139",
+  "name": "pulsar-4.0.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12353140",
+  "name": "elasticsearch-3.0.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12353141",
+  "name": "opensearch-1.1.0",
+  "releaseDate": "2024-02-01",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353142",
+  "name": "opensearch-1.0.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12353143",
+  "name": "jdbc-3.2.0",
+  "releaseDate": "2024-06-07",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353144",
+  "name": "gcp-pubsub-3.0.2",
+  "releaseDate": "2024-01-12",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353145",
+  "name": "rabbitmq-3.1.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12353146",
+  "name": "mongodb-1.0.2",
+  "releaseDate": "2023-08-15",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353148",
+  "name": "cassandra-3.2.0",
+  "releaseDate": "2024-06-07",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353230",
+  "name": "kubernetes-operator-1.6.0",
+  "releaseDate": "2023-08-15",
+  "released": true,
+  "startDate": "2023-05-11"
+ },
+ {
+  "archived": false,
+  "id": "12353259",
+  "name": "1.16.3",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353260",
+  "name": "1.17.2",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353281",
+  "name": "jdbc-3.1.1",
+  "releaseDate": "2023-06-28",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353282",
+  "name": "1.19.0",
+  "releaseDate": "2024-03-15",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353363",
+  "name": "ml-2.4.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12353431",
+  "name": "pulsar-4.1.0",
+  "releaseDate": "2023-12-28",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353442",
+  "name": "connector-parent-1.1.0",
+  "releaseDate": "2024-02-28",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353462",
+  "name": "kubernetes-operator-1.7.0",
+  "releaseDate": "2023-11-22",
+  "released": true,
+  "startDate": "2023-07-26"
+ },
+ {
+  "archived": false,
+  "id": "12353483",
+  "name": "mongodb-1.1.0",
+  "releaseDate": "2024-02-19",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12353603",
+  "name": "hbase-3.0.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12353640",
+  "name": "1.18.1",
+  "releaseDate": "2024-01-17",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353666",
+  "name": "prometheus-connector-1.0.0",
+  "releaseDate": "2024-11-08",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353768",
+  "name": "kafka-3.0.2",
+  "releaseDate": "2023-12-01",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353784",
+  "name": "kubernetes-operator-1.6.1",
+  "releaseDate": "2023-10-27",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353793",
+  "name": "aws-connector-4.3.0",
+  "releaseDate": "2024-06-07",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353810",
+  "name": "shaded-16.2",
+  "releaseDate": "2023-11-17",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353811",
+  "name": "opensearch-1.1.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12353812",
+  "name": "opensearch-1.2.0",
+  "releaseDate": "2024-06-11",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353813",
+  "name": "gcp-pubsub-3.1.0",
+  "releaseDate": "2024-06-07",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353814",
+  "name": "gcp-pubsub-3.0.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12353834",
+  "name": "1.17.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12353853",
+  "name": "shaded-19.0",
+  "releaseDate": "2024-07-03",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353866",
+  "name": "kubernetes-operator-1.8.0",
+  "releaseDate": "2024-03-21",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12353954",
+  "name": "kafka-3.0.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12354027",
+  "name": "pulsar-4.2.0",
+  "releaseDate": "2026-06-03",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354053",
+  "name": "1.18.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12354088",
+  "name": "jdbc-3.1.2",
+  "releaseDate": "2024-02-21",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354096",
+  "name": "pulsar-4.1.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12354109",
+  "name": "jdbc-3.1.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12354111",
+  "name": "elasticsearch-3.0.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12354129",
+  "name": "rabbitmq-3.0.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12354137",
+  "name": "1.13",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12354139",
+  "name": "elasticsearch-3.2.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12354192",
+  "name": "mongodb-1.2.0",
+  "releaseDate": "2024-06-06",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354209",
+  "name": "kafka-3.2.0",
+  "releaseDate": "2024-06-07",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354210",
+  "name": "1.20.0",
+  "releaseDate": "2024-08-01",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354387",
+  "name": "cdc-3.1.0",
+  "releaseDate": "2024-05-17",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354393",
+  "name": "hbase-4.0.0",
+  "releaseDate": "2024-11-26",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354399",
+  "name": "1.19.1",
+  "releaseDate": "2024-06-14",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354417",
+  "name": "kubernetes-operator-1.9.0",
+  "releaseDate": "2024-07-02",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354451",
+  "name": "connector-parent-2.0.0",
+  "releaseDate": "2026-02-16",
+  "released": true,
+  "startDate": "2024-02-28"
+ },
+ {
+  "archived": false,
+  "id": "12354568",
+  "name": "aws-connector-4.4.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12354577",
+  "name": "jdbc-3.3.0",
+  "releaseDate": "2025-04-22",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354579",
+  "name": "gcp-pubsub-3.2.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12354594",
+  "name": "cdc-3.2.0",
+  "releaseDate": "2024-09-05",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354596",
+  "name": "cassandra-3.3.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12354597",
+  "name": "rabbitmq-3.2.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12354598",
+  "name": "rabbitmq-3.1.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12354606",
+  "name": "kafka-3.3.0",
+  "releaseDate": "2024-10-16",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354673",
+  "name": "kudu-2.0.0",
+  "releaseDate": "2025-04-14",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354674",
+  "name": "opensearch-2.0.0",
+  "releaseDate": "2024-06-11",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354763",
+  "name": "cdc-3.1.1",
+  "releaseDate": "2024-06-18",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354783",
+  "name": "1.19.2",
+  "releaseDate": "2025-02-11",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354813",
+  "name": "opensearch-1.3.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12354814",
+  "name": "opensearch-2.1.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12354833",
+  "name": "kubernetes-operator-1.10.0",
+  "releaseDate": "2024-10-28",
+  "released": true,
+  "startDate": "2024-06-17"
+ },
+ {
+  "archived": false,
+  "id": "12354855",
+  "name": "cdc-3.3.0",
+  "releaseDate": "2025-01-21",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354903",
+  "name": "shaded-20.0",
+  "releaseDate": "2025-02-24",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354994",
+  "name": "1.20.1",
+  "releaseDate": "2025-02-11",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355070",
+  "name": "2.0-preview",
+  "releaseDate": "2024-10-22",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355080",
+  "name": "3.0.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12355099",
+  "name": "cdc-3.2.1",
+  "releaseDate": "2024-11-27",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355186",
+  "name": "kubernetes-operator-1.11.0",
+  "releaseDate": "2025-03-03",
+  "released": true,
+  "startDate": "2024-10-14"
+ },
+ {
+  "archived": false,
+  "id": "12355224",
+  "name": "kafka-3.4.0",
+  "releaseDate": "2024-11-25",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355257",
+  "name": "aws-connector-5.0.0",
+  "releaseDate": "2024-11-11",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355277",
+  "name": "prometheus-connector-1.1.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12355281",
+  "name": "aws-connector-5.1.0",
+  "releaseDate": "2026-01-15",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355319",
+  "name": "hbase-4.1.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12355441",
+  "name": "1.19.3",
+  "releaseDate": "2025-07-10",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355442",
+  "name": "1.20.2",
+  "releaseDate": "2025-07-10",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355556",
+  "name": "2.1.0",
+  "releaseDate": "2025-07-31",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355557",
+  "name": "2.0.1",
+  "releaseDate": "2025-10-30",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355589",
+  "name": "cdc-3.4.0",
+  "releaseDate": "2025-05-16",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355590",
+  "name": "cdc-3.3.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12355594",
+  "name": "mongodb-2.0.0",
+  "releaseDate": "2025-03-17",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355683",
+  "name": "kubernetes-operator-1.12.0",
+  "releaseDate": "2025-06-03",
+  "released": true,
+  "startDate": "2025-02-21"
+ },
+ {
+  "archived": false,
+  "id": "12355690",
+  "name": "shaded-21.0",
+  "releaseDate": "2026-01-12",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355788",
+  "name": "mongodb-3.0.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12355810",
+  "name": "elasticsearch-4.0.0",
+  "releaseDate": "2025-04-17",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355822",
+  "name": "kudu-2.1.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12355832",
+  "name": "kafka-4.1.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12355844",
+  "name": "jdbc-4.0.0",
+  "releaseDate": "2025-04-22",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355866",
+  "name": "jdbc-4.1.0",
+  "releaseDate": "2026-07-22",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355868",
+  "name": "elasticsearch-4.1.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12355894",
+  "name": "cdc-3.5.0",
+  "releaseDate": "2025-09-26",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355932",
+  "name": "1.19.4",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12355933",
+  "name": "1.20.3",
+  "releaseDate": "2025-09-25",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355967",
+  "name": "kubernetes-operator-1.13.0",
+  "releaseDate": "2025-09-18",
+  "released": true,
+  "startDate": "2025-05-26"
+ },
+ {
+  "archived": false,
+  "id": "12355985",
+  "name": "aws-connector-5.2.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12355986",
+  "name": "aws-connector-6.0.0",
+  "releaseDate": "2026-02-05",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12357182",
+  "name": "aws-connector-6.0.1",
+  "releaseDate": "2026-06-19",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356034",
+  "name": "2.2.0",
+  "releaseDate": "2025-12-04",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356044",
+  "name": "kubernetes-operator-1.12.1",
+  "releaseDate": "2025-07-09",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356162",
+  "name": "2.1.1",
+  "releaseDate": "2025-10-30",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356169",
+  "name": "kafka-4.0.1",
+  "releaseDate": "2025-08-19",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356170",
+  "name": "kafka-5.0.0",
+  "releaseDate": "2026-06-02",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356275",
+  "name": "1.20.4",
+  "releaseDate": "2026-05-04",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356278",
+  "name": "kubernetes-operator-1.14.0",
+  "releaseDate": "2026-02-12",
+  "released": true,
+  "startDate": "2025-09-18"
+ },
+ {
+  "archived": false,
+  "id": "12356291",
+  "name": "cdc-3.6.0",
+  "releaseDate": "2026-03-31",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356307",
+  "name": "2.1.2",
+  "releaseDate": "2026-05-11",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356332",
+  "name": "2.0.2",
+  "releaseDate": "2026-05-09",
+  "released": true,
+  "startDate": "2025-10-15"
+ },
+ {
+  "archived": false,
+  "id": "12356355",
+  "name": "http-1.0.0",
+  "releaseDate": "2026-06-23",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356392",
+  "name": "2.3.0",
+  "releaseDate": "2026-06-22",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356408",
+  "name": "shaded-17.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12356561",
+  "name": "2.2.1",
+  "releaseDate": "2026-05-12",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356580",
+  "name": "shaded-22.0",
+  "releaseDate": "2026-08-31",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356676",
+  "name": "kubernetes-operator-1.15.0",
+  "releaseDate": "2026-05-26",
+  "released": true,
+  "startDate": "2026-02-03"
+ },
+ {
+  "archived": false,
+  "id": "12356737",
+  "name": "jdbc",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12356738",
+  "name": "jdbc-3.4.0",
+  "releaseDate": "2026-07-22",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356793",
+  "name": "cdc-3.6.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12356804",
+  "name": "cdc-3.7.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12356854",
+  "name": "1.20.5",
+  "releaseDate": "2026-06-11",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356861",
+  "name": "2.0.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12356862",
+  "name": "2.1.3",
+  "releaseDate": "2026-06-11",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356946",
+  "name": "kubernetes-operator-1.16.0",
+  "releaseDate": "2026-09-15",
+  "released": true,
+  "startDate": "2026-05-04"
+ },
+ {
+  "archived": false,
+  "id": "12357047",
+  "name": "kafka-5.1.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357053",
+  "name": "pulsar-4.3.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357057",
+  "name": "2.2.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357141",
+  "name": "aws-connector-6.1.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357158",
+  "name": "1.20.6",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357160",
+  "name": "kafka-4.0.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357166",
+  "name": "2.3.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12356852",
+  "name": "2.4.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357169",
+  "name": "2.1.4",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357203",
+  "name": "jdbc-5.0.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357204",
+  "name": "jdbc-6.0.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357205",
+  "name": "jdbc-3.5.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357473",
+  "name": "shaded-23.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357509",
+  "name": "kafka-5.0.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357510",
+  "name": "kafka-3.4.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357526",
+  "name": "kubernetes-operator-1.17.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357530",
+  "name": "pulsar-5.0.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357531",
+  "name": "pulsar-5.1.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357535",
+  "name": "kubernetes-operator-1.16.1",
+  "releaseDate": "2026-09-22",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12357562",
+  "name": "jdbc-4.1.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357572",
+  "name": "cdc-3.8.0",
+  "released": false
+ }
+]

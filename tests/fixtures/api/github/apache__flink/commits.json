@@ -1,0 +1,162 @@
+[
+ {
+  "author": {
+   "login": "user-a2b4d891",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-09T16:08:12Z"
+   },
+   "committer": {
+    "date": "2026-10-09T16:08:12Z"
+   },
+   "message": "[FLINK-40797][table-planner] Exclude `NestedLoopJoin` from CBO search space for equi-joins"
+  },
+  "committer": {
+   "login": "user-7c865839",
+   "type": "User"
+  },
+  "sha": "60846c0cdbf57d5297c44f218025b189d18a2765"
+ },
+ {
+  "author": {
+   "login": "user-628a0341",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-09T15:35:02Z"
+   },
+   "committer": {
+    "date": "2026-10-09T15:35:02Z"
+   },
+   "message": "[FLINK-40952][state/forst] Close the DBOptions copy of temporary restore DBs (#29430)"
+  },
+  "committer": {
+   "login": "user-7c865839",
+   "type": "User"
+  },
+  "sha": "8fc9538b0dd67b76d08a369ba0a28cfed390f5b2"
+ },
+ {
+  "author": {
+   "login": "user-7b8f19b3",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-06T04:59:24Z"
+   },
+   "committer": {
+    "date": "2026-10-09T14:03:24Z"
+   },
+   "message": "[FLINK-40921][test] Invoke statebackend's close() in tests"
+  },
+  "committer": {
+   "login": "user-7b8f19b3",
+   "type": "User"
+  },
+  "sha": "331004b56fbac3fa12267e915d831efbb4da8146"
+ },
+ {
+  "author": {
+   "login": "user-7b8f19b3",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-06T04:47:42Z"
+   },
+   "committer": {
+    "date": "2026-10-09T14:03:24Z"
+   },
+   "message": "[FLINK-40921][runtime] Invoke statebackend's close() and dispose() in right order"
+  },
+  "committer": {
+   "login": "user-7b8f19b3",
+   "type": "User"
+  },
+  "sha": "8407b6e993b92d4eca3ed98c067dbc4297b7359e"
+ },
+ {
+  "author": {
+   "login": "user-0493faa3",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-09T09:48:51Z"
+   },
+   "committer": {
+    "date": "2026-10-09T12:32:05Z"
+   },
+   "message": "[FLINK-40965][table] Parameterize tests for conditional functions for short circuit case\n\nThis closes #29438"
+  },
+  "committer": {
+   "login": "user-0493faa3",
+   "type": "User"
+  },
+  "sha": "d8e1e0da8b3af0e17799b0a3938f33b76320495a"
+ },
+ {
+  "author": {
+   "login": "user-a303e9ec",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-09T10:09:31Z"
+   },
+   "committer": {
+    "date": "2026-10-09T10:09:31Z"
+   },
+   "message": "[FLINK-37672][build] Migrate protobuf code generation to ascopes plugin (#29434)"
+  },
+  "committer": {
+   "login": "user-7c865839",
+   "type": "User"
+  },
+  "sha": "687ef8c43630a1691ba2d87c6430635adce31b86"
+ },
+ {
+  "author": {
+   "login": "user-e9dd9fa6",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-09T09:53:48Z"
+   },
+   "committer": {
+    "date": "2026-10-09T09:53:48Z"
+   },
+   "message": "[FLINK-40193][python] Add join_lateral support to the DataFrame API (#29433)"
+  },
+  "committer": {
+   "login": "user-7c865839",
+   "type": "User"
+  },
+  "sha": "1465b13a4d16b381464d7cf4b0f6d50c7d2209ad"
+ },
+ {
+  "author": {
+   "login": "user-6ec89c3f",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-08T15:01:54Z"
+   },
+   "committer": {
+    "date": "2026-10-08T15:01:54Z"
+   },
+   "message": "[FLINK-39883][table] Support broadcast state for process table functions\n\nThis closes #29419."
+  },
+  "committer": {
+   "login": "user-7c865839",
+   "type": "User"
+  },
+  "sha": "c89bd7fb132203c467d2f66052f49ca699e3155f"
+ }
+]

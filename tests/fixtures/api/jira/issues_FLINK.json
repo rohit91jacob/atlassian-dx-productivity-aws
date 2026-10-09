@@ -1,0 +1,3747 @@
+[
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-a303e9ec"
+     },
+     "created": "2026-10-09T10:09:56.019+0000",
+     "id": "23321558",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-a303e9ec"
+   },
+   "components": [
+    {
+     "name": "Build System"
+    }
+   ],
+   "created": "2025-04-14T14:03:47.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-63c6731d"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-09T10:09:56.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Replace protoc-jar and xolstice protobuf plugins with ascopes protobuf-maven-plugin",
+   "updated": "2026-10-09T10:09:56.000+0000",
+   "versions": []
+  },
+  "id": "13615221",
+  "key": "FLINK-37672"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-dcb3129d"
+   },
+   "components": [
+    {
+     "name": "API / Python"
+    }
+   ],
+   "created": "2026-07-20T06:53:26.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-bd45cc56"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "Add Kafka source and sink APIs to DataFrame API",
+   "updated": "2026-10-09T09:54:19.000+0000",
+   "versions": []
+  },
+  "id": "13658630",
+  "key": "FLINK-40198"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-bd45cc56"
+     },
+     "created": "2026-10-09T09:54:12.867+0000",
+     "id": "23321497",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Closed"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-e9dd9fa6"
+   },
+   "components": [
+    {
+     "name": "API / Python"
+    }
+   ],
+   "created": "2026-07-20T06:13:47.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-bd45cc56"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-09T09:54:12.000+0000",
+   "status": {
+    "name": "Closed",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Add join_lateral support to DataFrame API",
+   "updated": "2026-10-09T09:54:12.000+0000",
+   "versions": []
+  },
+  "id": "13658620",
+  "key": "FLINK-40193"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-0baf9c30"
+   },
+   "components": [
+    {
+     "name": "Table SQL / Runtime"
+    }
+   ],
+   "created": "2026-10-08T21:06:05.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-0baf9c30"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "Treat IF as conditional function in code gen",
+   "updated": "2026-10-09T09:50:50.000+0000",
+   "versions": []
+  },
+  "id": "13671003",
+  "key": "FLINK-40965"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-0baf9c30"
+     },
+     "created": "2026-10-08T15:41:18.751+0000",
+     "id": "23319860",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-0baf9c30"
+   },
+   "components": [
+    {
+     "name": "Table SQL / Planner"
+    }
+   ],
+   "created": "2026-10-07T20:06:31.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Blocker"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-a303e9ec"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-08T15:41:18.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "EarlyFireJoinHintTest.testEarlyFireProcTimeOnRowTimeJoin fails with unexpected output",
+   "updated": "2026-10-08T15:41:18.000+0000",
+   "versions": [
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13670724",
+  "key": "FLINK-40950"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-6ec89c3f"
+     },
+     "created": "2026-10-08T15:02:57.727+0000",
+     "id": "23319767",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Closed"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-6ec89c3f"
+   },
+   "components": [
+    {
+     "name": "Table SQL / API"
+    },
+    {
+     "name": "Table SQL / Planner"
+    },
+    {
+     "name": "Table SQL / Runtime"
+    }
+   ],
+   "created": "2026-06-08T06:19:29.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-6ec89c3f"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-08T15:02:57.000+0000",
+   "status": {
+    "name": "Closed",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Support broadcast state in PTFs",
+   "updated": "2026-10-08T15:02:57.000+0000",
+   "versions": []
+  },
+  "id": "13653751",
+  "key": "FLINK-39883"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-0baf9c30"
+     },
+     "created": "2026-10-08T14:24:16.141+0000",
+     "id": "23319662",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-0baf9c30"
+   },
+   "components": [
+    {
+     "name": "API / Core"
+    }
+   ],
+   "created": "2026-10-08T12:17:29.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-0baf9c30"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-08T14:24:16.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "VARIANT might fail with StackOverflow",
+   "updated": "2026-10-08T14:24:16.000+0000",
+   "versions": []
+  },
+  "id": "13670887",
+  "key": "FLINK-40958"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-628a0341"
+   },
+   "components": [
+    {
+     "name": "Runtime / State Backends"
+    }
+   ],
+   "created": "2026-10-08T08:34:14.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-628a0341"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "ForSt: rescale restore never closes the temporary DB's DBOptions copy, leaking the slot-shared block cache",
+   "updated": "2026-10-08T13:54:05.000+0000",
+   "versions": [
+    {
+     "id": "12335344",
+     "name": "2.0.0",
+     "released": true
+    },
+    {
+     "id": "12355556",
+     "name": "2.1.0",
+     "released": true
+    },
+    {
+     "id": "12356034",
+     "name": "2.2.0",
+     "released": true
+    },
+    {
+     "id": "12356392",
+     "name": "2.3.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13670834",
+  "key": "FLINK-40952"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-0baf9c30"
+     },
+     "created": "2026-10-08T13:02:48.118+0000",
+     "id": "23319393",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-c92b5784"
+   },
+   "components": [
+    {
+     "name": "Table SQL / Planner"
+    },
+    {
+     "name": "Table SQL / Runtime"
+    }
+   ],
+   "created": "2026-10-05T11:44:06.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-c92b5784"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-08T13:02:48.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Reject VARIANT where SQL needs equality. Byte comparison gives wrong results in GROUP BY, DISTINCT, joins and =",
+   "updated": "2026-10-08T13:02:48.000+0000",
+   "versions": []
+  },
+  "id": "13670128",
+  "key": "FLINK-40910"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-93cb92d3"
+     },
+     "created": "2026-10-07T13:51:49.260+0000",
+     "id": "23316579",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-93cb92d3"
+   },
+   "components": [
+    {
+     "name": "Table SQL / Planner"
+    }
+   ],
+   "created": "2025-10-27T03:35:43.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-f5fbfd6b"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-07T13:51:49.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "ReadingMetadataSpec should not be generated if there are no metadataKeys to be read",
+   "updated": "2026-10-07T13:51:49.000+0000",
+   "versions": [
+    {
+     "id": "12356162",
+     "name": "2.1.1",
+     "released": true
+    }
+   ]
+  },
+  "id": "13632518",
+  "key": "FLINK-38569"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-0582ccfb"
+     },
+     "created": "2026-10-07T12:01:00.901+0000",
+     "id": "23316237",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-0582ccfb"
+   },
+   "components": [
+    {
+     "name": "Table SQL / Planner"
+    }
+   ],
+   "created": "2026-08-11T18:50:46.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357057",
+     "name": "2.2.2",
+     "released": false
+    },
+    {
+     "id": "12357166",
+     "name": "2.3.1",
+     "released": false
+    },
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-c15a3b61"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-07T12:01:00.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Deduplicate output should only be insert-only when ordered by time attribute",
+   "updated": "2026-10-07T12:01:00.000+0000",
+   "versions": [
+    {
+     "id": "12356392",
+     "name": "2.3.0",
+     "released": true
+    },
+    {
+     "id": "12356561",
+     "name": "2.2.1",
+     "released": true
+    },
+    {
+     "id": "12356862",
+     "name": "2.1.3",
+     "released": true
+    }
+   ]
+  },
+  "id": "13661541",
+  "key": "FLINK-40368"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-0baf9c30"
+     },
+     "created": "2026-10-07T11:13:41.235+0000",
+     "id": "23316087",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-0baf9c30"
+   },
+   "components": [
+    {
+     "name": "Table SQL / Planner"
+    }
+   ],
+   "created": "2026-10-07T08:10:53.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-0baf9c30"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-07T11:13:41.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "UPDATE fails with IndexOutOfBoundsException when a SET value's type doesn't match the column",
+   "updated": "2026-10-07T11:13:41.000+0000",
+   "versions": []
+  },
+  "id": "13670550",
+  "key": "FLINK-40937"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-b1f55ca4"
+     },
+     "created": "2026-06-23T02:47:49.266+0000",
+     "id": "23115932",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Closed"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-b1f55ca4"
+   },
+   "components": [
+    {
+     "name": "Table SQL / Planner"
+    }
+   ],
+   "created": "2026-06-22T10:05:19.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357057",
+     "name": "2.2.2",
+     "released": false
+    },
+    {
+     "id": "12357166",
+     "name": "2.3.1",
+     "released": false
+    },
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-b1f55ca4"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-06-23T02:47:49.000+0000",
+   "status": {
+    "name": "Closed",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "FlinkRelMdModifiedMonotonicity wrongly reports a non-time-attribute Top-1 Rank as insert-only",
+   "updated": "2026-10-07T09:57:09.000+0000",
+   "versions": [
+    {
+     "id": "12356392",
+     "name": "2.3.0",
+     "released": true
+    },
+    {
+     "id": "12356561",
+     "name": "2.2.1",
+     "released": true
+    },
+    {
+     "id": "12356862",
+     "name": "2.1.3",
+     "released": true
+    }
+   ]
+  },
+  "id": "13655264",
+  "key": "FLINK-39966"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-0582ccfb"
+     },
+     "created": "2026-10-07T09:55:41.136+0000",
+     "id": "23315908",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-0582ccfb"
+   },
+   "components": [
+    {
+     "name": "Table SQL / API"
+    }
+   ],
+   "created": "2026-09-29T10:31:53.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357057",
+     "name": "2.2.2",
+     "released": false
+    },
+    {
+     "id": "12357166",
+     "name": "2.3.1",
+     "released": false
+    },
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-0582ccfb"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-07T09:55:41.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Streaming outer join with a non-equi condition produces wrong results on upsert input",
+   "updated": "2026-10-07T09:55:41.000+0000",
+   "versions": [
+    {
+     "id": "12356392",
+     "name": "2.3.0",
+     "released": true
+    },
+    {
+     "id": "12356561",
+     "name": "2.2.1",
+     "released": true
+    },
+    {
+     "id": "12356854",
+     "name": "1.20.5",
+     "released": true
+    },
+    {
+     "id": "12356862",
+     "name": "2.1.3",
+     "released": true
+    }
+   ]
+  },
+  "id": "13669130",
+  "key": "FLINK-40841"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-0582ccfb"
+     },
+     "created": "2026-10-07T09:55:41.393+0000",
+     "id": "23315909",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-0582ccfb"
+   },
+   "components": [
+    {
+     "name": "Table SQL / API"
+    }
+   ],
+   "created": "2026-09-30T16:13:08.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357057",
+     "name": "2.2.2",
+     "released": false
+    },
+    {
+     "id": "12357166",
+     "name": "2.3.1",
+     "released": false
+    },
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-0582ccfb"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-07T09:55:41.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Streaming join should evaluate non-equi conditions on key-only deletes",
+   "updated": "2026-10-07T09:55:41.000+0000",
+   "versions": [
+    {
+     "id": "12356392",
+     "name": "2.3.0",
+     "released": true
+    },
+    {
+     "id": "12356561",
+     "name": "2.2.1",
+     "released": true
+    },
+    {
+     "id": "12356862",
+     "name": "2.1.3",
+     "released": true
+    }
+   ]
+  },
+  "id": "13669405",
+  "key": "FLINK-40858"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-0582ccfb"
+     },
+     "created": "2026-10-07T09:55:40.635+0000",
+     "id": "23315906",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-0582ccfb"
+   },
+   "components": [
+    {
+     "name": "Table SQL / API"
+    }
+   ],
+   "created": "2026-09-25T16:02:27.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357057",
+     "name": "2.2.2",
+     "released": false
+    },
+    {
+     "id": "12357166",
+     "name": "2.3.1",
+     "released": false
+    },
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-0582ccfb"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-07T09:55:40.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Regular outer join loses the null-padded row when an input record is updated without UPDATE_BEFORE",
+   "updated": "2026-10-07T09:55:40.000+0000",
+   "versions": [
+    {
+     "id": "12356392",
+     "name": "2.3.0",
+     "released": true
+    },
+    {
+     "id": "12356561",
+     "name": "2.2.1",
+     "released": true
+    },
+    {
+     "id": "12356854",
+     "name": "1.20.5",
+     "released": true
+    },
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13668562",
+  "key": "FLINK-40809"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-0582ccfb"
+     },
+     "created": "2026-10-07T09:55:40.888+0000",
+     "id": "23315907",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-0582ccfb"
+   },
+   "components": [
+    {
+     "name": "Table SQL / API"
+    }
+   ],
+   "created": "2026-09-28T11:03:42.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357057",
+     "name": "2.2.2",
+     "released": false
+    },
+    {
+     "id": "12357166",
+     "name": "2.3.1",
+     "released": false
+    },
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-0582ccfb"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-07T09:55:40.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Mini-batch outer join loses the null-padded row when an input record is updated without UPDATE_BEFORE",
+   "updated": "2026-10-07T09:55:40.000+0000",
+   "versions": [
+    {
+     "id": "12356392",
+     "name": "2.3.0",
+     "released": true
+    },
+    {
+     "id": "12356561",
+     "name": "2.2.1",
+     "released": true
+    },
+    {
+     "id": "12356854",
+     "name": "1.20.5",
+     "released": true
+    },
+    {
+     "id": "12356862",
+     "name": "2.1.3",
+     "released": true
+    }
+   ]
+  },
+  "id": "13668846",
+  "key": "FLINK-40831"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": null,
+   "components": [
+    {
+     "name": "Runtime / State Backends"
+    }
+   ],
+   "created": "2024-09-17T08:50:02.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "test-stability"
+   ],
+   "priority": {
+    "name": "Critical"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-cb222b15"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "SIGSEGV caused CI failure",
+   "updated": "2026-10-07T05:25:13.000+0000",
+   "versions": [
+    {
+     "id": "12355070",
+     "name": "2.0-preview",
+     "released": true
+    },
+    {
+     "id": "12357057",
+     "name": "2.2.2",
+     "released": false
+    },
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13592328",
+  "key": "FLINK-36297"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-a303e9ec"
+     },
+     "created": "2026-10-06T15:07:39.265+0000",
+     "id": "23313957",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-a303e9ec"
+   },
+   "components": [
+    {
+     "name": "API / Core"
+    }
+   ],
+   "created": "2024-08-23T15:50:52.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357057",
+     "name": "2.2.2",
+     "released": false
+    },
+    {
+     "id": "12357158",
+     "name": "1.20.6",
+     "released": false
+    },
+    {
+     "id": "12357166",
+     "name": "2.3.1",
+     "released": false
+    },
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-067ebbe9"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-06T15:07:39.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "NoSuchElement exception from SingleThreadFetcherManager",
+   "updated": "2026-10-07T05:14:25.000+0000",
+   "versions": [
+    {
+     "id": "12356392",
+     "name": "2.3.0",
+     "released": true
+    },
+    {
+     "id": "12356854",
+     "name": "1.20.5",
+     "released": true
+    },
+    {
+     "id": "12357057",
+     "name": "2.2.2",
+     "released": false
+    },
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13589896",
+  "key": "FLINK-36146"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-a303e9ec"
+     },
+     "created": "2026-10-06T15:55:02.337+0000",
+     "id": "23314056",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-84a11b1f"
+   },
+   "components": [],
+   "created": "2026-10-05T13:01:33.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-84a11b1f"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-06T15:55:02.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "CheckpointSyncPhaseTimeoutITCase failures race",
+   "updated": "2026-10-06T15:55:02.000+0000",
+   "versions": [
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13670148",
+  "key": "FLINK-40913"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-6ec89c3f"
+     },
+     "created": "2026-10-06T14:45:22.374+0000",
+     "id": "23313916",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Closed"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-c92b5784"
+   },
+   "components": [
+    {
+     "name": "Table SQL / API"
+    }
+   ],
+   "created": "2026-09-27T14:50:09.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-c92b5784"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-06T14:45:22.000+0000",
+   "status": {
+    "name": "Closed",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": " Support casting constructed types to VARIANT",
+   "updated": "2026-10-06T14:45:22.000+0000",
+   "versions": []
+  },
+  "id": "13668737",
+  "key": "FLINK-40826"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-ad0f84d4"
+   },
+   "components": [
+    {
+     "name": "Runtime / Network"
+    }
+   ],
+   "created": "2026-10-02T17:28:43.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-ae841fd4"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "Add source host info in TM disconnect error",
+   "updated": "2026-10-06T06:33:28.000+0000",
+   "versions": [
+    {
+     "id": "12357166",
+     "name": "2.3.1",
+     "released": false
+    }
+   ]
+  },
+  "id": "13669823",
+  "key": "FLINK-40903"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-7df368fd"
+   },
+   "components": [
+    {
+     "name": "Table SQL / Planner"
+    }
+   ],
+   "created": "2026-09-06T09:58:10.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available",
+    "test-stability"
+   ],
+   "priority": {
+    "name": "Critical"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-7df368fd"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "ProcessTableFunctionSemanticTests[process-stateful-multi-input-with-timeout] is flaky on master",
+   "updated": "2026-10-09T11:14:43.000+0000",
+   "versions": [
+    {
+     "id": "12357057",
+     "name": "2.2.2",
+     "released": false
+    },
+    {
+     "id": "12357166",
+     "name": "2.3.1",
+     "released": false
+    },
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13665154",
+  "key": "FLINK-40571"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-a303e9ec"
+   },
+   "components": [
+    {
+     "name": "Table SQL / Planner"
+    }
+   ],
+   "created": "2022-07-29T05:55:12.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Critical"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-b1f55ca4"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "NDU analyzer skips the Calc condition once the upsert key covers the sink key",
+   "updated": "2026-10-09T07:06:54.000+0000",
+   "versions": [
+    {
+     "id": "12355556",
+     "name": "2.1.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13474117",
+  "key": "FLINK-28737"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": null,
+   "components": [
+    {
+     "name": "Table SQL / Runtime"
+    }
+   ],
+   "created": "2026-10-08T14:16:08.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Critical"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-172db786"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "Batch sort can emit unsorted rows if comparator implementation is long enough to be split",
+   "updated": "2026-10-08T14:35:23.000+0000",
+   "versions": [
+    {
+     "id": "12356392",
+     "name": "2.3.0",
+     "released": true
+    },
+    {
+     "id": "12356561",
+     "name": "2.2.1",
+     "released": true
+    },
+    {
+     "id": "12356854",
+     "name": "1.20.5",
+     "released": true
+    },
+    {
+     "id": "12356862",
+     "name": "2.1.3",
+     "released": true
+    },
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13670924",
+  "key": "FLINK-40959"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-7b8f19b3"
+     },
+     "created": "2026-10-08T13:39:53.781+0000",
+     "id": "23319516",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-628a0341"
+   },
+   "components": [
+    {
+     "name": "Runtime / State Backends"
+    }
+   ],
+   "created": "2026-08-04T12:14:58.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Critical"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-628a0341"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-08T13:39:53.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "ForSt async multiGet leaks a native ReadOptions per read batch",
+   "updated": "2026-10-08T13:40:16.000+0000",
+   "versions": [
+    {
+     "id": "12335344",
+     "name": "2.0.0",
+     "released": true
+    },
+    {
+     "id": "12355556",
+     "name": "2.1.0",
+     "released": true
+    },
+    {
+     "id": "12356034",
+     "name": "2.2.0",
+     "released": true
+    },
+    {
+     "id": "12356392",
+     "name": "2.3.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13660594",
+  "key": "FLINK-40327"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": null,
+   "components": [
+    {
+     "name": "Table SQL / Runtime"
+    }
+   ],
+   "created": "2026-05-07T02:30:48.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Critical"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-99630715"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "Cumulative window re-emits old windows after recovery due to stale InternalTimerService.currentWatermark in GlobalAggCombiner",
+   "updated": "2026-10-08T12:18:32.000+0000",
+   "versions": [
+    {
+     "id": "12356162",
+     "name": "2.1.1",
+     "released": true
+    },
+    {
+     "id": "12356275",
+     "name": "1.20.4",
+     "released": true
+    }
+   ]
+  },
+  "id": "13650265",
+  "key": "FLINK-39620"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-3e4ce96d"
+     },
+     "created": "2025-01-29T10:21:10.802+0000",
+     "id": "22384580",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-cb222b15"
+     },
+     "created": "2025-02-05T07:25:01.657+0000",
+     "id": "22394852",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-3e4ce96d"
+   },
+   "components": [
+    {
+     "name": "Runtime / Coordination"
+    }
+   ],
+   "created": "2025-01-28T10:26:35.000+0000",
+   "fixVersions": [
+    {
+     "id": "12335344",
+     "name": "2.0.0",
+     "released": true
+    },
+    {
+     "id": "12355556",
+     "name": "2.1.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Blocker"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-cb222b15"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2025-02-05T07:25:01.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "FLIP-472 breaks some synchronization assumption on the AdaptiveScheduler's side",
+   "updated": "2026-10-08T11:15:35.000+0000",
+   "versions": [
+    {
+     "id": "12335344",
+     "name": "2.0.0",
+     "released": true
+    },
+    {
+     "id": "12355070",
+     "name": "2.0-preview",
+     "released": true
+    }
+   ]
+  },
+  "id": "13606466",
+  "key": "FLINK-37232"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-23abfd39"
+     },
+     "created": "2022-01-03T15:22:49.129+0000",
+     "id": "20308038",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Closed"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-23abfd39"
+   },
+   "components": [
+    {
+     "name": "Build System"
+    }
+   ],
+   "created": "2021-07-04T14:46:49.000+0000",
+   "fixVersions": [
+    {
+     "id": "12350442",
+     "name": "1.15.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-338b625c"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2022-01-03T15:22:49.000+0000",
+   "status": {
+    "name": "Closed",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Cannot compile Flink on MacOS with M1 chip",
+   "updated": "2026-10-08T13:53:52.000+0000",
+   "versions": [
+    {
+     "id": "12350058",
+     "name": "1.13.1",
+     "released": true
+    }
+   ]
+  },
+  "id": "13387573",
+  "key": "FLINK-23230"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-3551ca54"
+     },
+     "created": "2023-12-15T09:36:32.277+0000",
+     "id": "21744684",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Closed"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-5309457b"
+   },
+   "components": [
+    {
+     "name": "Connectors / ElasticSearch"
+    }
+   ],
+   "created": "2023-05-08T08:39:30.000+0000",
+   "fixVersions": [
+    {
+     "id": "12352520",
+     "name": "elasticsearch-3.1.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-cae7318d"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2023-12-15T09:36:32.000+0000",
+   "status": {
+    "name": "Closed",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Error handling for the new Elasticsearch sink",
+   "updated": "2026-10-08T10:12:19.000+0000",
+   "versions": [
+    {
+     "id": "12352291",
+     "name": "elasticsearch-3.0.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13535351",
+  "key": "FLINK-32028"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-b1f55ca4"
+     },
+     "created": "2023-07-14T02:41:45.346+0000",
+     "id": "21483199",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-b1f55ca4"
+     },
+     "created": "2026-10-05T14:20:19.109+0000",
+     "id": "23311325",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Resolved",
+       "toString": "Closed"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-b1f55ca4"
+   },
+   "components": [],
+   "created": "2022-07-29T08:21:32.000+0000",
+   "fixVersions": [
+    {
+     "id": "12352885",
+     "name": "1.18.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-b1f55ca4"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2023-07-14T02:41:45.000+0000",
+   "status": {
+    "name": "Closed",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Support validating the determinism for StreamPhysicalMatchRecognize",
+   "updated": "2026-10-05T14:20:19.000+0000",
+   "versions": []
+  },
+  "id": "13474149",
+  "key": "FLINK-28743"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-df2ab317"
+     },
+     "created": "2026-06-18T15:41:44.696+0000",
+     "id": "23110493",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-86f77d5f"
+   },
+   "components": [
+    {
+     "name": "Connectors / Kafka"
+    }
+   ],
+   "created": "2026-06-03T18:14:08.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356392",
+     "name": "2.3.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Critical"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-86f77d5f"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-06-18T15:41:44.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Make dynamic Kafka source resilient for Kafka topology instability ",
+   "updated": "2026-10-04T08:21:07.000+0000",
+   "versions": [
+    {
+     "id": "12356561",
+     "name": "2.2.1",
+     "released": true
+    }
+   ]
+  },
+  "id": "13653379",
+  "key": "FLINK-39837"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-6ec89c3f"
+     },
+     "created": "2026-03-26T15:18:06.272+0000",
+     "id": "22995933",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Closed"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-0582ccfb"
+   },
+   "components": [
+    {
+     "name": "Table SQL / API"
+    }
+   ],
+   "created": "2026-03-24T10:16:34.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356392",
+     "name": "2.3.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-0582ccfb"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-03-26T15:18:06.000+0000",
+   "status": {
+    "name": "Closed",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "NDU analyzer misses non-deterministic functions in ChangelogNormalize filter conditions ",
+   "updated": "2026-10-02T15:05:48.000+0000",
+   "versions": [
+    {
+     "id": "12356034",
+     "name": "2.2.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13646028",
+  "key": "FLINK-39313"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-fbf6be87"
+     },
+     "created": "2022-09-15T10:50:22.941+0000",
+     "id": "20909291",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Closed"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-b1f55ca4"
+   },
+   "components": [
+    {
+     "name": "Table SQL / Runtime"
+    }
+   ],
+   "created": "2022-07-15T09:45:26.000+0000",
+   "fixVersions": [
+    {
+     "id": "12351275",
+     "name": "1.16.0",
+     "released": true
+    },
+    {
+     "id": "12351585",
+     "name": "1.17.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-b1f55ca4"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2022-09-15T10:50:22.000+0000",
+   "status": {
+    "name": "Closed",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "SinkUpsertMaterializer should be aware of the input upsertKey if it is not empty otherwise wrong result maybe produced",
+   "updated": "2026-10-02T11:15:30.000+0000",
+   "versions": [
+    {
+     "id": "12351388",
+     "name": "1.14.5",
+     "released": true
+    },
+    {
+     "id": "12351829",
+     "name": "1.15.2",
+     "released": true
+    }
+   ]
+  },
+  "id": "13471746",
+  "key": "FLINK-28569"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-6ec89c3f"
+     },
+     "created": "2025-08-14T08:15:34.368+0000",
+     "id": "22684821",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Closed"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-0582ccfb"
+   },
+   "components": [
+    {
+     "name": "Table SQL / Planner"
+    },
+    {
+     "name": "Tests"
+    }
+   ],
+   "created": "2025-08-12T14:15:11.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356034",
+     "name": "2.2.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-0582ccfb"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2025-08-14T08:15:34.000+0000",
+   "status": {
+    "name": "Closed",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Enable nondeterministic update strategy by default in SemanticTestBase",
+   "updated": "2026-10-02T11:11:55.000+0000",
+   "versions": [
+    {
+     "id": "12355556",
+     "name": "2.1.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13626174",
+  "key": "FLINK-38234"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-e2712b58"
+     },
+     "created": "2026-04-17T13:01:49.329+0000",
+     "id": "23026719",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-e2712b58"
+     },
+     "created": "2026-04-22T16:41:34.665+0000",
+     "id": "23032764",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Resolved"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-6ec89c3f"
+     },
+     "created": "2026-09-30T14:56:46.558+0000",
+     "id": "23301959",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Resolved",
+       "toString": "Closed"
+      }
+     ]
+    }
+   ],
+   "total": 3
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-e2712b58"
+   },
+   "components": [
+    {
+     "name": "Table SQL / Runtime"
+    }
+   ],
+   "created": "2026-04-14T13:04:09.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356392",
+     "name": "2.3.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-6ec89c3f"
+   },
+   "resolution": {
+    "name": "Done"
+   },
+   "resolutiondate": "2026-04-22T16:41:34.000+0000",
+   "status": {
+    "name": "Closed",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Support interruptible timers in PTFs",
+   "updated": "2026-09-30T14:56:46.000+0000",
+   "versions": []
+  },
+  "id": "13648028",
+  "key": "FLINK-39437"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-e2712b58"
+     },
+     "created": "2026-04-15T08:29:24.373+0000",
+     "id": "23022389",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-e2712b58"
+     },
+     "created": "2026-04-21T19:30:29.329+0000",
+     "id": "23031593",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Resolved"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-6ec89c3f"
+     },
+     "created": "2026-09-30T14:56:37.656+0000",
+     "id": "23301958",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Resolved",
+       "toString": "Closed"
+      }
+     ]
+    }
+   ],
+   "total": 3
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-e2712b58"
+   },
+   "components": [
+    {
+     "name": "Table SQL / Runtime"
+    }
+   ],
+   "created": "2026-04-14T12:59:13.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356392",
+     "name": "2.3.0",
+     "released": true
+    },
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-6ec89c3f"
+   },
+   "resolution": {
+    "name": "Done"
+   },
+   "resolutiondate": "2026-04-21T19:30:29.000+0000",
+   "status": {
+    "name": "Closed",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Allow late data to enter PTF",
+   "updated": "2026-09-30T14:56:37.000+0000",
+   "versions": [
+    {
+     "id": "12356392",
+     "name": "2.3.0",
+     "released": true
+    },
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13648027",
+  "key": "FLINK-39436"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-b87f2581"
+     },
+     "created": "2025-03-12T13:26:48.300+0000",
+     "id": "22454286",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-c88589fe"
+   },
+   "components": [
+    {
+     "name": "Flink CDC"
+    }
+   ],
+   "created": "2025-03-11T03:26:57.000+0000",
+   "fixVersions": [
+    {
+     "id": "12355589",
+     "name": "cdc-3.4.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-c88589fe"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2025-03-12T13:26:48.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Postgres don't commit lsn when taskmanager failover",
+   "updated": "2026-09-30T09:34:08.000+0000",
+   "versions": [
+    {
+     "id": "12354387",
+     "name": "cdc-3.1.0",
+     "released": true
+    },
+    {
+     "id": "12354594",
+     "name": "cdc-3.2.0",
+     "released": true
+    },
+    {
+     "id": "12354763",
+     "name": "cdc-3.1.1",
+     "released": true
+    },
+    {
+     "id": "12354855",
+     "name": "cdc-3.3.0",
+     "released": true
+    },
+    {
+     "id": "12355099",
+     "name": "cdc-3.2.1",
+     "released": true
+    }
+   ]
+  },
+  "id": "13611340",
+  "key": "FLINK-37449"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-443e7e0c"
+     },
+     "created": "2026-06-03T01:32:33.157+0000",
+     "id": "23087816",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-3b278ce2"
+   },
+   "components": [
+    {
+     "name": "Flink CDC"
+    }
+   ],
+   "created": "2025-09-28T06:45:50.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356804",
+     "name": "cdc-3.7.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "Flink-CDC",
+    "iceberg",
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-87c0ea71"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-06-03T01:32:33.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "flink-cdc sink to iceberg table record duplication",
+   "updated": "2026-10-09T11:44:34.000+0000",
+   "versions": [
+    {
+     "id": "12355080",
+     "name": "3.0.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13630159",
+  "key": "FLINK-38450"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-c7e9564a"
+     },
+     "created": "2026-10-09T08:19:01.464+0000",
+     "id": "23321263",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-c7e9564a"
+   },
+   "components": [],
+   "created": "2026-09-09T10:14:23.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-c7e9564a"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "In Progress",
+    "statusCategory": {
+     "key": "indeterminate"
+    }
+   },
+   "summary": "Add composite/ROW inference in Python UDF type inference",
+   "updated": "2026-10-09T08:19:01.000+0000",
+   "versions": []
+  },
+  "id": "13665648",
+  "key": "FLINK-40609"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-bd45cc56"
+     },
+     "created": "2026-10-09T03:50:01.522+0000",
+     "id": "23320803",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Closed"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-b1190668"
+   },
+   "components": [
+    {
+     "name": "API / Python"
+    }
+   ],
+   "created": "2026-07-20T06:27:56.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-bd45cc56"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-09T03:50:01.000+0000",
+   "status": {
+    "name": "Closed",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Add missing-value handling to DataFrame API",
+   "updated": "2026-10-09T03:50:01.000+0000",
+   "versions": []
+  },
+  "id": "13658625",
+  "key": "FLINK-40196"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-c7e9564a"
+     },
+     "created": "2026-09-09T10:13:55.759+0000",
+     "id": "23256938",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-bd45cc56"
+     },
+     "created": "2026-10-09T02:00:22.986+0000",
+     "id": "23320731",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Closed"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-c7e9564a"
+   },
+   "components": [],
+   "created": "2026-09-09T10:13:50.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-c7e9564a"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-09T02:00:22.000+0000",
+   "status": {
+    "name": "Closed",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Extract dataframe UDF type inference into shared module",
+   "updated": "2026-10-09T02:00:22.000+0000",
+   "versions": []
+  },
+  "id": "13665647",
+  "key": "FLINK-40608"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-56aa1e6d"
+     },
+     "created": "2026-07-01T10:26:53.031+0000",
+     "id": "23128790",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-3ec8d1a2"
+   },
+   "components": [
+    {
+     "name": "API / Core"
+    },
+    {
+     "name": "Runtime / Coordination"
+    }
+   ],
+   "created": "2026-05-27T11:36:45.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-3ec8d1a2"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-07-01T10:26:53.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Expose JobInfo on Source contexts",
+   "updated": "2026-10-09T00:29:07.000+0000",
+   "versions": []
+  },
+  "id": "13652501",
+  "key": "FLINK-39776"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-0baf9c30"
+     },
+     "created": "2026-10-08T22:23:11.184+0000",
+     "id": "23320559",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-3ec8d1a2"
+   },
+   "components": [
+    {
+     "name": "Connectors / Kafka"
+    }
+   ],
+   "created": "2026-10-05T12:34:11.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357047",
+     "name": "kafka-5.1.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-3ec8d1a2"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-08T22:23:11.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "ExactlyOnceKafkaWriter never closes the AdminClient it creates for the listing abort strategy",
+   "updated": "2026-10-08T22:23:11.000+0000",
+   "versions": []
+  },
+  "id": "13670138",
+  "key": "FLINK-40912"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-abbff039"
+     },
+     "created": "2026-10-08T15:10:39.842+0000",
+     "id": "23319788",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-abbff039"
+   },
+   "components": [
+    {
+     "name": "Deployment / Kubernetes"
+    },
+    {
+     "name": "Runtime / Configuration"
+    }
+   ],
+   "created": "2026-09-26T16:49:22.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-abbff039"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-08T15:10:39.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Remove the deprecated configuration keys from the flink-kubernetes module.",
+   "updated": "2026-10-08T15:10:39.000+0000",
+   "versions": []
+  },
+  "id": "13668657",
+  "key": "FLINK-40816"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-a303e9ec"
+     },
+     "created": "2026-10-08T13:53:52.403+0000",
+     "id": "23319583",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Closed"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": null,
+   "components": [
+    {
+     "name": "Formats (JSON, Avro, Parquet, ORC, SequenceFile)"
+    }
+   ],
+   "created": "2021-02-01T10:50:47.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "auto-deprioritized-major",
+    "auto-deprioritized-minor"
+   ],
+   "priority": {
+    "name": "Not a Priority"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-cf5fae4b"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-08T13:53:52.000+0000",
+   "status": {
+    "name": "Closed",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Upgrade Protobof 3.7.0 for (power)ppc64le support",
+   "updated": "2026-10-08T13:54:15.000+0000",
+   "versions": []
+  },
+  "id": "13355896",
+  "key": "FLINK-21227"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-e2712b58"
+     },
+     "created": "2026-10-02T07:30:33.440+0000",
+     "id": "23305915",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-e2712b58"
+     },
+     "created": "2026-10-08T13:39:41.492+0000",
+     "id": "23319512",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-e2712b58"
+   },
+   "components": [
+    {
+     "name": "Table SQL / API"
+    }
+   ],
+   "created": "2026-10-02T07:29:38.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-e2712b58"
+   },
+   "resolution": {
+    "name": "Implemented"
+   },
+   "resolutiondate": "2026-10-08T13:39:41.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Support LATERAL SNAPSHOT join in the Table API",
+   "updated": "2026-10-08T13:39:41.000+0000",
+   "versions": []
+  },
+  "id": "13669705",
+  "key": "FLINK-40885"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-b1be5f63"
+     },
+     "created": "2022-10-20T06:03:35.840+0000",
+     "id": "20970703",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-b1be5f63"
+     },
+     "created": "2022-10-20T06:03:42.645+0000",
+     "id": "20970704",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Open"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-b1be5f63"
+     },
+     "created": "2022-10-20T06:03:45.684+0000",
+     "id": "20970705",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    }
+   ],
+   "total": 3
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-b1be5f63"
+   },
+   "components": [
+    {
+     "name": "Table SQL / API"
+    }
+   ],
+   "created": "2022-08-16T05:29:02.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356852",
+     "name": "2.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available",
+    "stale-assigned"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "FLINK"
+   },
+   "reporter": {
+    "name": "user-b1be5f63"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "In Progress",
+    "statusCategory": {
+     "key": "indeterminate"
+    }
+   },
+   "summary": "support create table like view",
+   "updated": "2026-10-08T11:54:05.000+0000",
+   "versions": [
+    {
+     "id": "12351546",
+     "name": "1.15.1",
+     "released": true
+    },
+    {
+     "id": "12351275",
+     "name": "1.16.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13476952",
+  "key": "FLINK-28985"
+ }
+]

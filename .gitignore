@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Pipeline data (raw zone, state, Iceberg warehouse, DuckDB) - never commit data
+data/
+.fixture-run/
+*.duckdb
+*.duckdb.wal
+*.sqlite
+requirements-curate.txt
+verification-run.md
+
+# dbt
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+logs/
+
+# Terraform
+infra/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+infra/backend.hcl
+*.auto.tfvars
+
+# Local config / secrets
+.env
+.env.*
+!.env.example
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+*.log
+
+# Generated results site (published by refresh.yml)
+site/
+dbt/.user.yml

@@ -1,0 +1,1038 @@
+[
+ {
+  "archived": false,
+  "id": "12326667",
+  "name": "0.5.0",
+  "releaseDate": "2012-06-12",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12326668",
+  "name": "0.5.1",
+  "releaseDate": "2012-10-11",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12326674",
+  "name": "0.5.2",
+  "releaseDate": "2012-11-22",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12326669",
+  "name": "0.6.0",
+  "releaseDate": "2012-10-15",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12326670",
+  "name": "0.6.1",
+  "releaseDate": "2012-11-22",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12326672",
+  "name": "0.6.2",
+  "releaseDate": "2013-02-07",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12326671",
+  "name": "0.7.0",
+  "releaseDate": "2013-02-26",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12326676",
+  "name": "0.7.1",
+  "releaseDate": "2013-06-02",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12326678",
+  "name": "0.7.2",
+  "releaseDate": "2013-06-02",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12326679",
+  "name": "0.7.3",
+  "releaseDate": "2013-07-16",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12326677",
+  "name": "0.8.0",
+  "releaseDate": "2013-09-24",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12326681",
+  "name": "0.8.1",
+  "releaseDate": "2013-12-19",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12326685",
+  "name": "0.8.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12326682",
+  "name": "0.9.0",
+  "releaseDate": "2014-02-02",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12326684",
+  "name": "0.9.1",
+  "releaseDate": "2014-04-08",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12326687",
+  "name": "0.9.2",
+  "releaseDate": "2014-07-23",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12327384",
+  "name": "0.9.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12326683",
+  "name": "1.0.0",
+  "releaseDate": "2014-05-30",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12326744",
+  "name": "1.0.1",
+  "releaseDate": "2014-07-11",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12327168",
+  "name": "1.0.2",
+  "releaseDate": "2014-08-05",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12327468",
+  "name": "1.0.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12326686",
+  "name": "1.1.0",
+  "releaseDate": "2014-09-11",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12327368",
+  "name": "1.1.1",
+  "releaseDate": "2014-11-26",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12328982",
+  "name": "1.1.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12327369",
+  "name": "1.2.0",
+  "releaseDate": "2014-12-17",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12329029",
+  "name": "1.2.1",
+  "releaseDate": "2015-02-09",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12329321",
+  "name": "1.2.2",
+  "releaseDate": "2015-04-17",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12331971",
+  "name": "1.2.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12327642",
+  "name": "1.3.0",
+  "releaseDate": "2015-03-13",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12329486",
+  "name": "1.3.1",
+  "releaseDate": "2015-04-17",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12329871",
+  "name": "1.3.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12329359",
+  "name": "1.4.0",
+  "releaseDate": "2015-06-11",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12332153",
+  "name": "1.4.1",
+  "releaseDate": "2015-07-15",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12332833",
+  "name": "1.4.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12332078",
+  "name": "1.5.0",
+  "releaseDate": "2015-09-09",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12333108",
+  "name": "1.5.1",
+  "releaseDate": "2015-10-01",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12333643",
+  "name": "1.5.2",
+  "releaseDate": "2015-11-09",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12333969",
+  "name": "1.5.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12333083",
+  "name": "1.6.0",
+  "releaseDate": "2016-01-04",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12334009",
+  "name": "1.6.1",
+  "releaseDate": "2016-03-09",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12334910",
+  "name": "1.6.2",
+  "releaseDate": "2016-06-25",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12336854",
+  "name": "1.6.3",
+  "releaseDate": "2016-11-07",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12338653",
+  "name": "1.6.4",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12329449",
+  "name": "2.0.0",
+  "releaseDate": "2016-07-27",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12336857",
+  "name": "2.0.1",
+  "releaseDate": "2016-10-03",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12338301",
+  "name": "2.0.2",
+  "releaseDate": "2016-11-14",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12338608",
+  "name": "2.0.3",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12335644",
+  "name": "2.1.0",
+  "releaseDate": "2016-12-18",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12338779",
+  "name": "2.1.1",
+  "releaseDate": "2017-05-02",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12340295",
+  "name": "2.1.2",
+  "releaseDate": "2017-10-09",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12341660",
+  "name": "2.1.3",
+  "releaseDate": "2018-07-01",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12343550",
+  "name": "2.1.4",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12338275",
+  "name": "2.2.0",
+  "releaseDate": "2017-07-11",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12340470",
+  "name": "2.2.1",
+  "releaseDate": "2017-12-01",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12342171",
+  "name": "2.2.2",
+  "releaseDate": "2018-07-02",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12343560",
+  "name": "2.2.3",
+  "releaseDate": "2019-01-11",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12344921",
+  "name": "2.2.4",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12339551",
+  "name": "2.3.0",
+  "releaseDate": "2018-02-28",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12342432",
+  "name": "2.3.1",
+  "releaseDate": "2018-06-08",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12343289",
+  "name": "2.3.2",
+  "releaseDate": "2018-09-25",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12343759",
+  "name": "2.3.3",
+  "releaseDate": "2019-02-15",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12344844",
+  "name": "2.3.4",
+  "releaseDate": "2019-08-29",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12346043",
+  "name": "2.3.5",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12342385",
+  "name": "2.4.0",
+  "releaseDate": "2018-11-02",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12344117",
+  "name": "2.4.1",
+  "releaseDate": "2018-04-01",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12344996",
+  "name": "2.4.2",
+  "releaseDate": "2019-04-23",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12345410",
+  "name": "2.4.3",
+  "releaseDate": "2019-05-07",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12345466",
+  "name": "2.4.4",
+  "releaseDate": "2019-08-30",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12346042",
+  "name": "2.4.5",
+  "releaseDate": "2020-02-05",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12346781",
+  "name": "2.4.6",
+  "releaseDate": "2020-06-05",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12348242",
+  "name": "2.4.7",
+  "releaseDate": "2020-09-12",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12348669",
+  "name": "2.4.8",
+  "releaseDate": "2021-05-14",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12350084",
+  "name": "2.4.9",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12339177",
+  "name": "3.0.0",
+  "releaseDate": "2020-06-18",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12347862",
+  "name": "3.0.1",
+  "releaseDate": "2020-09-03",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12348739",
+  "name": "3.0.2",
+  "releaseDate": "2021-02-19",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12349723",
+  "name": "3.0.3",
+  "releaseDate": "2021-06-24",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12346518",
+  "name": "3.1.0",
+  "releaseDate": "2021-03-02",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12349541",
+  "name": "3.1.1",
+  "releaseDate": "2021-03-02",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12349602",
+  "name": "3.1.2",
+  "releaseDate": "2021-05-27",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12349407",
+  "name": "3.2.0",
+  "releaseDate": "2021-10-13",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12350224",
+  "name": "3.1.3",
+  "releaseDate": "2022-02-18",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12350319",
+  "name": "3.0.4",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12350582",
+  "name": "3.2.1",
+  "releaseDate": "2022-01-26",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12350369",
+  "name": "3.3.0",
+  "releaseDate": "2022-06-17",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12351224",
+  "name": "3.1.4",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12351232",
+  "name": "3.2.2",
+  "releaseDate": "2022-07-15",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351710",
+  "name": "3.3.1",
+  "releaseDate": "2022-10-25",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352105",
+  "name": "3.2.3",
+  "releaseDate": "2022-11-28",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352607",
+  "name": "3.2.4",
+  "releaseDate": "2023-04-13",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352932",
+  "name": "3.3.3",
+  "releaseDate": "2023-08-21",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353368",
+  "name": "3.4.2",
+  "releaseDate": "2023-11-30",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352299",
+  "name": "3.3.2",
+  "releaseDate": "2023-02-17",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12351465",
+  "name": "3.4.0",
+  "releaseDate": "2023-04-14",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352874",
+  "name": "3.4.1",
+  "releaseDate": "2023-06-23",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12352848",
+  "name": "3.5.0",
+  "releaseDate": "2023-09-13",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353495",
+  "name": "3.5.1",
+  "releaseDate": "2024-02-23",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353505",
+  "name": "3.3.4",
+  "releaseDate": "2023-12-16",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353980",
+  "name": "3.5.2",
+  "releaseDate": "2024-08-10",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353987",
+  "name": "3.4.3",
+  "releaseDate": "2024-04-18",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354565",
+  "name": "3.4.4",
+  "releaseDate": "2024-10-25",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354567",
+  "name": "kubernetes-operator-0.1.0",
+  "releaseDate": "2025-05-07",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12354954",
+  "name": "3.5.3",
+  "releaseDate": "2024-09-25",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355093",
+  "name": "3.5.4",
+  "releaseDate": "2024-12-20",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355518",
+  "name": "3.5.5",
+  "releaseDate": "2025-02-27",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355581",
+  "name": "4.1.0",
+  "releaseDate": "2025-12-16",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355703",
+  "name": "3.5.6",
+  "releaseDate": "2025-05-29",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355780",
+  "name": "connect-swift-0.1.0",
+  "releaseDate": "2025-05-07",
+  "released": true
+ },
+ {
+  "archived": true,
+  "id": "12355816",
+  "name": "3.4.5",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12355907",
+  "name": "connect-swift-0.2.0",
+  "releaseDate": "2025-05-20",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355908",
+  "name": "kubernetes-operator-0.2.0",
+  "releaseDate": "2025-05-20",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12353359",
+  "name": "4.0.0",
+  "releaseDate": "2025-05-23",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355941",
+  "name": "4.0.1",
+  "releaseDate": "2025-09-06",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355948",
+  "name": "connect-swift-0.3.0",
+  "releaseDate": "2025-06-04",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355949",
+  "name": "kubernetes-operator-0.3.0",
+  "releaseDate": "2025-06-04",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355975",
+  "name": "3.5.7",
+  "releaseDate": "2025-09-23",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355992",
+  "name": "connect-swift-0.4.0",
+  "releaseDate": "2025-10-01",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12355993",
+  "name": "kubernetes-operator-0.4.0",
+  "releaseDate": "2025-07-03",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356036",
+  "name": "kubernetes-operator-0.5.0",
+  "releaseDate": "2025-10-02",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356155",
+  "name": "connect-rust-0.1.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12356246",
+  "name": "4.0.2",
+  "releaseDate": "2026-02-05",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356288",
+  "name": "3.5.8",
+  "releaseDate": "2026-01-15",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356290",
+  "name": "kubernetes-operator-0.6.0",
+  "releaseDate": "2025-11-07",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356300",
+  "name": "connect-swift-0.5.0",
+  "releaseDate": "2026-01-15",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356372",
+  "name": "kubernetes-operator-0.7.0",
+  "releaseDate": "2026-01-15",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356373",
+  "name": "connect-swift-0.6.0",
+  "releaseDate": "2026-04-10",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356380",
+  "name": "4.2.0",
+  "releaseDate": "2026-07-14",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356469",
+  "name": "4.1.1",
+  "releaseDate": "2026-01-09",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356591",
+  "name": "4.1.2",
+  "releaseDate": "2026-05-21",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356601",
+  "name": "kubernetes-operator-0.8.0",
+  "releaseDate": "2026-03-16",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356606",
+  "name": "3.5.9",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12356691",
+  "name": "4.0.3",
+  "releaseDate": "2026-06-11",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356760",
+  "name": "kubernetes-operator-0.9.0",
+  "releaseDate": "2026-05-14",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356830",
+  "name": "connect-swift-0.7.0",
+  "releaseDate": "2026-07-25",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12356944",
+  "name": "4.3.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12356945",
+  "name": "5.0.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357043",
+  "name": "kubernetes-operator-1.0.0",
+  "releaseDate": "2026-07-26",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12357063",
+  "name": "4.1.3",
+  "releaseDate": "2026-07-15",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12357185",
+  "name": "4.0.4",
+  "releaseDate": "2026-07-15",
+  "released": true
+ },
+ {
+  "archived": false,
+  "id": "12357191",
+  "name": "4.2.1",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357251",
+  "name": "4.0.5",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357252",
+  "name": "4.1.4",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357259",
+  "name": "3.5.10",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357278",
+  "name": "connect-swift-0.8.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357280",
+  "name": "kubernetes-operator-1.1.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357380",
+  "name": "4.4.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357444",
+  "name": "connect-gateway-0.1.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357484",
+  "name": "connect-rust-4.2.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357492",
+  "name": "connect-rust-4.3.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357527",
+  "name": "kubernetes-operator-2.0.0",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357590",
+  "name": "4.2.2",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357591",
+  "name": "4.1.5",
+  "released": false
+ },
+ {
+  "archived": false,
+  "id": "12357592",
+  "name": "4.0.6",
+  "released": false
+ }
+]

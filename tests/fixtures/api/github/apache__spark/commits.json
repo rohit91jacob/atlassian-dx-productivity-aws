@@ -1,0 +1,382 @@
+[
+ {
+  "author": {
+   "login": "user-6ab2fa46",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-09T10:07:59Z"
+   },
+   "committer": {
+    "date": "2026-10-09T10:07:59Z"
+   },
+   "message": "[SPARK-59948][SQL] Strip aliases from a DSv2 reported ordering on a nested field\n\nCloses #59199 from user-6ab2fa46/SPARK-59948."
+  },
+  "committer": {
+   "login": "user-8eed575c",
+   "type": "User"
+  },
+  "sha": "c5f15d12c954c37bd711b0ffddb198439d35d523"
+ },
+ {
+  "author": {
+   "login": "user-4bf36ef0",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-09T09:56:01Z"
+   },
+   "committer": {
+    "date": "2026-10-09T09:56:01Z"
+   },
+   "message": "[SPARK-59327][BUILD] Add config test module\n\nCloses #58587 from user-4bf36ef0/config-test-module."
+  },
+  "committer": {
+   "login": "user-4bf36ef0",
+   "type": "User"
+  },
+  "sha": "670927a20faee83e81f5857e74c71f4d184b2415"
+ },
+ {
+  "author": {
+   "login": "user-db60bbae",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-09T08:45:34Z"
+   },
+   "committer": {
+    "date": "2026-10-09T08:45:34Z"
+   },
+   "message": "[SPARK-59169][CORE] Log a warning when KVStoreProtobufSerializer falls back to JSON SerDe\n\nCloses #58467 from user-db60bbae/SPARK-59169."
+  },
+  "committer": {
+   "login": "user-db60bbae",
+   "type": "User"
+  },
+  "sha": "fe185b7f63c8c8f61006bcf4f7396978d8473e9b"
+ },
+ {
+  "author": {
+   "login": "user-8a1c40f9",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-09T08:42:42Z"
+   },
+   "committer": {
+    "date": "2026-10-09T08:42:42Z"
+   },
+   "message": "[SPARK-59824][SQL] Guard top-level StringType/BinaryType inputs to pickle Python UDFs\n\nCloses #59122 from user-8a1c40f9/SPARK-59824."
+  },
+  "committer": {
+   "login": "user-377b2d29",
+   "type": "User"
+  },
+  "sha": "d1e511b6387fcca474d4a9beefc332114dfd2707"
+ },
+ {
+  "author": {
+   "login": "user-0c1013e6",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-09T06:21:50Z"
+   },
+   "committer": {
+    "date": "2026-10-09T06:21:50Z"
+   },
+   "message": "[SPARK-60013][CONNECT] Ensure Ivy contexts are popped after Maven resolution failures\n\nCloses #59262 from user-0c1013e6/SPARK-60013-context."
+  },
+  "committer": {
+   "login": "user-9a5703b8",
+   "type": "User"
+  },
+  "sha": "2589965d96e46f641c31619f0d68a75805100e7e"
+ },
+ {
+  "author": {
+   "login": "user-dc73f6b9",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-09T05:46:35Z"
+   },
+   "committer": {
+    "date": "2026-10-09T05:46:35Z"
+   },
+   "message": "[SPARK-60036][SQL] Preserve USER_SPECIFIED_CAST when retargeting collation-only CAST\n\nCloses #59270 from user-dc73f6b9/SPARK-60036."
+  },
+  "committer": {
+   "login": "user-f2291251",
+   "type": "User"
+  },
+  "sha": "1dd8ce005e379da6fc78f0c4b295002dafe2b829"
+ },
+ {
+  "author": {
+   "login": "user-f4b6d8f3",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-09T03:45:03Z"
+   },
+   "committer": {
+    "date": "2026-10-09T03:45:03Z"
+   },
+   "message": "[SPARK-59487][CORE][FOLLOWUP] Change profiler task span enabled configuration version\n\nCloses #59286 from user-f4b6d8f3/SPARK-59487-followup."
+  },
+  "committer": {
+   "login": "user-db60bbae",
+   "type": "User"
+  },
+  "sha": "91781603df272e65db58700ab8a52dbf6e935cc0"
+ },
+ {
+  "author": {
+   "login": "user-8d59a447",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-09T01:02:54Z"
+   },
+   "committer": {
+    "date": "2026-10-09T01:02:54Z"
+   },
+   "message": "[SPARK-60094][SDP] Gate AutoCDC ignore-null updates\n\nCloses #59309 from user-8d59a447/SPARK-60094-autocdc-gate-ignore-null-updates."
+  },
+  "committer": {
+   "login": "user-fc835c01",
+   "type": "User"
+  },
+  "sha": "26445bf61aa36a7001e0be4afebc76d691a24661"
+ },
+ {
+  "author": {
+   "login": "user-8eed575c",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-08T19:10:45Z"
+   },
+   "committer": {
+    "date": "2026-10-08T19:10:45Z"
+   },
+   "message": "[SPARK-60084][SQL] Fix PlanMerger losing a reused filter attribute before the aggregate\n\nCloses #59294 from user-8eed575c/SPARK-60084-planmerger-reused-filter-attribute."
+  },
+  "committer": {
+   "login": "user-8eed575c",
+   "type": "User"
+  },
+  "sha": "90568fb163775793260ecb13f2019ea10ef4e2f3"
+ },
+ {
+  "author": {
+   "login": "user-eacfb808",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-08T12:02:07Z"
+   },
+   "committer": {
+    "date": "2026-10-08T12:02:07Z"
+   },
+   "message": "[SPARK-60079][K8S][TEST] Add `ExecutorResizePlugin` integration test\n\nCloses #59289 from user-eacfb808/SPARK-60079."
+  },
+  "committer": {
+   "login": "user-eacfb808",
+   "type": "User"
+  },
+  "sha": "54b25b6678e4abe2b74605b2f64bad763777cdb2"
+ },
+ {
+  "author": {
+   "login": "user-841b81a5",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-08T09:59:04Z"
+   },
+   "committer": {
+    "date": "2026-10-08T09:59:04Z"
+   },
+   "message": "[MINOR][SQL] State the NULL STRUCT rule in the AsOfJoin.buildMatchExpressions Scaladoc\n\nCloses #59278 from user-841b81a5/minor-asof-null-struct-scaladoc."
+  },
+  "committer": {
+   "login": "user-9a5703b8",
+   "type": "User"
+  },
+  "sha": "f3c2cc2deb5bd17c7d031aa9d0f880bf9bea0f4e"
+ },
+ {
+  "author": {
+   "login": "user-0c1013e6",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-08T09:55:24Z"
+   },
+   "committer": {
+    "date": "2026-10-08T09:55:24Z"
+   },
+   "message": "[SPARK-60012][CONNECT][SQL] Avoid copying Ivy caches when cloning ArtifactManager\n\nCloses #59263 from user-0c1013e6/SPARK-60012-cache."
+  },
+  "committer": {
+   "login": "user-9a5703b8",
+   "type": "User"
+  },
+  "sha": "f4ec35647d35e346341f3f19807ddf87b71601b1"
+ },
+ {
+  "author": {
+   "login": "user-eacfb808",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-08T03:12:00Z"
+   },
+   "committer": {
+    "date": "2026-10-08T03:12:00Z"
+   },
+   "message": "[SPARK-60059][INFRA] Enable `metrics-server` addon in K8s integration test CI\n\nCloses #59281 from user-eacfb808/SPARK-60059."
+  },
+  "committer": {
+   "login": "user-eacfb808",
+   "type": "User"
+  },
+  "sha": "8a327f10a4971c83bfed596a725c071ca0657319"
+ },
+ {
+  "author": {
+   "login": "user-eacfb808",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-07T16:17:02Z"
+   },
+   "committer": {
+    "date": "2026-10-07T16:17:02Z"
+   },
+   "message": "[SPARK-60005][BUILD] Upgrade `joda-time` to 2.15.0\n\nCloses #59261 from user-eacfb808/SPARK-60005."
+  },
+  "committer": {
+   "login": "user-eacfb808",
+   "type": "User"
+  },
+  "sha": "b7a4cbb139fbc55ba16a85f7855fac78b376d5c6"
+ },
+ {
+  "author": {
+   "login": "user-dc73f6b9",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-07T05:38:22Z"
+   },
+   "committer": {
+    "date": "2026-10-07T05:38:22Z"
+   },
+   "message": "[SPARK-60003][SQL] Do not promote collation-only CAST when applying LCT\n\nCloses #59260 from user-dc73f6b9/SPARK-60003."
+  },
+  "committer": {
+   "login": "user-f2291251",
+   "type": "User"
+  },
+  "sha": "7fd3609133445be25b934485bde6c4704d578d42"
+ },
+ {
+  "author": {
+   "login": "user-d504fd8c",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-06T19:27:02Z"
+   },
+   "committer": {
+    "date": "2026-10-06T19:27:02Z"
+   },
+   "message": "[SPARK-59884][SQL] Mark SparkPlan's columnar execution cache transient\n\nCloses #59146 from user-d504fd8c/codex/columnar-rdd-transient-upstream."
+  },
+  "committer": {
+   "login": "user-eacfb808",
+   "type": "User"
+  },
+  "sha": "895c75f0032a93ac29dff18d6720783ba1f22a5c"
+ },
+ {
+  "author": {
+   "login": "user-3bde4bff",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-06T17:37:35Z"
+   },
+   "committer": {
+    "date": "2026-10-06T17:37:35Z"
+   },
+   "message": "[SPARK-59997][SQL] Avoid full config registry scans during body resolution\n\nCloses #59254 from user-3bde4bff/optimize-resolution-config-retention."
+  },
+  "committer": {
+   "login": "user-f2291251",
+   "type": "User"
+  },
+  "sha": "e10ed1293151d3a347e31f48a620d4bd7fa9f361"
+ },
+ {
+  "author": {
+   "login": "user-841b81a5",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-06T12:56:42Z"
+   },
+   "committer": {
+    "date": "2026-10-06T12:56:42Z"
+   },
+   "message": "[SPARK-59858][SQL] Compare ASOF JOIN STRUCT operands without rebuilding them\n\nCloses #59134 from user-841b81a5/asof-null-struct-operand."
+  },
+  "committer": {
+   "login": "user-9a5703b8",
+   "type": "User"
+  },
+  "sha": "43ccc6baa6e55b250faddae0e0a25a431337309c"
+ },
+ {
+  "author": {
+   "login": "user-dfc39076",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-06T12:42:21Z"
+   },
+   "committer": {
+    "date": "2026-10-06T12:42:21Z"
+   },
+   "message": "[SPARK-59784][SQL][TEST] Fix racy waits for SQL execution metrics in tests\n\nCloses #59043 from user-dfc39076/flaky-driver-side-sql-metrics."
+  },
+  "committer": {
+   "login": "user-9a5703b8",
+   "type": "User"
+  },
+  "sha": "3bdbac46beb9d5f865e49aa5e418cd3ed83c40e4"
+ }
+]

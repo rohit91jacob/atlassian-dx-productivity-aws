@@ -1,0 +1,994 @@
+[
+ {
+  "author_association": "NONE",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-07T00:47:27Z",
+  "created_at": "2026-06-27T14:27:14Z",
+  "draft": false,
+  "head": {
+   "sha": "388a5b63712a1732345cb6e57005246d2053af37"
+  },
+  "labels": [
+   {
+    "name": "Stale"
+   }
+  ],
+  "merge_commit_sha": "fa810cf93df38945ae1ef50aba302ed53b3e5d69",
+  "merged_at": null,
+  "number": 56834,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-57743][SQL] Addition of a partitions function in datalake V1 tables",
+  "updated_at": "2026-10-07T00:47:27Z",
+  "user": {
+   "login": "user-7a74b1c0",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": null,
+  "created_at": "2026-08-31T22:54:12Z",
+  "draft": false,
+  "head": {
+   "sha": "11030cb20344717eeb4b2ea20737e181695c20a5"
+  },
+  "labels": [],
+  "merge_commit_sha": "d24273afbcd90b36d001e7d159858b6adebc03d8",
+  "merged_at": null,
+  "number": 58437,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "[SPARK-59138][CORE] Preserve reliably-stored shuffle map outputs on executor loss",
+  "updated_at": "2026-10-06T15:47:12Z",
+  "user": {
+   "login": "user-8b62f0c1",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "NONE",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-09-29T09:24:32Z",
+  "created_at": "2026-09-09T15:39:30Z",
+  "draft": false,
+  "head": {
+   "sha": "4c286c558ea5d49b84d143cf57e44e5cd185467c"
+  },
+  "labels": [],
+  "merge_commit_sha": "459431bcaae3da2273b2585e8e7fe4ba3eb7b34d",
+  "merged_at": null,
+  "number": 58662,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-59373][SQL][PYTHON][DOC] Fix the documented return type of ceil and floor with a scale argument",
+  "updated_at": "2026-10-06T17:41:39Z",
+  "user": {
+   "login": "user-10b7f254",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": null,
+  "created_at": "2026-09-13T07:02:30Z",
+  "draft": false,
+  "head": {
+   "sha": "54d4c75382aa77260548afd45e152b8a8896d754"
+  },
+  "labels": [],
+  "merge_commit_sha": "c79f24f76097aedec0cffcf90b0e2e3dbe88ee5f",
+  "merged_at": null,
+  "number": 58765,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "[SPARK-59467][PYTHON] Normalize ArrowDtype timestamps to the session timezone in pandas conversion",
+  "updated_at": "2026-10-06T21:10:51Z",
+  "user": {
+   "login": "user-e01ba061",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "MEMBER",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-06T17:01:19Z",
+  "created_at": "2026-09-24T21:26:38Z",
+  "draft": true,
+  "head": {
+   "sha": "f06aaff662133c431f1dcc93dbe76e7412b14e55"
+  },
+  "labels": [],
+  "merge_commit_sha": null,
+  "merged_at": null,
+  "number": 59021,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[WIP][SQL] Make changelog loading state-option-aware",
+  "updated_at": "2026-10-06T17:01:19Z",
+  "user": {
+   "login": "user-e547b980",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-06T12:42:32Z",
+  "created_at": "2026-09-25T16:47:23Z",
+  "draft": false,
+  "head": {
+   "sha": "56efd4161d2fd94696a96e2d18e26b7a05145b1b"
+  },
+  "labels": [],
+  "merge_commit_sha": "88c3434b85ac97e88a4301a996737278ef5fb17e",
+  "merged_at": null,
+  "number": 59043,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-59784][SQL][TESTS] Fix racy waits for SQL execution metrics in tests",
+  "updated_at": "2026-10-06T12:42:52Z",
+  "user": {
+   "login": "user-dfc39076",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": null,
+  "created_at": "2026-09-28T06:34:57Z",
+  "draft": false,
+  "head": {
+   "sha": "d6d289d5ad5e810c042fca67d9a7273570a0a999"
+  },
+  "labels": [],
+  "merge_commit_sha": "0cb5d5e050060b5129a9b2d030b13e03156ff31b",
+  "merged_at": null,
+  "number": 59094,
+  "requested_reviewers": [
+   {
+    "login": "user-2f19b55f"
+   },
+   {
+    "login": "user-aaa25e62"
+   },
+   {
+    "login": "user-9a5703b8"
+   }
+  ],
+  "state": "open",
+  "title": "[SPARK-59818][SQL] Handle a NULL sketch state in approx_top_k_estimate and approx_top_k_combine",
+  "updated_at": "2026-10-06T13:13:11Z",
+  "user": {
+   "login": "user-e3f06fc8",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-06T12:56:50Z",
+  "created_at": "2026-09-29T12:10:39Z",
+  "draft": false,
+  "head": {
+   "sha": "a6635264d521edc2598eca8174b0ed756d4d0c51"
+  },
+  "labels": [],
+  "merge_commit_sha": "f8285b6132b41e7d7717278085922ce7e30cbfb0",
+  "merged_at": null,
+  "number": 59134,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-59858][SQL] Compare ASOF JOIN STRUCT operands without rebuilding them",
+  "updated_at": "2026-10-06T12:57:38Z",
+  "user": {
+   "login": "user-841b81a5",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "MEMBER",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-06T19:27:07Z",
+  "created_at": "2026-09-30T00:18:31Z",
+  "draft": false,
+  "head": {
+   "sha": "e3b6ec55d570bf2c7d2d79061c414796d4f2ae7a"
+  },
+  "labels": [],
+  "merge_commit_sha": "507c535a2b908f99ec65e4d77b34f59d799a586f",
+  "merged_at": null,
+  "number": 59146,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-59884][SQL] Mark SparkPlan's columnar execution cache transient",
+  "updated_at": "2026-10-06T22:42:43Z",
+  "user": {
+   "login": "user-d504fd8c",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": null,
+  "created_at": "2026-09-30T17:02:41Z",
+  "draft": false,
+  "head": {
+   "sha": "d25494e99c8642e8ac3e2327dfa69666ec37be41"
+  },
+  "labels": [],
+  "merge_commit_sha": "69d23a3b119bfd01124f8619a15e1a524cb95a22",
+  "merged_at": null,
+  "number": 59162,
+  "requested_reviewers": [
+   {
+    "login": "user-993d337a"
+   }
+  ],
+  "state": "open",
+  "title": "[SPARK-59898][SQL] Compare BinaryType values by content in freqItems",
+  "updated_at": "2026-10-06T12:54:38Z",
+  "user": {
+   "login": "user-f807c393",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-02T19:57:29Z",
+  "draft": false,
+  "head": {
+   "sha": "212fcb5da54336f5747a4812732f046346967685"
+  },
+  "labels": [],
+  "merge_commit_sha": "e2e067e9a9fe1bcf450604228e0c6505c6381841",
+  "merged_at": null,
+  "number": 59213,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "[SPARK-59961][SQL] Cache the compiled regex in StringSplit",
+  "updated_at": "2026-10-06T21:20:27Z",
+  "user": {
+   "login": "user-f807c393",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "branch-4.3"
+  },
+  "closed_at": "2026-10-06T12:41:33Z",
+  "created_at": "2026-10-05T15:27:26Z",
+  "draft": false,
+  "head": {
+   "sha": "398802fef0b3aba434235094d7d31f01b6753c42"
+  },
+  "labels": [],
+  "merge_commit_sha": "31acd14fe4e8b142e8da264c48f91fc7aabef8bd",
+  "merged_at": null,
+  "number": 59237,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-59887][SPARK-59901][SQL][4.3] Fix wrong results when a storage-partitioned join pairs a transform of a join-key expression with one of a column",
+  "updated_at": "2026-10-06T12:41:35Z",
+  "user": {
+   "login": "user-8eed575c",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "branch-4.2"
+  },
+  "closed_at": "2026-10-06T12:42:40Z",
+  "created_at": "2026-10-05T15:27:30Z",
+  "draft": false,
+  "head": {
+   "sha": "724e7dcc5258f78bcbcebc2479713751e4e1f714"
+  },
+  "labels": [],
+  "merge_commit_sha": "94747dcc4c29881ef9a8b9ef7f1a24c1ec46e75c",
+  "merged_at": null,
+  "number": 59238,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-59887][SPARK-59901][SQL][4.2] Fix wrong results when a storage-partitioned join pairs a transform of a join-key expression with one of a column",
+  "updated_at": "2026-10-06T12:42:41Z",
+  "user": {
+   "login": "user-8eed575c",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "NONE",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-05T20:51:02Z",
+  "draft": false,
+  "head": {
+   "sha": "d4c80f925c8fb67856abbe3f497796797f6e0208"
+  },
+  "labels": [],
+  "merge_commit_sha": "4c6c079d309873aeb6c2e45e013522a67793b9a3",
+  "merged_at": null,
+  "number": 59242,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "[SPARK-59985][ML][PYTHON] Fix malformed warning in TorchDistributor w…",
+  "updated_at": "2026-10-06T12:51:36Z",
+  "user": {
+   "login": "user-4d834186",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-05T23:48:21Z",
+  "draft": false,
+  "head": {
+   "sha": "693404b5e085b43305b6368750e6013622074964"
+  },
+  "labels": [],
+  "merge_commit_sha": "f46654871300e0400b8eb5e65cb886b6ce17ad4b",
+  "merged_at": null,
+  "number": 59244,
+  "requested_reviewers": [
+   {
+    "login": "user-e547b980"
+   },
+   {
+    "login": "user-09cf6ba5"
+   }
+  ],
+  "state": "open",
+  "title": "[SPARK-59992][SQL] Make element_at and array index nullable when the index is nullable under ANSI mode",
+  "updated_at": "2026-10-06T12:51:06Z",
+  "user": {
+   "login": "user-fa22eebd",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "NONE",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-06T00:56:00Z",
+  "draft": true,
+  "head": {
+   "sha": "6d67de46af67bda45c150fe2a0bfb0c5101c467c"
+  },
+  "labels": [],
+  "merge_commit_sha": "2345179796ce64ad8c3487615353ece773a38966",
+  "merged_at": null,
+  "number": 59247,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "[SPARK-59986][SS] Expose trigger metadata in streaming query progress",
+  "updated_at": "2026-10-06T19:43:03Z",
+  "user": {
+   "login": "user-ad593187",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-06T17:37:40Z",
+  "created_at": "2026-10-06T09:57:35Z",
+  "draft": false,
+  "head": {
+   "sha": "28487a9d6fd3960d06eff6a2e5adc849102d840a"
+  },
+  "labels": [],
+  "merge_commit_sha": "2520ef2e5a3e4349ba21b384569f0ab94a91d676",
+  "merged_at": null,
+  "number": 59254,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-59997][SQL] Avoid full config registry scans during body resolution",
+  "updated_at": "2026-10-06T17:37:52Z",
+  "user": {
+   "login": "user-3bde4bff",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-09T01:03:02Z",
+  "created_at": "2026-10-08T20:45:40Z",
+  "draft": false,
+  "head": {
+   "sha": "08d4642acaa002d78c14e9cbcead3ed995465b02"
+  },
+  "labels": [],
+  "merge_commit_sha": "d9213973370b7f57c2ed99a6d857eff99a1eb62e",
+  "merged_at": null,
+  "number": 59309,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-60094][SDP] Gate AutoCDC ignore-null updates",
+  "updated_at": "2026-10-09T01:03:31Z",
+  "user": {
+   "login": "user-8d59a447",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "branch-4.2"
+  },
+  "closed_at": "2026-10-09T08:19:54Z",
+  "created_at": "2026-10-08T19:37:14Z",
+  "draft": false,
+  "head": {
+   "sha": "7979711ae79623c19fb3fa10762c76ef8a9b4ad2"
+  },
+  "labels": [],
+  "merge_commit_sha": "404a2c6b6f3ed2a442128b12a5fdbd1eedea23cf",
+  "merged_at": null,
+  "number": 59308,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-60084][SQL][4.2] Fix PlanMerger losing a reused filter attribute before the aggregate",
+  "updated_at": "2026-10-09T08:21:14Z",
+  "user": {
+   "login": "user-8eed575c",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "branch-4.3"
+  },
+  "closed_at": "2026-10-09T08:19:03Z",
+  "created_at": "2026-10-08T19:36:40Z",
+  "draft": false,
+  "head": {
+   "sha": "b1c7cb6c4a241a20dfed98b5f241a7950c410f55"
+  },
+  "labels": [],
+  "merge_commit_sha": "4c20afe6105c30ed9623f27cb54d707d5ae60f48",
+  "merged_at": null,
+  "number": 59307,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-60084][SQL][4.3] Fix PlanMerger losing a reused filter attribute before the aggregate",
+  "updated_at": "2026-10-09T08:21:17Z",
+  "user": {
+   "login": "user-8eed575c",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-08T19:10:50Z",
+  "created_at": "2026-10-08T10:33:20Z",
+  "draft": false,
+  "head": {
+   "sha": "0af2d628552a7d90d8b39929dbfc9f32b79a684d"
+  },
+  "labels": [],
+  "merge_commit_sha": "1eae1fd5dabc3359aad55fd8320531d4d2092174",
+  "merged_at": null,
+  "number": 59294,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-60084][SQL] Fix PlanMerger losing a reused filter attribute before the aggregate",
+  "updated_at": "2026-10-08T19:11:28Z",
+  "user": {
+   "login": "user-8eed575c",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "branch-4.2"
+  },
+  "closed_at": "2026-10-08T11:23:45Z",
+  "created_at": "2026-10-08T07:46:38Z",
+  "draft": false,
+  "head": {
+   "sha": "2c89a1beefe87cc626425a86e183b055fd453eee"
+  },
+  "labels": [],
+  "merge_commit_sha": "4a3cbda3615367b70780f4467c2fa8a72f742d91",
+  "merged_at": null,
+  "number": 59291,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-59919][SS][4.2] Fix OffsetSeqMetadataV2 missing shuffle partitions on rebinding",
+  "updated_at": "2026-10-08T11:23:45Z",
+  "user": {
+   "login": "user-7ec826f7",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "branch-4.3"
+  },
+  "closed_at": "2026-10-08T11:21:57Z",
+  "created_at": "2026-10-08T07:44:29Z",
+  "draft": false,
+  "head": {
+   "sha": "80648d475414040690c83301f1d99d075692996c"
+  },
+  "labels": [],
+  "merge_commit_sha": "8fcf82dba63d9a85322863b484582a829edc65b6",
+  "merged_at": null,
+  "number": 59290,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-59919][SS][4.3] Fix OffsetSeqMetadataV2 missing shuffle partitions on rebinding",
+  "updated_at": "2026-10-08T11:21:58Z",
+  "user": {
+   "login": "user-7ec826f7",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "MEMBER",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-08T12:02:12Z",
+  "created_at": "2026-10-08T03:38:19Z",
+  "draft": false,
+  "head": {
+   "sha": "ff01db8e002515f11100f4899b023c345307bf37"
+  },
+  "labels": [],
+  "merge_commit_sha": "a42e1ae2cb67b5362f73df2c3ac7a7bfd80da71c",
+  "merged_at": null,
+  "number": 59289,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-60079][K8S][TESTS] Add `ExecutorResizePlugin` integration test",
+  "updated_at": "2026-10-08T12:05:36Z",
+  "user": {
+   "login": "user-eacfb808",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "branch-4.x"
+  },
+  "closed_at": "2026-10-08T17:26:13Z",
+  "created_at": "2026-10-08T02:34:57Z",
+  "draft": false,
+  "head": {
+   "sha": "2ed7d6075df917e228981afb1202b87a58c7ef9d"
+  },
+  "labels": [],
+  "merge_commit_sha": "85b4b675eb9b5ccb031b14045c8e7f38510f0dc3",
+  "merged_at": null,
+  "number": 59288,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-59417][SQL] Stream multiline top-level JSON arrays",
+  "updated_at": "2026-10-08T17:26:13Z",
+  "user": {
+   "login": "user-9f4d02d5",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "MEMBER",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-09T03:45:10Z",
+  "created_at": "2026-10-08T01:19:51Z",
+  "draft": false,
+  "head": {
+   "sha": "e54a16c6038f77df9aad4b50c0127971c60299b4"
+  },
+  "labels": [],
+  "merge_commit_sha": "44c34ada4528bf4a179c5ed7ae40edfba94c45f8",
+  "merged_at": null,
+  "number": 59286,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-59487][FOLLOWUP] Change profiler task span enabled configuration version",
+  "updated_at": "2026-10-09T03:46:33Z",
+  "user": {
+   "login": "user-f4b6d8f3",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "MEMBER",
+  "base": {
+   "ref": "branch-4.x"
+  },
+  "closed_at": "2026-10-09T03:42:40Z",
+  "created_at": "2026-10-08T00:56:17Z",
+  "draft": false,
+  "head": {
+   "sha": "1dc2cc0c71cba505fbda3aacd7625d8d7e8b0700"
+  },
+  "labels": [],
+  "merge_commit_sha": "89bfd8ef57a9a63766fc1c059508b4828d691636",
+  "merged_at": null,
+  "number": 59284,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "Revert \"[SPARK-59487][CORE] Add task attempt spans to executor profiling\"",
+  "updated_at": "2026-10-09T03:42:42Z",
+  "user": {
+   "login": "user-f4b6d8f3",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "MEMBER",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-08T03:12:04Z",
+  "created_at": "2026-10-07T22:11:54Z",
+  "draft": false,
+  "head": {
+   "sha": "8ffb8bb0564140734bea8928d6c29295a8c379dd"
+  },
+  "labels": [],
+  "merge_commit_sha": "37f522ac3b4bd97c7d0bd2d29bb5838908c2b1ca",
+  "merged_at": null,
+  "number": 59281,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-60059][INFRA] Enable `metrics-server` addon in K8s integration test CI",
+  "updated_at": "2026-10-08T03:12:56Z",
+  "user": {
+   "login": "user-eacfb808",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-08T09:59:11Z",
+  "created_at": "2026-10-07T21:18:00Z",
+  "draft": false,
+  "head": {
+   "sha": "53374fc722d477a198d1904cf59b29a89b4221f0"
+  },
+  "labels": [],
+  "merge_commit_sha": "8ce8fd01c27849eddd903a458b487b723f2d5319",
+  "merged_at": null,
+  "number": 59278,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[MINOR][SQL] State the NULL STRUCT rule in the AsOfJoin.buildMatchExpressions Scaladoc",
+  "updated_at": "2026-10-08T09:59:20Z",
+  "user": {
+   "login": "user-841b81a5",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "NONE",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-07T18:03:27Z",
+  "created_at": "2026-10-07T16:27:51Z",
+  "draft": false,
+  "head": {
+   "sha": "d506e4760e9c0e2f0857e4d9885f1378a37f726d"
+  },
+  "labels": [
+   {
+    "name": "dependencies"
+   },
+   {
+    "name": "java"
+   }
+  ],
+  "merge_commit_sha": "08c3ca0ea089ec6da9d0bbbe46e650677052b32a",
+  "merged_at": null,
+  "number": 59272,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "Bump net.snowflake:snowflake-jdbc from 4.1.0 to 4.3.4",
+  "updated_at": "2026-10-07T18:03:39Z",
+  "user": {
+   "login": "user-48226191",
+   "type": "Bot"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-09T05:46:41Z",
+  "created_at": "2026-10-07T14:15:25Z",
+  "draft": false,
+  "head": {
+   "sha": "00427e40ec182ec656fd9039906ae13410c70dd6"
+  },
+  "labels": [],
+  "merge_commit_sha": "9d7a02b180d0179150d2ff5643faae3f481c1547",
+  "merged_at": null,
+  "number": 59270,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-60036][SQL] Preserve USER_SPECIFIED_CAST when retargeting collation-only CAST",
+  "updated_at": "2026-10-09T05:46:53Z",
+  "user": {
+   "login": "user-dc73f6b9",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-08T09:55:32Z",
+  "created_at": "2026-10-07T01:47:00Z",
+  "draft": false,
+  "head": {
+   "sha": "379db992d5253c00548c5835ec0c1f8409dd6406"
+  },
+  "labels": [],
+  "merge_commit_sha": "e24879b220a9190019959fd3e3b72e1eb79ac42c",
+  "merged_at": null,
+  "number": 59263,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-60012][CONNECT][SQL] Avoid copying Ivy caches when cloning ArtifactManager",
+  "updated_at": "2026-10-08T09:55:42Z",
+  "user": {
+   "login": "user-0c1013e6",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-09T06:21:56Z",
+  "created_at": "2026-10-07T01:35:25Z",
+  "draft": false,
+  "head": {
+   "sha": "933d0907e328cdff716800d798bff362739d67e4"
+  },
+  "labels": [],
+  "merge_commit_sha": "4c234b6c74507e26ff29ccebc3d6ae9f20143ae3",
+  "merged_at": null,
+  "number": 59262,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-60013][CONNECT] Ensure Ivy contexts are popped after Maven resolution failures",
+  "updated_at": "2026-10-09T06:22:08Z",
+  "user": {
+   "login": "user-0c1013e6",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "MEMBER",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-07T16:17:06Z",
+  "created_at": "2026-10-06T19:43:01Z",
+  "draft": false,
+  "head": {
+   "sha": "a9365a4b8de9bb3fa4d8b2303d320d6a18fd0368"
+  },
+  "labels": [],
+  "merge_commit_sha": "6492b8bd0eedff7ddeef7b39ad9b0ceb96978421",
+  "merged_at": null,
+  "number": 59261,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-60005][BUILD] Upgrade `joda-time` to 2.15.0",
+  "updated_at": "2026-10-07T16:17:25Z",
+  "user": {
+   "login": "user-eacfb808",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-07T05:38:27Z",
+  "created_at": "2026-10-06T19:11:07Z",
+  "draft": false,
+  "head": {
+   "sha": "a6b1b511e42d4576c688e3e045807dc64fc890f4"
+  },
+  "labels": [],
+  "merge_commit_sha": "e783db5361cab825f3f1df0252a8a392e4a7bdca",
+  "merged_at": null,
+  "number": 59260,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-60003][SQL] Do not promote collation-only CAST when applying LCT",
+  "updated_at": "2026-10-07T05:38:40Z",
+  "user": {
+   "login": "user-dc73f6b9",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "MEMBER",
+  "base": {
+   "ref": "branch-4.3"
+  },
+  "closed_at": "2026-10-06T18:15:16Z",
+  "created_at": "2026-10-06T08:58:13Z",
+  "draft": false,
+  "head": {
+   "sha": "29b3123151ee1b0a3aab7a5b914a8ee281741acc"
+  },
+  "labels": [],
+  "merge_commit_sha": "dd3b30d1cbc548147f4e5f94051d6c9e22cc840d",
+  "merged_at": null,
+  "number": 59253,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[SPARK-59924][K8S][DOC][4.3] Fix stale \"Valid values\" list for `spark.kubernetes.executor.rollPolicy`",
+  "updated_at": "2026-10-07T07:37:20Z",
+  "user": {
+   "login": "user-257a3c3b",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-09T14:15:36Z",
+  "draft": true,
+  "head": {
+   "sha": "76fc348daf029248c18405d60f6fd662d063cb66"
+  },
+  "labels": [],
+  "merge_commit_sha": "840a29ab240c09c093d7a42770d4975c1fc076a2",
+  "merged_at": null,
+  "number": 59324,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "[SPARK-60107][SQL] Trim the storage-filter comments and conf docs",
+  "updated_at": "2026-10-09T14:16:01Z",
+  "user": {
+   "login": "user-8eed575c",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-09T14:13:08Z",
+  "draft": false,
+  "head": {
+   "sha": "31740c45246fc50b10dda8e2587953ce8c921ad5"
+  },
+  "labels": [],
+  "merge_commit_sha": "edcf20301d00ac3b0ed5a0352728d2ce749c6631",
+  "merged_at": null,
+  "number": 59323,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "[SPARK-59971][SQL] Apply requireAllClusterKeysForCoPartition to the one-side shuffle of a storage-partitioned join",
+  "updated_at": "2026-10-09T14:13:08Z",
+  "user": {
+   "login": "user-8eed575c",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-09T11:38:59Z",
+  "draft": false,
+  "head": {
+   "sha": "89f326b99f532b7ba09fd021a80679b309dfad59"
+  },
+  "labels": [],
+  "merge_commit_sha": "5c69915de09637d843ba4b340c6a3da777744a8a",
+  "merged_at": null,
+  "number": 59322,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "[SPARK-60040][SQL] Carry the AS-OF join direction to SortMergeAsOfJoinExec",
+  "updated_at": "2026-10-09T15:41:05Z",
+  "user": {
+   "login": "user-841b81a5",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-09T11:25:47Z",
+  "draft": true,
+  "head": {
+   "sha": "f2d50681908df2073e8a934fef13ea42bbc7f90d"
+  },
+  "labels": [],
+  "merge_commit_sha": "cae063426d81b1cf883e1d7f72e7350d9c5fe7e6",
+  "merged_at": null,
+  "number": 59321,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "[SPARK-60106][SQL] Require symmetric filter propagation when both plans filter different join children",
+  "updated_at": "2026-10-09T12:05:27Z",
+  "user": {
+   "login": "user-8eed575c",
+   "type": "User"
+  }
+ }
+]

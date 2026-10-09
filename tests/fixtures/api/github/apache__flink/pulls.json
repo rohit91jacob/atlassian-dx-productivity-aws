@@ -1,0 +1,805 @@
+[
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-06T14:43:38Z",
+  "created_at": "2026-10-02T14:20:31Z",
+  "draft": false,
+  "head": {
+   "sha": "ede5cc7ac7cec42e200efec21768583a366e632a"
+  },
+  "labels": [],
+  "merge_commit_sha": "140140a88fbf6e09ae76d37dd8da135c61e6cd1b",
+  "merged_at": "2026-10-06T14:43:38Z",
+  "number": 29369,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[FLINK-40826][table] Support casting ARRAY, MAP, ROW and STRUCTURED to VARIANT",
+  "updated_at": "2026-10-06T14:43:38Z",
+  "user": {
+   "login": "user-c92b5784",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-06T15:54:40Z",
+  "created_at": "2026-10-05T13:06:55Z",
+  "draft": false,
+  "head": {
+   "sha": "bc857d1243629d830d409730fef43c37e3c5338c"
+  },
+  "labels": [],
+  "merge_commit_sha": "a87fa015b586bd776a8b7397cf2c4eafcfd42666",
+  "merged_at": "2026-10-06T15:54:40Z",
+  "number": 29383,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[FLINK-40913][tests] Use a single vertex job in testStuckSyncPhaseFailsJob to avoid failures race",
+  "updated_at": "2026-10-06T15:54:40Z",
+  "user": {
+   "login": "user-84a11b1f",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "NONE",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-05T22:56:50Z",
+  "draft": false,
+  "head": {
+   "sha": "ded197775bd60e6bfe58bf5b4b147fbef2fc0677"
+  },
+  "labels": [],
+  "merge_commit_sha": "697735ae9fa0e87731eb0211b0f73f8ec796df74",
+  "merged_at": null,
+  "number": 29391,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "[FLINK-40903][runtime/network] Add source host info in TM disconnect error",
+  "updated_at": "2026-10-06T15:44:39Z",
+  "user": {
+   "login": "user-ad0f84d4",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "release-2.3"
+  },
+  "closed_at": "2026-10-06T15:06:17Z",
+  "created_at": "2026-10-06T09:45:04Z",
+  "draft": false,
+  "head": {
+   "sha": "7335c113c9faaea0200c45c3b4e081b6b0deb593"
+  },
+  "labels": [],
+  "merge_commit_sha": "ac53e8d0a15db800ce8b52b43d3c99e076ee9bd7",
+  "merged_at": "2026-10-06T15:06:17Z",
+  "number": 29401,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[BP-2.3][FLINK-36146][connector-base] Fix SingleThreadFetcherManager race condition",
+  "updated_at": "2026-10-06T15:06:29Z",
+  "user": {
+   "login": "user-a303e9ec",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "release-2.2"
+  },
+  "closed_at": "2026-10-06T15:06:20Z",
+  "created_at": "2026-10-06T09:45:11Z",
+  "draft": false,
+  "head": {
+   "sha": "e7933e0cbe3ea32773dd156da375c7ad3da090fd"
+  },
+  "labels": [],
+  "merge_commit_sha": "767531a0c6c332a4ff244e91d4240efc8ce98fda",
+  "merged_at": "2026-10-06T15:06:19Z",
+  "number": 29402,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[BP-2.2][FLINK-36146][connector-base] Fix SingleThreadFetcherManager race condition",
+  "updated_at": "2026-10-06T15:06:32Z",
+  "user": {
+   "login": "user-a303e9ec",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "release-1.20"
+  },
+  "closed_at": "2026-10-06T15:06:22Z",
+  "created_at": "2026-10-06T09:45:17Z",
+  "draft": false,
+  "head": {
+   "sha": "85fde08caae7a76518083e96a6c93fc0362757b2"
+  },
+  "labels": [],
+  "merge_commit_sha": "cf37da108a06ba5c99ebd7d5778279e36aaed7e5",
+  "merged_at": "2026-10-06T15:06:22Z",
+  "number": 29403,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[BP-1.20][FLINK-36146][connector-base] Fix SingleThreadFetcherManager race condition",
+  "updated_at": "2026-10-06T15:06:35Z",
+  "user": {
+   "login": "user-a303e9ec",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-09T12:33:22Z",
+  "created_at": "2026-10-08T21:08:27Z",
+  "draft": false,
+  "head": {
+   "sha": "6014182008d632e794598598c4bed45e0ab43d9a"
+  },
+  "labels": [],
+  "merge_commit_sha": "da6a2335d3d83aba6e6bff581fea908a83c4487e",
+  "merged_at": null,
+  "number": 29438,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[FLINK-40965][table] Treat `IF` as conditional",
+  "updated_at": "2026-10-09T12:33:22Z",
+  "user": {
+   "login": "user-0493faa3",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-09T10:09:32Z",
+  "created_at": "2026-10-08T13:38:22Z",
+  "draft": false,
+  "head": {
+   "sha": "0b2caf587b6ae940f6125350f9c4004b4dc94a4e"
+  },
+  "labels": [],
+  "merge_commit_sha": "687ef8c43630a1691ba2d87c6430635adce31b86",
+  "merged_at": "2026-10-09T10:09:32Z",
+  "number": 29434,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[FLINK-37672][build] Migrate protobuf code generation to ascopes plugin",
+  "updated_at": "2026-10-09T10:09:35Z",
+  "user": {
+   "login": "user-a303e9ec",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-09T09:53:48Z",
+  "created_at": "2026-10-08T12:22:36Z",
+  "draft": false,
+  "head": {
+   "sha": "f39bdaca24c508ecbdc22161484711ba2668db03"
+  },
+  "labels": [],
+  "merge_commit_sha": "1465b13a4d16b381464d7cf4b0f6d50c7d2209ad",
+  "merged_at": "2026-10-09T09:53:48Z",
+  "number": 29433,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[FLINK-40193][python] Add join_lateral support to the DataFrame API",
+  "updated_at": "2026-10-09T09:53:48Z",
+  "user": {
+   "login": "user-e9dd9fa6",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-08T14:23:48Z",
+  "created_at": "2026-10-08T12:21:03Z",
+  "draft": false,
+  "head": {
+   "sha": "f08b4ca3329d4d92b8674839bb213e91bd7523e2"
+  },
+  "labels": [],
+  "merge_commit_sha": "b245479247729620e2c4c4128b843ba56f2f42a2",
+  "merged_at": "2026-10-08T14:23:47Z",
+  "number": 29432,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[FLINK-40958][core] Do not use recurcion in `VARIANT` `toJson`",
+  "updated_at": "2026-10-08T14:23:48Z",
+  "user": {
+   "login": "user-0493faa3",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-09T15:35:03Z",
+  "created_at": "2026-10-08T08:58:01Z",
+  "draft": false,
+  "head": {
+   "sha": "5d45fe4f23ecd7d22c06f9731bec74d849669675"
+  },
+  "labels": [],
+  "merge_commit_sha": "8fc9538b0dd67b76d08a369ba0a28cfed390f5b2",
+  "merged_at": "2026-10-09T15:35:03Z",
+  "number": 29430,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[FLINK-40952][state/forst] Close the DBOptions copy of temporary restore DBs",
+  "updated_at": "2026-10-09T15:35:03Z",
+  "user": {
+   "login": "user-628a0341",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-08T04:00:10Z",
+  "created_at": "2026-10-08T03:53:45Z",
+  "draft": false,
+  "head": {
+   "sha": "bfd0c3f3253c0ffaa5134fd7f77172c6d2a7a702"
+  },
+  "labels": [],
+  "merge_commit_sha": "086c1cea09261c2de3a920caa5d0c520223fe674",
+  "merged_at": null,
+  "number": 29428,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[hotfix][table-planner] Drop stale metadata=[] from the early-fire proctime golden",
+  "updated_at": "2026-10-08T04:00:10Z",
+  "user": {
+   "login": "user-ec5693aa",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "NONE",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-07T20:55:54Z",
+  "created_at": "2026-10-07T20:45:22Z",
+  "draft": false,
+  "head": {
+   "sha": "982a227f60a85ac3929da9631aa2d25ca1e26856"
+  },
+  "labels": [],
+  "merge_commit_sha": "48823438eaae89dbf34a314071183de54812890e",
+  "merged_at": null,
+  "number": 29426,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[FLINK-40950][table-planner] Drop stale metadata=[] from EarlyFireJoinHintTest plan",
+  "updated_at": "2026-10-08T07:26:08Z",
+  "user": {
+   "login": "user-6ab2fa46",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-07T22:19:43Z",
+  "created_at": "2026-10-07T20:31:46Z",
+  "draft": false,
+  "head": {
+   "sha": "bfd6012c8f9c4cd207f22aa05a582ccf123c47ae"
+  },
+  "labels": [],
+  "merge_commit_sha": "b68f22c91297ba5949780296a7f4e8ff2e484c53",
+  "merged_at": "2026-10-07T22:19:43Z",
+  "number": 29425,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[hotfix][table] Fix `EarlyFireJoinHintTest#testEarlyFireProcTimeOnRowTimeJoin`",
+  "updated_at": "2026-10-07T22:19:43Z",
+  "user": {
+   "login": "user-0493faa3",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-08T15:01:55Z",
+  "created_at": "2026-10-07T13:09:25Z",
+  "draft": false,
+  "head": {
+   "sha": "9967115a31b7ef9dc630b83bc4b9387ed25da20a"
+  },
+  "labels": [],
+  "merge_commit_sha": "c89bd7fb132203c467d2f66052f49ca699e3155f",
+  "merged_at": "2026-10-08T15:01:55Z",
+  "number": 29419,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[FLINK-39883][table] Support broadcast state for process table functions",
+  "updated_at": "2026-10-08T15:01:55Z",
+  "user": {
+   "login": "user-6ec89c3f",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-07T11:13:07Z",
+  "created_at": "2026-10-07T08:30:22Z",
+  "draft": false,
+  "head": {
+   "sha": "762e5cc9f226a60aac5ffc4a84e91e5e41ab7fac"
+  },
+  "labels": [],
+  "merge_commit_sha": "213cea73caab8c6145b16a8e3186dd5e5e0192ed",
+  "merged_at": "2026-10-07T11:13:07Z",
+  "number": 29417,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[FLINK-40937][table] `UPDATE` fails with `IndexOutOfBoundsException` when a `SET` value's type doesn't match the column",
+  "updated_at": "2026-10-07T11:13:07Z",
+  "user": {
+   "login": "user-0493faa3",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-07T13:50:50Z",
+  "created_at": "2026-10-07T07:44:06Z",
+  "draft": false,
+  "head": {
+   "sha": "58b5d58362ae0aa0f5317e5b1a33aaf4f2b73d2b"
+  },
+  "labels": [],
+  "merge_commit_sha": "8171d96a94efee565afea9dd41223ab51626c77d",
+  "merged_at": "2026-10-07T13:50:50Z",
+  "number": 29415,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[FLINK-38569][table-planner] Don't record a ReadingMetadata ability without metadata keys",
+  "updated_at": "2026-10-07T13:51:07Z",
+  "user": {
+   "login": "user-2cd98842",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": "2026-10-08T13:02:14Z",
+  "created_at": "2026-10-06T15:15:13Z",
+  "draft": false,
+  "head": {
+   "sha": "f793b4ebc2c9915e82b18b7031e2c81a9af94319"
+  },
+  "labels": [],
+  "merge_commit_sha": "5d17b29d3122476690d657f390e6df56bee57153",
+  "merged_at": "2026-10-08T13:02:14Z",
+  "number": 29411,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[FLINK-40910][table] Reject VARIANT where a query needs equality or ordering",
+  "updated_at": "2026-10-08T13:02:15Z",
+  "user": {
+   "login": "user-c92b5784",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "release-2.1"
+  },
+  "closed_at": "2026-10-07T09:57:06Z",
+  "created_at": "2026-10-06T10:36:36Z",
+  "draft": false,
+  "head": {
+   "sha": "26fc8f9fc708d0ec94f6fdd5589cfee83ead4ca8"
+  },
+  "labels": [
+   {
+    "name": "target:release-2.1"
+   }
+  ],
+  "merge_commit_sha": "962e45c13f339d713e8796b0ce91d9816b84372d",
+  "merged_at": null,
+  "number": 29408,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[Backport][FLINK-39966][FLINK-40368][table] Backport Top-1 deduplication changelog fixes to 2.1",
+  "updated_at": "2026-10-07T09:57:06Z",
+  "user": {
+   "login": "user-0582ccfb",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "release-2.2"
+  },
+  "closed_at": "2026-10-07T09:49:33Z",
+  "created_at": "2026-10-06T10:36:33Z",
+  "draft": false,
+  "head": {
+   "sha": "d94541ae76ee24a24049843b1bc23191f97722cc"
+  },
+  "labels": [
+   {
+    "name": "target:release-2.2"
+   }
+  ],
+  "merge_commit_sha": "768a0379c633a1d27e6ad317a88b567dbc4b1e86",
+  "merged_at": "2026-10-07T09:49:33Z",
+  "number": 29407,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[Backport][FLINK-40368][table] Deduplicate output should only be insert-only when ordered by time attribute",
+  "updated_at": "2026-10-07T09:49:36Z",
+  "user": {
+   "login": "user-0582ccfb",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "release-2.3"
+  },
+  "closed_at": "2026-10-07T09:49:29Z",
+  "created_at": "2026-10-06T10:36:30Z",
+  "draft": false,
+  "head": {
+   "sha": "c6ea11ec1cd12478565835699242184e1dcfee21"
+  },
+  "labels": [
+   {
+    "name": "target:release-2.3"
+   }
+  ],
+  "merge_commit_sha": "fa2ec19c46454d00778146618985e37e245e951e",
+  "merged_at": "2026-10-07T09:49:29Z",
+  "number": 29406,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[Backport][FLINK-40368][table] Deduplicate output should only be insert-only when ordered by time attribute",
+  "updated_at": "2026-10-07T09:49:32Z",
+  "user": {
+   "login": "user-0582ccfb",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "release-2.2"
+  },
+  "closed_at": "2026-10-07T09:49:16Z",
+  "created_at": "2026-10-06T10:04:55Z",
+  "draft": false,
+  "head": {
+   "sha": "4de0e9a839bd980bce2e3bdf386122117d7ce7e3"
+  },
+  "labels": [
+   {
+    "name": "target:release-2.2"
+   }
+  ],
+  "merge_commit_sha": "3d20ecb1dfb9fdcb25a9d8140796fb8d2ceb506c",
+  "merged_at": "2026-10-07T09:49:16Z",
+  "number": 29405,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[Backport][FLINK-40809][FLINK-40831][FLINK-40841][FLINK-40858][table] Backport streaming join update fixes to 2.2",
+  "updated_at": "2026-10-07T09:49:19Z",
+  "user": {
+   "login": "user-0582ccfb",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "release-2.3"
+  },
+  "closed_at": "2026-10-07T09:49:09Z",
+  "created_at": "2026-10-06T10:04:52Z",
+  "draft": false,
+  "head": {
+   "sha": "fc8293cf1359e42959cb90a2dd57e955bd4af63a"
+  },
+  "labels": [
+   {
+    "name": "target:release-2.3"
+   }
+  ],
+  "merge_commit_sha": "098afcc79908ceb51c0e84d8d967ca64644ff6ee",
+  "merged_at": "2026-10-07T09:49:09Z",
+  "number": 29404,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "[Backport][FLINK-40809][FLINK-40831][FLINK-40841][FLINK-40858][table] Backport streaming join update fixes to 2.3",
+  "updated_at": "2026-10-07T09:49:12Z",
+  "user": {
+   "login": "user-0582ccfb",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "NONE",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-09T14:43:48Z",
+  "draft": false,
+  "head": {
+   "sha": "cf4bda3f3357eae4f32feac9c70196649c8a3825"
+  },
+  "labels": [
+   {
+    "name": "community-reviewed"
+   }
+  ],
+  "merge_commit_sha": "db4ff47f66d586abd676f18d9f8a1dcdbd0d9b91",
+  "merged_at": null,
+  "number": 29446,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "[hotfix][docs] Add HTTP connector to externalized connectors list",
+  "updated_at": "2026-10-09T16:08:40Z",
+  "user": {
+   "login": "user-3aed9d5c",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-09T14:26:25Z",
+  "draft": false,
+  "head": {
+   "sha": "c65af158a9ac0373cf4ae99b4ecf2a1d8b07d2f1"
+  },
+  "labels": [],
+  "merge_commit_sha": "722587ad89be3e3b3cbff9c24ffbcf7c89977db6",
+  "merged_at": null,
+  "number": 29445,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "[FLINK-36297][state] Wait for the periodic materialization scheduler to terminate on close",
+  "updated_at": "2026-10-09T15:57:26Z",
+  "user": {
+   "login": "user-7b8f19b3",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-09T10:11:27Z",
+  "draft": false,
+  "head": {
+   "sha": "92ac4249c3869eb1a7e9846e621626ef03ed5eba"
+  },
+  "labels": [
+   {
+    "name": "dependencies"
+   },
+   {
+    "name": "javascript"
+   }
+  ],
+  "merge_commit_sha": "5cf44790defc3e8a85ccce84e2e01e3aa461ab6d",
+  "merged_at": null,
+  "number": 29444,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "Bump @modelcontextprotocol/sdk and @angular/cli in /flink-runtime-web/web-dashboard",
+  "updated_at": "2026-10-09T11:00:44Z",
+  "user": {
+   "login": "user-48226191",
+   "type": "Bot"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-09T10:11:24Z",
+  "draft": false,
+  "head": {
+   "sha": "14fa6b14a3f999be8fcbfcae2574ce95a4eac06a"
+  },
+  "labels": [
+   {
+    "name": "dependencies"
+   },
+   {
+    "name": "javascript"
+   }
+  ],
+  "merge_commit_sha": "7eefd03e5e2d203ecc7883d862942119790560ec",
+  "merged_at": null,
+  "number": 29443,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "Bump source-map-js from 1.2.1 to 1.2.2 in /flink-runtime-web/web-dashboard",
+  "updated_at": "2026-10-09T11:00:36Z",
+  "user": {
+   "login": "user-48226191",
+   "type": "Bot"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-09T10:11:22Z",
+  "draft": false,
+  "head": {
+   "sha": "6794e687823a8d1ad6deaa2a170eccec180c9c1b"
+  },
+  "labels": [
+   {
+    "name": "dependencies"
+   },
+   {
+    "name": "javascript"
+   }
+  ],
+  "merge_commit_sha": "c25b0af7fb1b0f99ae77ba8a3f162223ac2b2a21",
+  "merged_at": null,
+  "number": 29442,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "Bump postcss-selector-parser from 7.1.4 to 7.1.6 in /flink-runtime-web/web-dashboard",
+  "updated_at": "2026-10-09T10:47:32Z",
+  "user": {
+   "login": "user-48226191",
+   "type": "Bot"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-09T10:11:16Z",
+  "draft": false,
+  "head": {
+   "sha": "8bb7c557eaf2194b72ff0036591c2a9c15b4c225"
+  },
+  "labels": [
+   {
+    "name": "dependencies"
+   },
+   {
+    "name": "javascript"
+   }
+  ],
+  "merge_commit_sha": "c495571f00b41cec1ebf314a86fea0555fa6e676",
+  "merged_at": null,
+  "number": 29441,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "Bump proxy-addr from 2.0.7 to 2.0.8 in /flink-runtime-web/web-dashboard",
+  "updated_at": "2026-10-09T10:47:24Z",
+  "user": {
+   "login": "user-48226191",
+   "type": "Bot"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-09T10:11:10Z",
+  "draft": false,
+  "head": {
+   "sha": "a36036abcac9d132e6485fb587e9b04a70b1526a"
+  },
+  "labels": [
+   {
+    "name": "dependencies"
+   },
+   {
+    "name": "java"
+   }
+  ],
+  "merge_commit_sha": "88b2e4fe3eeebb5f07538be79df0a8b31af12f6d",
+  "merged_at": null,
+  "number": 29440,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "Bump at.yawk.lz4:lz4-java from 1.10.3 to 1.11.4",
+  "updated_at": "2026-10-09T11:52:39Z",
+  "user": {
+   "login": "user-48226191",
+   "type": "Bot"
+  }
+ },
+ {
+  "author_association": "NONE",
+  "base": {
+   "ref": "master"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-09T09:42:17Z",
+  "draft": false,
+  "head": {
+   "sha": "79e828d232331bd452817ff47a593cace589ad0b"
+  },
+  "labels": [],
+  "merge_commit_sha": "cbe9096d24265462dfc03d82a776c7bdbea208ec",
+  "merged_at": null,
+  "number": 29439,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "[FLINK-40198][python] Add Kafka source and sink APIs to DataFrame API",
+  "updated_at": "2026-10-09T10:47:09Z",
+  "user": {
+   "login": "user-dcb3129d",
+   "type": "User"
+  }
+ }
+]

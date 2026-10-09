@@ -1,0 +1,4468 @@
+[
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": null,
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-10-07T16:09:13.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-841b81a5"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "Carry the AS-OF join direction to SortMergeAsOfJoinExec instead of inferring it from the as-of condition",
+   "updated": "2026-10-09T11:39:03.000+0000",
+   "versions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13670654",
+  "key": "SPARK-60040"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": null,
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-10-09T10:13:29.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-54f02d02"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "PlanMerger can build join pairs that no merged subplan needs",
+   "updated": "2026-10-09T11:25:51.000+0000",
+   "versions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13671085",
+  "key": "SPARK-60106"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-54f02d02"
+     },
+     "created": "2026-10-08T19:11:16.537+0000",
+     "id": "23320296",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-54f02d02"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-10-08T09:16:57.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356944",
+     "name": "4.3.0",
+     "released": false
+    },
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    },
+    {
+     "id": "12357590",
+     "name": "4.2.2",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-54f02d02"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-08T19:11:16.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "PlanMerger loses a reused filter attribute that an earlier merge folded into another filter",
+   "updated": "2026-10-09T08:21:23.000+0000",
+   "versions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13670854",
+  "key": "SPARK-60084"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-ec86ac5a"
+     },
+     "created": "2026-10-09T06:22:13.172+0000",
+     "id": "23320968",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-0b5ace56"
+   },
+   "components": [
+    {
+     "name": "Connect"
+    }
+   ],
+   "created": "2026-10-07T01:22:17.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-0b5ace56"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-09T06:22:13.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Ensure Ivy contexts are popped after Maven resolution failures",
+   "updated": "2026-10-09T06:22:13.000+0000",
+   "versions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13670497",
+  "key": "SPARK-60013"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-f2291251"
+     },
+     "created": "2026-10-09T05:47:06.616+0000",
+     "id": "23320914",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-dc73f6b9"
+   },
+   "components": [
+    {
+     "name": "Spark Core"
+    }
+   ],
+   "created": "2026-10-07T13:48:07.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-dc73f6b9"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-09T05:47:06.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Fix an LCA related CHAR bug",
+   "updated": "2026-10-09T05:47:06.000+0000",
+   "versions": [
+    {
+     "id": "12356945",
+     "name": "5.0.0",
+     "released": false
+    },
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13670632",
+  "key": "SPARK-60036"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-8e7be2b3"
+     },
+     "created": "2026-09-28T01:24:45.742+0000",
+     "id": "23295075",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-f4b6d8f3"
+   },
+   "components": [
+    {
+     "name": "Spark Core"
+    }
+   ],
+   "created": "2026-09-14T06:12:55.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356945",
+     "name": "5.0.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-f4b6d8f3"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-09-28T01:24:45.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Add task-level spans to correlate Spark tasks with executor profiling samples",
+   "updated": "2026-10-09T03:46:38.000+0000",
+   "versions": [
+    {
+     "id": "12356945",
+     "name": "5.0.0",
+     "released": false
+    },
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13666282",
+  "key": "SPARK-59487"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-9deeda87"
+     },
+     "created": "2026-10-09T01:03:47.872+0000",
+     "id": "23320704",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-8d59a447"
+   },
+   "components": [
+    {
+     "name": "Declarative Pipelines"
+    }
+   ],
+   "created": "2026-10-08T20:42:09.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-8d59a447"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-09T01:03:47.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Gate Ignore-null functionality",
+   "updated": "2026-10-09T01:03:47.000+0000",
+   "versions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13670999",
+  "key": "SPARK-60094"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-c32ac351"
+     },
+     "created": "2026-09-26T02:54:41.277+0000",
+     "id": "23293282",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-9f4d02d5"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-09-10T21:17:10.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356945",
+     "name": "5.0.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-9f4d02d5"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-09-26T02:54:41.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Stream multiline top-level JSON arrays during JSON reads",
+   "updated": "2026-10-08T17:26:16.000+0000",
+   "versions": [
+    {
+     "id": "12353359",
+     "name": "4.0.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13665922",
+  "key": "SPARK-59417"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-7174c773"
+     },
+     "created": "2026-10-08T12:02:39.776+0000",
+     "id": "23319202",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-7174c773"
+   },
+   "components": [
+    {
+     "name": "Kubernetes"
+    },
+    {
+     "name": "Tests"
+    }
+   ],
+   "created": "2026-10-08T03:37:07.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-7174c773"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-08T12:02:39.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Add `ExecutorResizePlugin` integration test",
+   "updated": "2026-10-08T12:03:49.000+0000",
+   "versions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13670783",
+  "key": "SPARK-60079"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-f645aa04"
+     },
+     "created": "2026-10-08T06:18:46.055+0000",
+     "id": "23318270",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-75fe81f0"
+   },
+   "components": [
+    {
+     "name": "Structured Streaming"
+    }
+   ],
+   "created": "2026-10-01T05:37:39.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356944",
+     "name": "4.3.0",
+     "released": false
+    },
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    },
+    {
+     "id": "12357590",
+     "name": "4.2.2",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Blocker"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-f645aa04"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-08T06:18:46.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Offset log format v2 does not preserve stateful shuffle partitions across query restarts",
+   "updated": "2026-10-08T11:23:54.000+0000",
+   "versions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13669510",
+  "key": "SPARK-59919"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-ec86ac5a"
+     },
+     "created": "2026-10-08T09:55:47.467+0000",
+     "id": "23318892",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-0b5ace56"
+   },
+   "components": [
+    {
+     "name": "Connect"
+    },
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-10-07T01:20:30.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-0b5ace56"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-08T09:55:47.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Avoid copying Ivy caches when cloning ArtifactManager",
+   "updated": "2026-10-08T09:55:47.000+0000",
+   "versions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13670496",
+  "key": "SPARK-60012"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-7174c773"
+     },
+     "created": "2026-10-08T03:12:14.165+0000",
+     "id": "23318054",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-7174c773"
+   },
+   "components": [
+    {
+     "name": "Project Infra"
+    }
+   ],
+   "created": "2026-10-07T22:10:50.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-7174c773"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-08T03:12:14.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Enable `metrics-server` addon in K8s integration test CI",
+   "updated": "2026-10-08T03:13:13.000+0000",
+   "versions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13670745",
+  "key": "SPARK-60059"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-7174c773"
+     },
+     "created": "2026-10-07T16:17:13.743+0000",
+     "id": "23316925",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-7174c773"
+   },
+   "components": [
+    {
+     "name": "Build"
+    }
+   ],
+   "created": "2026-10-06T19:42:14.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356945",
+     "name": "5.0.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-7174c773"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-07T16:17:13.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Upgrade `joda-time` to 2.15.0",
+   "updated": "2026-10-07T16:17:14.000+0000",
+   "versions": [
+    {
+     "id": "12356945",
+     "name": "5.0.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13670465",
+  "key": "SPARK-60005"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-54f02d02"
+     },
+     "created": "2026-10-05T15:15:04.590+0000",
+     "id": "23311417",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-54f02d02"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-09-30T17:49:52.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356944",
+     "name": "4.3.0",
+     "released": false
+    },
+    {
+     "id": "12357191",
+     "name": "4.2.1",
+     "released": false
+    },
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-54f02d02"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-05T15:15:04.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Storage-partitioned join fails with INTERNAL_ERROR when a one-side shuffle's join key references two columns",
+   "updated": "2026-10-07T10:55:27.000+0000",
+   "versions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    },
+    {
+     "id": "12357063",
+     "name": "4.1.3",
+     "released": true
+    },
+    {
+     "id": "12357185",
+     "name": "4.0.4",
+     "released": true
+    }
+   ]
+  },
+  "id": "13669427",
+  "key": "SPARK-59901"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-54f02d02"
+     },
+     "created": "2026-10-05T15:14:55.572+0000",
+     "id": "23311415",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-54f02d02"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-09-30T12:11:07.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356944",
+     "name": "4.3.0",
+     "released": false
+    },
+    {
+     "id": "12357191",
+     "name": "4.2.1",
+     "released": false
+    },
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-54f02d02"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-05T15:14:55.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Fix wrong results when a storage-partitioned join pairs a transform of a join-key expression with one of a column",
+   "updated": "2026-10-07T10:55:26.000+0000",
+   "versions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    },
+    {
+     "id": "12357063",
+     "name": "4.1.3",
+     "released": true
+    },
+    {
+     "id": "12357185",
+     "name": "4.0.4",
+     "released": true
+    }
+   ]
+  },
+  "id": "13669327",
+  "key": "SPARK-59887"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-7174c773"
+     },
+     "created": "2026-10-02T19:59:47.021+0000",
+     "id": "23307428",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-257a3c3b"
+   },
+   "components": [
+    {
+     "name": "Documentation"
+    },
+    {
+     "name": "Kubernetes"
+    }
+   ],
+   "created": "2026-10-01T13:43:34.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356944",
+     "name": "4.3.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-257a3c3b"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-02T19:59:47.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Fix stale \"Valid values\" list for `spark.kubernetes.executor.rollPolicy`",
+   "updated": "2026-10-07T07:37:24.000+0000",
+   "versions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    },
+    {
+     "id": "12356944",
+     "name": "4.3.0",
+     "released": false
+    },
+    {
+     "id": "12357063",
+     "name": "4.1.3",
+     "released": true
+    },
+    {
+     "id": "12357185",
+     "name": "4.0.4",
+     "released": true
+    }
+   ]
+  },
+  "id": "13669566",
+  "key": "SPARK-59924"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-f2291251"
+     },
+     "created": "2026-10-07T05:38:56.189+0000",
+     "id": "23315344",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-dc73f6b9"
+   },
+   "components": [
+    {
+     "name": "Spark Core"
+    }
+   ],
+   "created": "2026-10-06T18:51:53.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-dc73f6b9"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-07T05:38:56.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Fix CHAR logic LCA related regression of COLLATION resolution",
+   "updated": "2026-10-07T05:38:56.000+0000",
+   "versions": [
+    {
+     "id": "12356945",
+     "name": "5.0.0",
+     "released": false
+    },
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13670444",
+  "key": "SPARK-60003"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": null,
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-06-28T17:57:00.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "New Feature",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-c724f298"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "Addition of a partitions function in datalake V1 tables",
+   "updated": "2026-10-07T00:47:30.000+0000",
+   "versions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13655961",
+  "key": "SPARK-57743"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-7174c773"
+     },
+     "created": "2026-10-06T19:27:26.500+0000",
+     "id": "23314484",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-6c856cbd"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-09-30T00:22:21.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-6c856cbd"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-06T19:27:26.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Avoid serializing cached columnar RDDs in whole-stage closures",
+   "updated": "2026-10-06T22:42:47.000+0000",
+   "versions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13669233",
+  "key": "SPARK-59884"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": null,
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-10-02T20:02:11.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-5899b5e2"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "Cache the compiled regex in StringSplit",
+   "updated": "2026-10-06T21:20:42.000+0000",
+   "versions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13669838",
+  "key": "SPARK-59961"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": null,
+   "components": [
+    {
+     "name": "PySpark"
+    }
+   ],
+   "created": "2026-09-13T06:07:33.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-e01ba061"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "Timezone-naive ArrowDtype timestamps are interpreted as UTC instead of the session timezone in pandas conversion",
+   "updated": "2026-10-06T21:10:49.000+0000",
+   "versions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13666177",
+  "key": "SPARK-59467"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-f2291251"
+     },
+     "created": "2026-10-06T17:38:12.732+0000",
+     "id": "23314254",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-4ba0ef3f"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-10-06T09:53:37.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-4ba0ef3f"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-06T17:38:12.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Reduce configuration overhead when resolving views and SQL function bodies",
+   "updated": "2026-10-06T17:38:12.000+0000",
+   "versions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13670346",
+  "key": "SPARK-59997"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": null,
+   "components": [
+    {
+     "name": "Spark Core"
+    }
+   ],
+   "created": "2026-08-31T23:21:36.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-a17b836a"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "Preserve reliably-stored shuffle map outputs on executor loss",
+   "updated": "2026-10-06T15:47:17.000+0000",
+   "versions": [
+    {
+     "id": "12357063",
+     "name": "4.1.3",
+     "released": true
+    }
+   ]
+  },
+  "id": "13664261",
+  "key": "SPARK-59138"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": null,
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-09-28T06:13:39.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-eb304156"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "approx_top_k_estimate and approx_top_k_combine throw NullPointerException on a NULL sketch state",
+   "updated": "2026-10-06T13:13:09.000+0000",
+   "versions": [
+    {
+     "id": "12355581",
+     "name": "4.1.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13668777",
+  "key": "SPARK-59818"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-ec86ac5a"
+     },
+     "created": "2026-10-06T12:57:43.498+0000",
+     "id": "23313637",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-841b81a5"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-09-29T10:23:00.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-841b81a5"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-06T12:57:43.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "ASOF JOIN matches NULL STRUCT operands because MATCH_CONDITION rebuilds them from their fields",
+   "updated": "2026-10-06T12:57:43.000+0000",
+   "versions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13669128",
+  "key": "SPARK-59858"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": null,
+   "components": [
+    {
+     "name": "ML"
+    },
+    {
+     "name": "PySpark"
+    }
+   ],
+   "created": "2026-10-05T20:39:13.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-4d834186"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "TorchDistributor logs a TypeError instead of a warning when the log streaming server fails to start",
+   "updated": "2026-10-06T12:51:39.000+0000",
+   "versions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13670254",
+  "key": "SPARK-59985"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-ec86ac5a"
+     },
+     "created": "2026-10-06T12:43:10.735+0000",
+     "id": "23313590",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-48d60c02"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    },
+    {
+     "name": "Tests"
+    }
+   ],
+   "created": "2026-09-25T16:37:54.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Test",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-48d60c02"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-06T12:43:10.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Fix racy waits for SQL execution metrics in tests",
+   "updated": "2026-10-06T12:43:10.000+0000",
+   "versions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13668565",
+  "key": "SPARK-59784"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": null,
+   "components": [
+    {
+     "name": "Structured Streaming"
+    }
+   ],
+   "created": "2026-10-05T20:43:06.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-478e619e"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "Expose trigger metadata in StreamingQueryProgress JSON",
+   "updated": "2026-10-06T01:00:37.000+0000",
+   "versions": [
+    {
+     "id": "12356945",
+     "name": "5.0.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13670255",
+  "key": "SPARK-59986"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": null,
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-10-05T23:24:33.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-fa22eebd"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "element_at and array index are wrongly non-nullable under ANSI mode when the index is nullable",
+   "updated": "2026-10-05T23:48:25.000+0000",
+   "versions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13670267",
+  "key": "SPARK-59992"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": null,
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-10-03T18:28:42.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-54f02d02"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "The one-side shuffle of a storage-partitioned join ignores spark.sql.requireAllClusterKeysForCoPartition",
+   "updated": "2026-10-03T18:28:53.000+0000",
+   "versions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    },
+    {
+     "id": "12357063",
+     "name": "4.1.3",
+     "released": true
+    },
+    {
+     "id": "12357185",
+     "name": "4.0.4",
+     "released": true
+    }
+   ]
+  },
+  "id": "13669965",
+  "key": "SPARK-59971"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": null,
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-09-30T17:00:26.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "correctness",
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-5899b5e2"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "freqItems treats equal BinaryType values as distinct",
+   "updated": "2026-10-03T15:32:23.000+0000",
+   "versions": [
+    {
+     "id": "12329359",
+     "name": "1.4.0",
+     "released": true
+    },
+    {
+     "id": "12342385",
+     "name": "2.4.0",
+     "released": true
+    },
+    {
+     "id": "12352848",
+     "name": "3.5.0",
+     "released": true
+    },
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13669416",
+  "key": "SPARK-59898"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-8e7be2b3"
+     },
+     "created": "2026-09-29T09:26:16.312+0000",
+     "id": "23298776",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-08215fad"
+   },
+   "components": [
+    {
+     "name": "Documentation"
+    }
+   ],
+   "created": "2026-09-09T15:31:50.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Documentation",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-08215fad"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-09-29T09:26:16.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Fix the documented return type of ceil and floor with a scale argument",
+   "updated": "2026-09-29T09:26:16.000+0000",
+   "versions": [
+    {
+     "id": "12356945",
+     "name": "5.0.0",
+     "released": false
+    },
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13665694",
+  "key": "SPARK-59373"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-7174c773"
+     },
+     "created": "2026-10-06T18:21:10.886+0000",
+     "id": "23314328",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-1ddf24ff"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-08-30T15:51:27.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357191",
+     "name": "4.2.1",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "correctness",
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Blocker"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-1ddf24ff"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-06T18:21:10.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "UnionExec fused into whole-stage codegen can fail with \"key not found: numOutputRows\"",
+   "updated": "2026-10-07T08:19:55.000+0000",
+   "versions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    },
+    {
+     "id": "12356944",
+     "name": "4.3.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13664077",
+  "key": "SPARK-59122"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": null,
+   "components": [
+    {
+     "name": "Structured Streaming"
+    }
+   ],
+   "created": "2026-08-20T11:43:54.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "correctness"
+   ],
+   "priority": {
+    "name": "Critical"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-9333dd14"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "Execution fails to construct a state-value watermark predicate for valid one-sided stream-stream range joins",
+   "updated": "2026-10-02T05:55:58.000+0000",
+   "versions": [
+    {
+     "id": "12356944",
+     "name": "4.3.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13662658",
+  "key": "SPARK-58904"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-c32ac351"
+     },
+     "created": "2026-09-21T03:10:30.844+0000",
+     "id": "23281526",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-b0368efa"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2025-04-17T05:30:27.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356944",
+     "name": "4.3.0",
+     "released": false
+    },
+    {
+     "id": "12357191",
+     "name": "4.2.1",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Critical"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-b0368efa"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-09-21T03:10:30.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Spark SQL: Error handling for partition datatype conversion",
+   "updated": "2026-10-01T03:14:54.000+0000",
+   "versions": [
+    {
+     "id": "12352874",
+     "name": "3.4.1",
+     "released": true
+    },
+    {
+     "id": "12352848",
+     "name": "3.5.0",
+     "released": true
+    },
+    {
+     "id": "12353359",
+     "name": "4.0.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13615588",
+  "key": "SPARK-51830"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-1b2d626c"
+     },
+     "created": "2026-09-30T18:28:26.446+0000",
+     "id": "23302445",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-1b2d626c"
+   },
+   "components": [
+    {
+     "name": "Web UI"
+    }
+   ],
+   "created": "2026-09-27T00:07:15.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356944",
+     "name": "4.3.0",
+     "released": false
+    },
+    {
+     "id": "12357191",
+     "name": "4.2.1",
+     "released": false
+    },
+    {
+     "id": "12357251",
+     "name": "4.0.5",
+     "released": false
+    },
+    {
+     "id": "12357252",
+     "name": "4.1.4",
+     "released": false
+    },
+    {
+     "id": "12357259",
+     "name": "3.5.10",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Blocker"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-1b2d626c"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-09-30T18:28:26.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Fix UTF-8 byte limits and physical line numbers during event log replay",
+   "updated": "2026-10-01T00:31:36.000+0000",
+   "versions": [
+    {
+     "id": "12356944",
+     "name": "4.3.0",
+     "released": false
+    },
+    {
+     "id": "12357191",
+     "name": "4.2.1",
+     "released": false
+    },
+    {
+     "id": "12357251",
+     "name": "4.0.5",
+     "released": false
+    },
+    {
+     "id": "12357252",
+     "name": "4.1.4",
+     "released": false
+    },
+    {
+     "id": "12357259",
+     "name": "3.5.10",
+     "released": false
+    },
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13668680",
+  "key": "SPARK-59804"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-54a8af3c"
+     },
+     "created": "2026-09-30T05:04:11.572+0000",
+     "id": "23300545",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-54a8af3c"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-09-28T22:13:54.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356944",
+     "name": "4.3.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Blocker"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-54a8af3c"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-09-30T05:04:11.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Align table and changelog state-option handling and metadata reuse",
+   "updated": "2026-09-30T05:04:11.000+0000",
+   "versions": [
+    {
+     "id": "12356944",
+     "name": "4.3.0",
+     "released": false
+    },
+    {
+     "id": "12356945",
+     "name": "5.0.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13669014",
+  "key": "SPARK-59841"
+ },
+ {
+  "changelog": {
+   "histories": [],
+   "total": 0
+  },
+  "fields": {
+   "assignee": null,
+   "components": [
+    {
+     "name": "ML"
+    },
+    {
+     "name": "MLlib"
+    },
+    {
+     "name": "PySpark"
+    },
+    {
+     "name": "Spark Core"
+    }
+   ],
+   "created": "2023-09-13T13:39:00.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "decisiontree",
+    "pull-request-available",
+    "pyspark3",
+    "spark2",
+    "spark3"
+   ],
+   "priority": {
+    "name": "Critical"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-61d62c12"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Open",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "Pyspark DecisionTreeClassifier: results and tree structure in spark3 very different from that of the spark2 version on the same data and with the same hyperparameters.",
+   "updated": "2026-09-27T00:49:17.000+0000",
+   "versions": [
+    {
+     "id": "12339177",
+     "name": "3.0.0",
+     "released": true
+    },
+    {
+     "id": "12351710",
+     "name": "3.3.1",
+     "released": true
+    },
+    {
+     "id": "12352607",
+     "name": "3.2.4",
+     "released": true
+    },
+    {
+     "id": "12352932",
+     "name": "3.3.3",
+     "released": true
+    },
+    {
+     "id": "12352299",
+     "name": "3.3.2",
+     "released": true
+    },
+    {
+     "id": "12351465",
+     "name": "3.4.0",
+     "released": true
+    },
+    {
+     "id": "12352874",
+     "name": "3.4.1",
+     "released": true
+    }
+   ]
+  },
+  "id": "13550538",
+  "key": "SPARK-45154"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-7174c773"
+     },
+     "created": "2026-05-01T22:38:26.172+0000",
+     "id": "23044118",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-b147d200"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-04-30T13:59:11.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-b147d200"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-05-01T22:38:26.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Propagate filter conditions through Join nodes in PlanMerger",
+   "updated": "2026-10-09T10:13:56.000+0000",
+   "versions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13649631",
+  "key": "SPARK-56677"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-c32ac351"
+     },
+     "created": "2026-06-09T00:14:03.629+0000",
+     "id": "23095337",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-0cb1e7d2"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-06-07T03:01:22.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-0cb1e7d2"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-06-09T00:14:03.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "collect_set returns duplicate NaN/-0.0 values for float/double columns",
+   "updated": "2026-10-08T17:06:02.000+0000",
+   "versions": [
+    {
+     "id": "12356945",
+     "name": "5.0.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13653691",
+  "key": "SPARK-57298"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-6c82ef76"
+     },
+     "created": "2022-08-23T14:31:04.537+0000",
+     "id": "20869773",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-54f02d02"
+     },
+     "created": "2026-04-21T07:21:20.041+0000",
+     "id": "23030406",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-b147d200"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2022-08-23T13:49:58.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-b147d200"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-04-21T07:21:20.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Merge subquery plans with different filters",
+   "updated": "2026-10-08T09:17:36.000+0000",
+   "versions": [
+    {
+     "id": "12351465",
+     "name": "3.4.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13478225",
+  "key": "SPARK-40193"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-6c82ef76"
+     },
+     "created": "2021-06-17T12:32:18.238+0000",
+     "id": "19833582",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-c32ac351"
+     },
+     "created": "2021-07-13T10:55:53.474+0000",
+     "id": "19906127",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Resolved"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-7174c773"
+     },
+     "created": "2026-02-15T19:51:51.982+0000",
+     "id": "22927772",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Resolved",
+       "toString": "Closed"
+      }
+     ]
+    }
+   ],
+   "total": 3
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-257a3c3b"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2021-06-13T20:57:08.000+0000",
+   "fixVersions": [
+    {
+     "id": "12349407",
+     "name": "3.2.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-257a3c3b"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2021-07-13T10:55:53.000+0000",
+   "status": {
+    "name": "Closed",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Parse unit list interval literals as year-month/day-time interval types",
+   "updated": "2026-10-08T06:14:37.000+0000",
+   "versions": [
+    {
+     "id": "12349407",
+     "name": "3.2.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13383640",
+  "key": "SPARK-35749"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-54f02d02"
+     },
+     "created": "2026-03-31T15:37:50.793+0000",
+     "id": "23002441",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-b147d200"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-03-26T15:09:59.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-b147d200"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-03-31T15:37:50.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Derive outputOrdering from KeyedPartitioning",
+   "updated": "2026-10-07T18:31:42.000+0000",
+   "versions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13646328",
+  "key": "SPARK-56241"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-54f02d02"
+     },
+     "created": "2026-07-10T11:01:17.856+0000",
+     "id": "23141900",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-54f02d02"
+   },
+   "components": [
+    {
+     "name": "PySpark"
+    }
+   ],
+   "created": "2026-07-06T13:22:48.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    },
+    {
+     "id": "12356606",
+     "name": "3.5.9",
+     "released": false
+    },
+    {
+     "id": "12356944",
+     "name": "4.3.0",
+     "released": false
+    },
+    {
+     "id": "12357063",
+     "name": "4.1.3",
+     "released": true
+    },
+    {
+     "id": "12357185",
+     "name": "4.0.4",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-54f02d02"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-07-10T11:01:17.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Guard against path traversal in install_spark tar extraction",
+   "updated": "2026-10-07T10:55:26.000+0000",
+   "versions": [
+    {
+     "id": "12356945",
+     "name": "5.0.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13656845",
+  "key": "SPARK-57962"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-54f02d02"
+     },
+     "created": "2026-04-15T17:36:58.462+0000",
+     "id": "23023168",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-b147d200"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-02-26T16:58:54.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-b147d200"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-04-15T17:36:58.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Keep `outputOrdering` when grouping storage partitions",
+   "updated": "2026-10-06T06:46:06.000+0000",
+   "versions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13643320",
+  "key": "SPARK-55715"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-6c82ef76"
+     },
+     "created": "2022-05-18T10:15:31.980+0000",
+     "id": "20683388",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-c32ac351"
+     },
+     "created": "2022-06-30T10:03:15.468+0000",
+     "id": "20770442",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Resolved"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-7174c773"
+     },
+     "created": "2026-02-15T19:39:20.952+0000",
+     "id": "22923387",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Resolved",
+       "toString": "Closed"
+      }
+     ]
+    }
+   ],
+   "total": 3
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-89baeb58"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2022-05-10T11:16:44.000+0000",
+   "fixVersions": [
+    {
+     "id": "12351465",
+     "name": "3.4.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-89baeb58"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2022-06-30T10:03:15.000+0000",
+   "status": {
+    "name": "Closed",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "DS V2 supports push down DS V2 UDF",
+   "updated": "2026-10-05T19:32:52.000+0000",
+   "versions": [
+    {
+     "id": "12351465",
+     "name": "3.4.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13444151",
+  "key": "SPARK-39139"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-a7ad81cf"
+     },
+     "created": "2025-08-18T22:33:40.890+0000",
+     "id": "22689502",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-a7ad81cf"
+     },
+     "created": "2025-11-14T18:01:44.764+0000",
+     "id": "22815747",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Resolved",
+       "toString": "Reopened"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-7174c773"
+     },
+     "created": "2025-11-19T22:40:33.398+0000",
+     "id": "22821351",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Reopened",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 3
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-a7ad81cf"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2025-08-18T18:37:38.000+0000",
+   "fixVersions": [
+    {
+     "id": "12355581",
+     "name": "4.1.0",
+     "released": true
+    },
+    {
+     "id": "12357251",
+     "name": "4.0.5",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-a7ad81cf"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2025-11-19T22:40:33.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "KeyGroupedPartitioning shouldn't be pushed down when one side of the plan doesn't have a scan",
+   "updated": "2026-10-05T15:14:48.000+0000",
+   "versions": [
+    {
+     "id": "12353505",
+     "name": "3.3.4",
+     "released": true
+    }
+   ]
+  },
+  "id": "13626681",
+  "key": "SPARK-53322"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-6c82ef76"
+     },
+     "created": "2021-03-05T07:53:34.867+0000",
+     "id": "19582963",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-c32ac351"
+     },
+     "created": "2021-05-13T13:07:48.549+0000",
+     "id": "19757391",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "In Progress",
+       "toString": "Resolved"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-7174c773"
+     },
+     "created": "2026-02-15T19:53:30.777+0000",
+     "id": "22928465",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Resolved",
+       "toString": "Closed"
+      }
+     ]
+    }
+   ],
+   "total": 3
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-2390f818"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2021-03-05T07:41:45.000+0000",
+   "fixVersions": [
+    {
+     "id": "12349407",
+     "name": "3.2.0",
+     "released": true
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-2390f818"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2021-05-13T13:07:48.000+0000",
+   "status": {
+    "name": "Closed",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Support DPP in AQE when the broadcast exchange can be reused",
+   "updated": "2026-10-05T14:52:34.000+0000",
+   "versions": [
+    {
+     "id": "12349407",
+     "name": "3.2.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13362521",
+  "key": "SPARK-34637"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-77df21b4"
+     },
+     "created": "2026-07-07T03:47:58.276+0000",
+     "id": "23134964",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-77df21b4"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-07-02T14:51:34.000+0000",
+   "fixVersions": [
+    {
+     "id": "12356944",
+     "name": "4.3.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-77df21b4"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-07-07T03:47:58.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "UnionExec outputPartitioning supports KeyedPartitioning",
+   "updated": "2026-10-09T11:12:39.000+0000",
+   "versions": [
+    {
+     "id": "12356944",
+     "name": "4.3.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13656489",
+  "key": "SPARK-57881"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-54f02d02"
+     },
+     "created": "2026-10-09T10:09:27.422+0000",
+     "id": "23321554",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-6ab2fa46"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-10-02T01:09:59.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Bug",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-4f50cbf4"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-09T10:09:27.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Strip aliases from a DSv2 reported ordering on a nested field",
+   "updated": "2026-10-09T10:12:07.000+0000",
+   "versions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    },
+    {
+     "id": "12357063",
+     "name": "4.1.3",
+     "released": true
+    },
+    {
+     "id": "12357185",
+     "name": "4.0.4",
+     "released": true
+    }
+   ]
+  },
+  "id": "13669679",
+  "key": "SPARK-59948"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-4bf36ef0"
+     },
+     "created": "2026-10-09T09:57:35.058+0000",
+     "id": "23321515",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-4bf36ef0"
+   },
+   "components": [
+    {
+     "name": "Build"
+    }
+   ],
+   "created": "2026-09-08T11:58:13.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Minor"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-4bf36ef0"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-09T09:57:35.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Add config test module",
+   "updated": "2026-10-09T09:57:35.000+0000",
+   "versions": [
+    {
+     "id": "12356944",
+     "name": "4.3.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13665477",
+  "key": "SPARK-59327"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-77df21b4"
+     },
+     "created": "2026-10-09T08:46:20.259+0000",
+     "id": "23321337",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-77df21b4"
+   },
+   "components": [
+    {
+     "name": "Spark Core"
+    }
+   ],
+   "created": "2026-09-02T08:35:36.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-77df21b4"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-09T08:46:20.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Log a warning when KVStoreProtobufSerializer falls back to JSON SerDe",
+   "updated": "2026-10-09T08:47:39.000+0000",
+   "versions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13664474",
+  "key": "SPARK-59169"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-f6cc18ef"
+     },
+     "created": "2026-10-09T08:43:58.180+0000",
+     "id": "23321331",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-8a1c40f9"
+   },
+   "components": [
+    {
+     "name": "PySpark"
+    },
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2026-09-28T13:27:44.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Task",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-8a1c40f9"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-09T08:43:58.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Guard against oversized rows during pickle Python UDF input serialization",
+   "updated": "2026-10-09T08:43:58.000+0000",
+   "versions": [
+    {
+     "id": "12356380",
+     "name": "4.2.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13668882",
+  "key": "SPARK-59824"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-1b2d626c"
+     },
+     "created": "2026-10-09T07:49:18.852+0000",
+     "id": "23321190",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-1b2d626c"
+   },
+   "components": [
+    {
+     "name": "Connect"
+    }
+   ],
+   "created": "2026-10-05T06:56:09.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357444",
+     "name": "connect-gateway-0.1.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-1b2d626c"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-09T07:49:18.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Upgrade the OpenTelemetry crates to 0.33 and tracing-opentelemetry to 0.34",
+   "updated": "2026-10-09T07:49:36.000+0000",
+   "versions": [
+    {
+     "id": "12357444",
+     "name": "connect-gateway-0.1.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13670070",
+  "key": "SPARK-59973"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-1b2d626c"
+     },
+     "created": "2026-10-09T06:56:25.837+0000",
+     "id": "23321041",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-1b2d626c"
+   },
+   "components": [
+    {
+     "name": "Connect"
+    }
+   ],
+   "created": "2026-10-05T21:29:24.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357444",
+     "name": "connect-gateway-0.1.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-1b2d626c"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-09T06:56:25.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Pin the Rust toolchain and silence double_must_use on async_trait traits",
+   "updated": "2026-10-09T06:56:47.000+0000",
+   "versions": [
+    {
+     "id": "12357444",
+     "name": "connect-gateway-0.1.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13670261",
+  "key": "SPARK-59989"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-8e7be2b3"
+     },
+     "created": "2026-10-01T00:41:57.916+0000",
+     "id": "23303111",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": null,
+   "components": [
+    {
+     "name": "UDF"
+    }
+   ],
+   "created": "2026-09-30T07:22:23.000+0000",
+   "fixVersions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ],
+   "issuetype": {
+    "name": "Sub-task",
+    "subtask": true
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-06d7631d"
+   },
+   "resolution": {
+    "name": "Fixed"
+   },
+   "resolutiondate": "2026-10-01T00:41:57.000+0000",
+   "status": {
+    "name": "Resolved",
+    "statusCategory": {
+     "key": "done"
+    }
+   },
+   "summary": "Offer built-in dispatcher factories as enums ",
+   "updated": "2026-10-09T06:06:28.000+0000",
+   "versions": [
+    {
+     "id": "12357380",
+     "name": "4.4.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13669263",
+  "key": "SPARK-59886"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-c32ac351"
+     },
+     "created": "2026-04-07T09:52:11.534+0000",
+     "id": "23010520",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "Resolved"
+      }
+     ]
+    },
+    {
+     "author": {
+      "name": "user-06d7631d"
+     },
+     "created": "2026-04-23T12:08:21.805+0000",
+     "id": "23033968",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Resolved",
+       "toString": "Reopened"
+      }
+     ]
+    }
+   ],
+   "total": 2
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-06d7631d"
+   },
+   "components": [
+    {
+     "name": "Connect"
+    },
+    {
+     "name": "PySpark"
+    }
+   ],
+   "created": "2026-01-29T12:26:31.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Umbrella",
+    "subtask": false
+   },
+   "labels": [
+    "SPIP",
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-06d7631d"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "Reopened",
+    "statusCategory": {
+     "key": "new"
+    }
+   },
+   "summary": "SPIP: Language-agnostic UDF Protocol for Spark",
+   "updated": "2026-10-09T05:26:26.000+0000",
+   "versions": [
+    {
+     "id": "12356944",
+     "name": "4.3.0",
+     "released": false
+    }
+   ]
+  },
+  "id": "13640433",
+  "key": "SPARK-55278"
+ },
+ {
+  "changelog": {
+   "histories": [
+    {
+     "author": {
+      "name": "user-6c82ef76"
+     },
+     "created": "2020-05-01T16:49:46.199+0000",
+     "id": "18833761",
+     "items": [
+      {
+       "field": "status",
+       "fromString": "Open",
+       "toString": "In Progress"
+      }
+     ]
+    }
+   ],
+   "total": 1
+  },
+  "fields": {
+   "assignee": {
+    "name": "user-6c82ef76"
+   },
+   "components": [
+    {
+     "name": "SQL"
+    }
+   ],
+   "created": "2020-02-10T05:47:25.000+0000",
+   "fixVersions": [],
+   "issuetype": {
+    "name": "Improvement",
+    "subtask": false
+   },
+   "labels": [
+    "pull-request-available"
+   ],
+   "priority": {
+    "name": "Major"
+   },
+   "project": {
+    "key": "SPARK"
+   },
+   "reporter": {
+    "name": "user-20d0cbf4"
+   },
+   "resolution": null,
+   "resolutiondate": null,
+   "status": {
+    "name": "In Progress",
+    "statusCategory": {
+     "key": "indeterminate"
+    }
+   },
+   "summary": "Constraints inferred from inequality attributes",
+   "updated": "2026-10-08T23:09:14.000+0000",
+   "versions": [
+    {
+     "id": "12346518",
+     "name": "3.1.0",
+     "released": true
+    }
+   ]
+  },
+  "id": "13284194",
+  "key": "SPARK-30768"
+ }
+]

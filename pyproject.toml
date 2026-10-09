@@ -1,0 +1,98 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "atlassian-dx-productivity-aws"
+version = "0.1.0"
+description = "Developer-experience and DORA analytics on Apache Jira + GitHub: serverless-style incremental extraction, Iceberg curated zone, dbt marts. AWS emulated locally."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.12,<3.13"
+authors = [{ name = "rohit91jacob" }]
+keywords = ["dora", "developer-experience", "jira", "github", "iceberg", "dbt", "duckdb", "aws", "lambda"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Software Development :: Quality Assurance",
+]
+dependencies = [
+  # The extractor Lambda only needs the standard library + boto3 (bundled in the Lambda runtime).
+  "boto3>=1.40,<2",
+  "pyarrow>=21",
+  # SQL catalog (SQLite) locally, Glue catalog on AWS; fsspec FileIO for portable local paths.
+  "pyiceberg[sql-sqlite,pyarrow,glue]>=0.10,<0.13",
+  "fsspec>=2024.6",
+  "duckdb>=1.4,<1.6",
+  "dbt-core>=1.10,<1.13",
+  "dbt-duckdb>=1.9,<1.12",
+]
+
+[project.scripts]
+dx = "dx_productivity.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/rohit91jacob/atlassian-dx-productivity-aws"
+"Jira data" = "https://issues.apache.org/jira/"
+
+[dependency-groups]
+dev = [
+  "pytest>=9,<10",
+  "pytest-cov>=7,<8",
+  "ruff>=0.16,<0.17",
+  "pre-commit>=4,<5",
+  "moto[server,s3,dynamodb,glue]>=5.1,<6",
+]
+# Only needed to compile/run the dbt project against Athena (`dx transform --target athena`).
+athena = ["dbt-athena>=1.9,<1.12"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/dx_productivity"]
+
+[tool.uv]
+default-groups = ["dev", "athena"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["src", "tests", "scripts"]
+extend-exclude = ["dbt/target", "dbt/logs", "dbt/dbt_packages", "data", "site"]
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "B", "UP", "SIM", "C4", "RUF", "PTH", "PIE", "RET", "TID", "S", "N"]
+ignore = [
+  "E501",   # ruff format owns line length; long SQL/strings are left intact
+  "RET504", # assign-then-return keeps multi-step SQL readable
+  "S101",   # asserts are used as validation inside DQ shape checks
+  "S608",   # SQL is assembled from static table specs only
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S", "PTH", "N"]
+"scripts/**" = ["T201", "S"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["dx_productivity"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
+markers = [
+  "e2e: end-to-end pipeline runs on the recorded fixtures (extract -> curate -> dbt)",
+  "aws: AWS code paths against moto (in-process or server mode)",
+  "localstack: needs a LocalStack endpoint in AWS_ENDPOINT_URL (CI only)",
+]
+filterwarnings = [
+  "ignore::DeprecationWarning:dbt.*",
+  "ignore::DeprecationWarning:botocore.*",
+  "ignore::UserWarning:pyiceberg.*",
+]
+
+[tool.coverage.run]
+source = ["dx_productivity"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true

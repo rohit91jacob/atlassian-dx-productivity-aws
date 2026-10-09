@@ -1,0 +1,1304 @@
+[
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": null,
+  "created_at": "2026-06-08T23:16:39Z",
+  "draft": false,
+  "head": {
+   "sha": "27d8bbc35ec287031a6cf53d0e92a7186495d92d"
+  },
+  "labels": [
+   {
+    "name": "clients"
+   },
+   {
+    "name": "small"
+   }
+  ],
+  "merge_commit_sha": "ffbecf02bd15a64579d09d560d0c9e1813b3cf67",
+  "merged_at": null,
+  "number": 22513,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "KAFKA-20676: do not fail startup when a non-supported user configured cipher is used",
+  "updated_at": "2026-10-06T15:24:13Z",
+  "user": {
+   "login": "user-e609f766",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": null,
+  "created_at": "2026-07-21T11:20:27Z",
+  "draft": false,
+  "head": {
+   "sha": "e5bdb8435e181a6923fb940ad92500e4f5f50e32"
+  },
+  "labels": [
+   {
+    "name": "kraft"
+   },
+   {
+    "name": "small"
+   }
+  ],
+  "merge_commit_sha": "aa302214c2ca315e6ba1e794327c14f906a5f8ad",
+  "merged_at": null,
+  "number": 22893,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "KAFKA-20820: make symlinked log.dirs possible when on JDK17",
+  "updated_at": "2026-10-06T15:24:17Z",
+  "user": {
+   "login": "user-e609f766",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": "2026-10-06T12:19:44Z",
+  "created_at": "2026-07-21T20:30:49Z",
+  "draft": false,
+  "head": {
+   "sha": "04a5b78632baaafe3fbe14e3d4b1ab02aa997028"
+  },
+  "labels": [
+   {
+    "name": "streams"
+   },
+   {
+    "name": "tests"
+   },
+   {
+    "name": "ci-approved"
+   }
+  ],
+  "merge_commit_sha": "414153c5b5aca00590544c69100d88784badb19e",
+  "merged_at": "2026-10-06T12:19:44Z",
+  "number": 22901,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "KAFKA-20278 : Refactor - Consolidate process-and-verify helpers, [2/N]",
+  "updated_at": "2026-10-06T12:19:44Z",
+  "user": {
+   "login": "user-76e2d38f",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "MEMBER",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": "2026-10-06T14:51:12Z",
+  "created_at": "2026-09-29T09:00:09Z",
+  "draft": false,
+  "head": {
+   "sha": "d8eb64d7d8a255c5e3437c62ae0646c73b4e18ad"
+  },
+  "labels": [
+   {
+    "name": "streams"
+   },
+   {
+    "name": "tests"
+   }
+  ],
+  "merge_commit_sha": "54152f775ba83560ac8524bce37b99c00ed2b67f",
+  "merged_at": "2026-10-06T14:51:12Z",
+  "number": 23620,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "MINOR: Add streams group integration tests for the warm-up task lifecycle",
+  "updated_at": "2026-10-06T14:51:12Z",
+  "user": {
+   "login": "user-912bb780",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "NONE",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": null,
+  "created_at": "2026-09-30T17:16:06Z",
+  "draft": false,
+  "head": {
+   "sha": "e3d7ecea8738b8a6cc4806bf409a3d64bb2b7669"
+  },
+  "labels": [
+   {
+    "name": "core"
+   },
+   {
+    "name": "small"
+   },
+   {
+    "name": "triage"
+   }
+  ],
+  "merge_commit_sha": null,
+  "merged_at": null,
+  "number": 23650,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "KAFKA-21190: Skip remote aux state rebuild when the fetch start offset equals the log start offset",
+  "updated_at": "2026-10-06T14:43:32Z",
+  "user": {
+   "login": "user-0473f3e9",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "MEMBER",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-01T14:19:31Z",
+  "draft": false,
+  "head": {
+   "sha": "835ae9d1a362cfdd04a901ecab982b00f9d1a107"
+  },
+  "labels": [
+   {
+    "name": "consumer"
+   },
+   {
+    "name": "clients"
+   }
+  ],
+  "merge_commit_sha": "34ee50692ef7c6ca1d6b11ee26815e1d90b108e9",
+  "merged_at": null,
+  "number": 23664,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "MINOR: Resilience improvements on leadership change",
+  "updated_at": "2026-10-06T19:20:00Z",
+  "user": {
+   "login": "user-c7e19912",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "MEMBER",
+  "base": {
+   "ref": "4.3"
+  },
+  "closed_at": "2026-10-06T16:21:24Z",
+  "created_at": "2026-10-02T14:13:47Z",
+  "draft": false,
+  "head": {
+   "sha": "37dc04f67a9d6d68ffd8307d6967471cd995e67f"
+  },
+  "labels": [],
+  "merge_commit_sha": "4c43cedf1ccdcbb5c09cfeb8c94dcb038dd6818d",
+  "merged_at": "2026-10-06T16:21:24Z",
+  "number": 23677,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "KAFKA-21196: Release memory held by cancelled CoordinatorExecutorImpl tasks (4.3)",
+  "updated_at": "2026-10-06T16:21:28Z",
+  "user": {
+   "login": "user-33d76ed2",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "MEMBER",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": "2026-10-06T19:14:25Z",
+  "created_at": "2026-10-02T16:50:44Z",
+  "draft": false,
+  "head": {
+   "sha": "6a40b2db1dc6b4a3ba864eb03cedeb6f76405d5f"
+  },
+  "labels": [
+   {
+    "name": "clients"
+   },
+   {
+    "name": "small"
+   }
+  ],
+  "merge_commit_sha": "4a0ae51b3b0ab85e03cc3f935278271b842affc4",
+  "merged_at": "2026-10-06T19:14:25Z",
+  "number": 23678,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "MINOR: Metadata cluster check enabled for admin",
+  "updated_at": "2026-10-06T19:14:29Z",
+  "user": {
+   "login": "user-c7e19912",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "MEMBER",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-03T17:09:54Z",
+  "draft": false,
+  "head": {
+   "sha": "4f6ca1128dc00ff3947de142497e8e475fec24c7"
+  },
+  "labels": [
+   {
+    "name": "consumer"
+   },
+   {
+    "name": "clients"
+   },
+   {
+    "name": "ci-approved"
+   }
+  ],
+  "merge_commit_sha": "8b655e1f751d02c13d234c8dbeca68d0bf87e755",
+  "merged_at": null,
+  "number": 23687,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "KAFKA-19804: Improve heartbeat request manager initial HB interval",
+  "updated_at": "2026-10-06T15:35:22Z",
+  "user": {
+   "login": "user-df703d10",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "MEMBER",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": "2026-10-06T13:07:28Z",
+  "created_at": "2026-10-05T22:28:15Z",
+  "draft": false,
+  "head": {
+   "sha": "7398af2d7583553eebcda3992808047af03ecea4"
+  },
+  "labels": [
+   {
+    "name": "tests"
+   },
+   {
+    "name": "small"
+   }
+  ],
+  "merge_commit_sha": "05006c06eb85857210ad67cb27eb03b3e8676869",
+  "merged_at": "2026-10-06T13:07:27Z",
+  "number": 23718,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "MINOR: Fix produce-ack race in ShareConsumerDLQTest multi-topic tests.",
+  "updated_at": "2026-10-06T13:07:51Z",
+  "user": {
+   "login": "user-c3735226",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "MEMBER",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": "2026-10-06T13:57:35Z",
+  "created_at": "2026-10-06T08:30:42Z",
+  "draft": false,
+  "head": {
+   "sha": "f51e87ce289ed5ddc82c4174a30bab7408886686"
+  },
+  "labels": [
+   {
+    "name": "group-coordinator"
+   }
+  ],
+  "merge_commit_sha": "8ed535f41c2a8a783e64a3b4ff9468ab682959b8",
+  "merged_at": "2026-10-06T13:57:35Z",
+  "number": 23721,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "MINOR: Size hash maps and sets exactly in the group coordinator",
+  "updated_at": "2026-10-06T13:57:40Z",
+  "user": {
+   "login": "user-33d76ed2",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "MEMBER",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": "2026-10-06T16:27:14Z",
+  "created_at": "2026-10-06T08:31:54Z",
+  "draft": false,
+  "head": {
+   "sha": "9d4bc5a337b3f0224c296affc3b4ff20e0ac3240"
+  },
+  "labels": [
+   {
+    "name": "group-coordinator"
+   },
+   {
+    "name": "uniform2"
+   }
+  ],
+  "merge_commit_sha": "b71243dc4880f330c3dc0cbabc9315b9416ca937",
+  "merged_at": "2026-10-06T16:27:14Z",
+  "number": 23722,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "KAFKA-21214: [1/N] Add primitive collections for the uniform2 assignor",
+  "updated_at": "2026-10-06T16:27:19Z",
+  "user": {
+   "login": "user-33d76ed2",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-06T10:02:56Z",
+  "draft": false,
+  "head": {
+   "sha": "d6e4a76f4180ace76a23f8e1ff79ba23a58c51d6"
+  },
+  "labels": [
+   {
+    "name": "consumer"
+   },
+   {
+    "name": "clients"
+   },
+   {
+    "name": "ci-approved"
+   },
+   {
+    "name": "small"
+   }
+  ],
+  "merge_commit_sha": "8fef8710e3b03ee648f43085b73969fcd2682395",
+  "merged_at": null,
+  "number": 23725,
+  "requested_reviewers": [
+   {
+    "login": "user-e5c7dfcf"
+   }
+  ],
+  "state": "open",
+  "title": "KAFKA-21229: Preserve request offsets in async commit failure callbacks",
+  "updated_at": "2026-10-06T12:59:34Z",
+  "user": {
+   "login": "user-049c6f4b",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-06T13:34:40Z",
+  "draft": false,
+  "head": {
+   "sha": "b22b452ee4bb0ac4970867a8ac8126bb66f424e8"
+  },
+  "labels": [
+   {
+    "name": "streams"
+   },
+   {
+    "name": "triage"
+   }
+  ],
+  "merge_commit_sha": "c69fa122c17cd166c8db79f3e8ec5691aa01c50e",
+  "merged_at": null,
+  "number": 23728,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "KAFKA-21230: Pause processing on uncommitted bytes",
+  "updated_at": "2026-10-06T13:46:42Z",
+  "user": {
+   "login": "user-f5297582",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "NONE",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-06T16:30:14Z",
+  "draft": false,
+  "head": {
+   "sha": "7918edb809ef4806a5f7cbe00d98f1bb2fc865a6"
+  },
+  "labels": [
+   {
+    "name": "clients"
+   },
+   {
+    "name": "small"
+   },
+   {
+    "name": "triage"
+   }
+  ],
+  "merge_commit_sha": "bde93efb2fb1432a20b34d96985abcb4d24f2a34",
+  "merged_at": null,
+  "number": 23731,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "MINOR: Fix consumer group offset handler chain indentation",
+  "updated_at": "2026-10-06T16:30:45Z",
+  "user": {
+   "login": "user-8be0c23f",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "4.3"
+  },
+  "closed_at": "2026-10-09T12:18:15Z",
+  "created_at": "2026-10-09T08:21:44Z",
+  "draft": false,
+  "head": {
+   "sha": "0fc64a31d161adbd08ab71a771b060a25863b29a"
+  },
+  "labels": [],
+  "merge_commit_sha": "f47ff5f6258fcdaa9a176e0f53762871d22eb015",
+  "merged_at": "2026-10-09T12:18:15Z",
+  "number": 23758,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "MINOR: Use Jackson 2.21.7 instead of 2.22.3 on 4.3",
+  "updated_at": "2026-10-09T12:54:28Z",
+  "user": {
+   "login": "user-e6042360",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": "2026-10-09T08:09:11Z",
+  "created_at": "2026-10-09T08:06:44Z",
+  "draft": false,
+  "head": {
+   "sha": "4fe495eea4979d020b0823928896537067851473"
+  },
+  "labels": [
+   {
+    "name": "dependencies"
+   },
+   {
+    "name": "build"
+   },
+   {
+    "name": "small"
+   },
+   {
+    "name": "triage"
+   }
+  ],
+  "merge_commit_sha": "851f5deec80c820c6a36ffb07baed9949458b050",
+  "merged_at": null,
+  "number": 23757,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "MINOR: Bump Jackson version to 2.21.7",
+  "updated_at": "2026-10-09T08:16:58Z",
+  "user": {
+   "login": "user-e6042360",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "4.3"
+  },
+  "closed_at": "2026-10-09T04:57:45Z",
+  "created_at": "2026-10-08T16:15:55Z",
+  "draft": false,
+  "head": {
+   "sha": "a6f871efa6c25f717c59d1671e07ee134097054d"
+  },
+  "labels": [],
+  "merge_commit_sha": "fa713a984509ebc7cc120832e7f776088fc8a5f1",
+  "merged_at": "2026-10-09T04:57:45Z",
+  "number": 23748,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "KAFKA-21157 Bump Jackson version to 2.22.3 ",
+  "updated_at": "2026-10-09T05:02:28Z",
+  "user": {
+   "login": "user-3f20f457",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "MEMBER",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": "2026-10-09T07:21:16Z",
+  "created_at": "2026-10-08T10:29:44Z",
+  "draft": false,
+  "head": {
+   "sha": "1462ba50914d3748b6ce29a28f0d90b27e3a405b"
+  },
+  "labels": [
+   {
+    "name": "core"
+   },
+   {
+    "name": "tests"
+   }
+  ],
+  "merge_commit_sha": "3c1b3f2db34b2191c00bd97d3de92c4945668ab6",
+  "merged_at": "2026-10-09T07:21:16Z",
+  "number": 23747,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "MINOR: Add broker integration tests for classic JoinGroup topology cleanup",
+  "updated_at": "2026-10-09T07:21:16Z",
+  "user": {
+   "login": "user-912bb780",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": "2026-10-08T07:00:34Z",
+  "created_at": "2026-10-07T15:37:52Z",
+  "draft": false,
+  "head": {
+   "sha": "cdaa57b89f077a204a4f3c73cd79ec757be66f30"
+  },
+  "labels": [
+   {
+    "name": "build"
+   },
+   {
+    "name": "ci-approved"
+   },
+   {
+    "name": "small"
+   }
+  ],
+  "merge_commit_sha": "0e3533b0e0655bde57c62c4ac6ce8e06c47485bb",
+  "merged_at": "2026-10-08T07:00:34Z",
+  "number": 23745,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "MINOR: Remove redundant tools test-common-util dependency",
+  "updated_at": "2026-10-09T03:24:27Z",
+  "user": {
+   "login": "user-5f120d11",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": "2026-10-07T18:23:45Z",
+  "created_at": "2026-10-07T08:24:56Z",
+  "draft": false,
+  "head": {
+   "sha": "87115df7ec5548d15140005c718eb214600603b3"
+  },
+  "labels": [
+   {
+    "name": "core"
+   },
+   {
+    "name": "build"
+   },
+   {
+    "name": "ci-approved"
+   },
+   {
+    "name": "small"
+   }
+  ],
+  "merge_commit_sha": "2142c21a5ba651fde909acdb1c049029a89355ec",
+  "merged_at": "2026-10-07T18:23:45Z",
+  "number": 23741,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "KAFKA-21237 - Remove accidental JUnit 4 usage",
+  "updated_at": "2026-10-08T20:59:14Z",
+  "user": {
+   "login": "user-e609f766",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": "2026-10-07T13:52:44Z",
+  "created_at": "2026-10-06T18:11:20Z",
+  "draft": false,
+  "head": {
+   "sha": "b7ec8db00d18c5105b475bbd173a8e33e4931bff"
+  },
+  "labels": [
+   {
+    "name": "kraft"
+   },
+   {
+    "name": "clients"
+   }
+  ],
+  "merge_commit_sha": "58a59f7880b25804b5d81a9eabcc68774be1d7cf",
+  "merged_at": null,
+  "number": 23737,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "KAFKA-21234: Fix bug in KRaft where the metadata layer can receive records past the high watermark",
+  "updated_at": "2026-10-07T13:52:44Z",
+  "user": {
+   "login": "user-9dfe3900",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": "2026-10-09T12:58:58Z",
+  "created_at": "2026-10-06T11:54:00Z",
+  "draft": false,
+  "head": {
+   "sha": "256a0966d6bf95976da437d51c77cce9f754de84"
+  },
+  "labels": [
+   {
+    "name": "streams"
+   },
+   {
+    "name": "tests"
+   },
+   {
+    "name": "ci-approved"
+   }
+  ],
+  "merge_commit_sha": "5a52d8d6d9004bb58e02b3e3958cfa7a06cc07b3",
+  "merged_at": "2026-10-09T12:58:58Z",
+  "number": 23727,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "MINOR: Clean up Streams header adapter tests after KAFKA-20224",
+  "updated_at": "2026-10-09T12:58:58Z",
+  "user": {
+   "login": "user-a01ca06d",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "MEMBER",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": "2026-10-05T14:22:42Z",
+  "created_at": "2026-10-05T11:06:03Z",
+  "draft": false,
+  "head": {
+   "sha": "c651ece8a79546eecbab98da69b20e81deb41cee"
+  },
+  "labels": [
+   {
+    "name": "group-coordinator"
+   }
+  ],
+  "merge_commit_sha": "c2fbf6f52f78ecc1c11c6511242aade6a2c50b71",
+  "merged_at": "2026-10-05T14:22:42Z",
+  "number": 23710,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "MINOR: Avoid a lambda allocation per lookup in CachedTopicResolver",
+  "updated_at": "2026-10-05T14:22:45Z",
+  "user": {
+   "login": "user-33d76ed2",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": "2026-10-05T08:21:47Z",
+  "created_at": "2026-10-05T08:03:18Z",
+  "draft": false,
+  "head": {
+   "sha": "451da68b1c5841c87cc2d9d9dbaca1b713e8142f"
+  },
+  "labels": [
+   {
+    "name": "core"
+   },
+   {
+    "name": "tests"
+   },
+   {
+    "name": "clients"
+   },
+   {
+    "name": "ci-approved"
+   }
+  ],
+  "merge_commit_sha": "de5bd27f2ba55eb8ea68fa1698d09fb2e94c74c4",
+  "merged_at": null,
+  "number": 23707,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "MINOR: Migrate PlaintextConsumerAssignorsTest to Java",
+  "updated_at": "2026-10-06T03:22:15Z",
+  "user": {
+   "login": "user-eec39f8f",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": "2026-10-08T06:51:12Z",
+  "created_at": "2026-10-04T21:32:59Z",
+  "draft": false,
+  "head": {
+   "sha": "5d9e0683b642c93f4af804d0a16b4292eda27c9d"
+  },
+  "labels": [
+   {
+    "name": "core"
+   },
+   {
+    "name": "tests"
+   },
+   {
+    "name": "small"
+   }
+  ],
+  "merge_commit_sha": "bf8a0273f812cbd9913fe4928bab8947c2e79cc1",
+  "merged_at": "2026-10-08T06:51:11Z",
+  "number": 23702,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "MINOR: Fix BackgroundConsumerSet.start() returning before all consumers have joined",
+  "updated_at": "2026-10-08T06:51:18Z",
+  "user": {
+   "login": "user-87b8f8fb",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": "2026-10-04T21:28:29Z",
+  "created_at": "2026-10-04T21:17:44Z",
+  "draft": false,
+  "head": {
+   "sha": "ac82a128f6759de070bcefd7ff0e767eb3f49876"
+  },
+  "labels": [
+   {
+    "name": "streams"
+   },
+   {
+    "name": "core"
+   },
+   {
+    "name": "performance"
+   },
+   {
+    "name": "clients"
+   },
+   {
+    "name": "triage"
+   },
+   {
+    "name": "group-coordinator"
+   }
+  ],
+  "merge_commit_sha": null,
+  "merged_at": null,
+  "number": 23700,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "WIP: KAFKA-20292: Implement offloaded assignments",
+  "updated_at": "2026-10-04T21:28:29Z",
+  "user": {
+   "login": "user-87b8f8fb",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": "2026-10-04T18:01:36Z",
+  "created_at": "2026-10-04T09:34:26Z",
+  "draft": false,
+  "head": {
+   "sha": "44b8cf063d446274f694a1291062baee42b6ad5b"
+  },
+  "labels": [
+   {
+    "name": "connect"
+   },
+   {
+    "name": "ci-approved"
+   },
+   {
+    "name": "small"
+   }
+  ],
+  "merge_commit_sha": "80b0aa04d18399f7a6c2ce4bef9a63aa9bc82b88",
+  "merged_at": "2026-10-04T18:01:36Z",
+  "number": 23694,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "MINOR: Remove an unused parameter of handleFinishWrite",
+  "updated_at": "2026-10-05T03:28:21Z",
+  "user": {
+   "login": "user-9d32a436",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": "2026-10-04T15:26:02Z",
+  "created_at": "2026-10-04T08:38:46Z",
+  "draft": false,
+  "head": {
+   "sha": "e2cb8fc7ecd4452df8396ffcc463604e4d9f2692"
+  },
+  "labels": [
+   {
+    "name": "generator"
+   },
+   {
+    "name": "ci-approved"
+   },
+   {
+    "name": "small"
+   }
+  ],
+  "merge_commit_sha": "a1563f2aaa9cecd076fc26131cbe14fc847f8369",
+  "merged_at": "2026-10-04T15:26:02Z",
+  "number": 23693,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "MINOR: Remove unused parameter of fieldTypeToSchemaType",
+  "updated_at": "2026-10-05T03:28:21Z",
+  "user": {
+   "login": "user-9d32a436",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": "2026-10-05T04:51:37Z",
+  "created_at": "2026-10-04T04:10:31Z",
+  "draft": false,
+  "head": {
+   "sha": "c79c02199c9b707326cdde3cbbb166758e68696b"
+  },
+  "labels": [
+   {
+    "name": "docs"
+   },
+   {
+    "name": "ci-approved"
+   },
+   {
+    "name": "small"
+   }
+  ],
+  "merge_commit_sha": "a81595abe8d48b0edd2ca9d42b221eb9465e8bad",
+  "merged_at": "2026-10-05T04:51:37Z",
+  "number": 23692,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "MINOR: Clarify non-compact fields in flexible protocol docs",
+  "updated_at": "2026-10-05T04:51:37Z",
+  "user": {
+   "login": "user-bbaae313",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "MEMBER",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": "2026-10-04T18:04:11Z",
+  "created_at": "2026-10-03T18:09:37Z",
+  "draft": false,
+  "head": {
+   "sha": "59d38862734dd8ad574b436a452ad9c6d0acf722"
+  },
+  "labels": [
+   {
+    "name": "core"
+   },
+   {
+    "name": "storage"
+   },
+   {
+    "name": "tiered-storage"
+   }
+  ],
+  "merge_commit_sha": "15d708d16208eeabff249ad8b5bb3faeb3d22dee",
+  "merged_at": "2026-10-04T18:04:11Z",
+  "number": 23689,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "KAFKA-21065: Streamline BytesApiMessageSerde and RemoteLogMetadataSerde",
+  "updated_at": "2026-10-05T03:28:21Z",
+  "user": {
+   "login": "user-fb4d94c0",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "MEMBER",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": "2026-10-03T19:20:15Z",
+  "created_at": "2026-10-03T10:28:21Z",
+  "draft": false,
+  "head": {
+   "sha": "930c8341e8d2f78879338829015083df37219ad9"
+  },
+  "labels": [
+   {
+    "name": "tools"
+   }
+  ],
+  "merge_commit_sha": "96e9416e4f4bb5321e58c87914ef1c20590de894",
+  "merged_at": "2026-10-03T19:20:15Z",
+  "number": 23684,
+  "requested_reviewers": [],
+  "state": "closed",
+  "title": "KAFKA-19277: Add ConsumerGroupMessageFormatter for the console consumer",
+  "updated_at": "2026-10-03T20:15:54Z",
+  "user": {
+   "login": "user-33d76ed2",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-09T14:09:11Z",
+  "draft": false,
+  "head": {
+   "sha": "c73f1b302ad21d7aa74362a9923b7c3ccbde50d8"
+  },
+  "labels": [
+   {
+    "name": "docs"
+   },
+   {
+    "name": "triage"
+   }
+  ],
+  "merge_commit_sha": "00b1ea3a86bcc6e1e93e79ed1f9681f7f457f627",
+  "merged_at": null,
+  "number": 23764,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "KAFKA-20366 : Add syntax highlighting in streams docs",
+  "updated_at": "2026-10-09T14:31:14Z",
+  "user": {
+   "login": "user-fac68f39",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-09T13:07:04Z",
+  "draft": false,
+  "head": {
+   "sha": "f7088a182e64ecda12bec98a18a9e70a8693eea2"
+  },
+  "labels": [
+   {
+    "name": "clients"
+   },
+   {
+    "name": "triage"
+   }
+  ],
+  "merge_commit_sha": "cd39a838d6420a34e6e7430b190cb330ab7d7cfc",
+  "merged_at": null,
+  "number": 23763,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "improvement/KAFKA-21078-disabled-sensor-metric-pushed: Skip telemetry…",
+  "updated_at": "2026-10-09T13:09:18Z",
+  "user": {
+   "login": "user-f1bae01e",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-09T12:03:35Z",
+  "draft": false,
+  "head": {
+   "sha": "01ebd31fa9ef6e3638dbe8ddd8b0276533c3be0d"
+  },
+  "labels": [
+   {
+    "name": "tools"
+   },
+   {
+    "name": "small"
+   },
+   {
+    "name": "triage"
+   }
+  ],
+  "merge_commit_sha": "0d4b0a7f3b8c7ef882d71b0d9eea69872d8e41a6",
+  "merged_at": null,
+  "number": 23762,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "KAFKA-21251: Label global stores with their real sub-topology id in --describe --topology",
+  "updated_at": "2026-10-09T12:05:19Z",
+  "user": {
+   "login": "user-a01ca06d",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "MEMBER",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-09T11:12:42Z",
+  "draft": false,
+  "head": {
+   "sha": "4d188e7261fb526a2478bea20589bc6966a42da2"
+  },
+  "labels": [
+   {
+    "name": "performance"
+   },
+   {
+    "name": "group-coordinator"
+   }
+  ],
+  "merge_commit_sha": "3a62872e543eb85dd7a780ccefc5bddfb1cf004d",
+  "merged_at": null,
+  "number": 23761,
+  "requested_reviewers": [
+   {
+    "login": "user-50756952"
+   },
+   {
+    "login": "user-c3735226"
+   }
+  ],
+  "state": "open",
+  "title": "KAFKA-21111 [1/N]: Tell the refiner which members may be given a warm-up task",
+  "updated_at": "2026-10-09T12:44:06Z",
+  "user": {
+   "login": "user-912bb780",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-09T09:23:24Z",
+  "draft": false,
+  "head": {
+   "sha": "7eeef4a4e5d0767b948b120afa4cd4f9b17e9499"
+  },
+  "labels": [
+   {
+    "name": "consumer"
+   },
+   {
+    "name": "clients"
+   },
+   {
+    "name": "small"
+   },
+   {
+    "name": "triage"
+   }
+  ],
+  "merge_commit_sha": "4bcaf0e961ef50abe4109a98c5a6387fc1284119",
+  "merged_at": null,
+  "number": 23760,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "KAFKA-21249: Preserve initial offsets across pre-rebalance auto-commit retries",
+  "updated_at": "2026-10-09T09:26:32Z",
+  "user": {
+   "login": "user-049c6f4b",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "MEMBER",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-09T08:30:05Z",
+  "draft": true,
+  "head": {
+   "sha": "34ceef553ee4266e241be9d50b237a5dfce4e77e"
+  },
+  "labels": [
+   {
+    "name": "tests"
+   },
+   {
+    "name": "group-coordinator"
+   }
+  ],
+  "merge_commit_sha": "5c104bee9d370c1857e1704aaa7da6fc9a6dada2",
+  "merged_at": null,
+  "number": 23759,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "MINOR: Add a randomized testbed for streams group assignment refiners",
+  "updated_at": "2026-10-09T08:56:08Z",
+  "user": {
+   "login": "user-912bb780",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-09T07:56:27Z",
+  "draft": false,
+  "head": {
+   "sha": "924da8ae5dd75231176fec8421c55b124d56329b"
+  },
+  "labels": [
+   {
+    "name": "consumer"
+   },
+   {
+    "name": "clients"
+   },
+   {
+    "name": "triage"
+   }
+  ],
+  "merge_commit_sha": "2c418e2f786fe5daf7e83753eab0f211e13ea448",
+  "merged_at": null,
+  "number": 23756,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "KAFKA-21248: Prevent premature auto-commit in AsyncKafkaConsumer.",
+  "updated_at": "2026-10-09T07:58:05Z",
+  "user": {
+   "login": "user-049c6f4b",
+   "type": "User"
+  }
+ },
+ {
+  "author_association": "CONTRIBUTOR",
+  "base": {
+   "ref": "trunk"
+  },
+  "closed_at": null,
+  "created_at": "2026-10-09T06:42:59Z",
+  "draft": false,
+  "head": {
+   "sha": "0b87fa541e036e285a5ea430291ce66fdbc47441"
+  },
+  "labels": [
+   {
+    "name": "triage"
+   },
+   {
+    "name": "group-coordinator"
+   }
+  ],
+  "merge_commit_sha": "311f898f7ce1baaf9ab4c5421578effa7a87f4e7",
+  "merged_at": null,
+  "number": 23755,
+  "requested_reviewers": [],
+  "state": "open",
+  "title": "KAFKA-21194 [1/N]: Place active tasks with the Sainte-Laguë method in the balanced assignor",
+  "updated_at": "2026-10-09T16:16:53Z",
+  "user": {
+   "login": "user-5ebeb5cc",
+   "type": "User"
+  }
+ }
+]

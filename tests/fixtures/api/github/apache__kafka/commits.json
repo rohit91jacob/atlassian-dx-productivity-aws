@@ -1,0 +1,302 @@
+[
+ {
+  "author": {
+   "login": "user-912bb780",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-09T15:39:07Z"
+   },
+   "committer": {
+    "date": "2026-10-09T15:39:07Z"
+   },
+   "message": "MINOR: Add warm-up tests for coordinator failover, owner departure and multi-threaded members (#23675)"
+  },
+  "committer": {
+   "login": "user-7c865839",
+   "type": "User"
+  },
+  "sha": "3b9335d2081fd116699847dc9b66294f9546bde6"
+ },
+ {
+  "author": {
+   "login": "user-58ad4902",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-09T14:55:40Z"
+   },
+   "committer": {
+    "date": "2026-10-09T14:55:40Z"
+   },
+   "message": "KAFKA-15976: Allow specifying initial offsets while creating connectors - KIP-995 (#23268)"
+  },
+  "committer": {
+   "login": "user-7c865839",
+   "type": "User"
+  },
+  "sha": "b37898c76896c0e7f018a6b3bee057c33bcb5dc6"
+ },
+ {
+  "author": {
+   "login": "user-76e2d38f",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-09T14:14:15Z"
+   },
+   "committer": {
+    "date": "2026-10-09T14:14:15Z"
+   },
+   "message": "KAFKA-21158: Document retention impact of future timestamps allowed by message.timestamp.after.max.ms (#23596)"
+  },
+  "committer": {
+   "login": "user-7c865839",
+   "type": "User"
+  },
+  "sha": "eb8e9112d85f4b67949ed25812cc314bf378bb99"
+ },
+ {
+  "author": {
+   "login": "user-a01ca06d",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-09T12:58:57Z"
+   },
+   "committer": {
+    "date": "2026-10-09T12:58:57Z"
+   },
+   "message": "MINOR: Clean up Streams header adapter tests after KAFKA-20224 (#23727)"
+  },
+  "committer": {
+   "login": "user-7c865839",
+   "type": "User"
+  },
+  "sha": "5a52d8d6d9004bb58e02b3e3958cfa7a06cc07b3"
+ },
+ {
+  "author": {
+   "login": "user-5160c84e",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-09T09:41:33Z"
+   },
+   "committer": {
+    "date": "2026-10-09T09:41:33Z"
+   },
+   "message": "KAFKA-21119: Replace temp file handler with JUnit 5 @TempDir in generator, tools, and test-common (#23381)"
+  },
+  "committer": {
+   "login": "user-7c865839",
+   "type": "User"
+  },
+  "sha": "dca38163e3732755f8d916e17ee4bbaeb6cba9f1"
+ },
+ {
+  "author": {
+   "login": "user-912bb780",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-09T07:21:15Z"
+   },
+   "committer": {
+    "date": "2026-10-09T07:21:15Z"
+   },
+   "message": "MINOR: Add broker integration tests for classic JoinGroup topology cleanup (#23747)"
+  },
+  "committer": {
+   "login": "user-7c865839",
+   "type": "User"
+  },
+  "sha": "3c1b3f2db34b2191c00bd97d3de92c4945668ab6"
+ },
+ {
+  "author": {
+   "login": "user-5f120d11",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-08T07:00:33Z"
+   },
+   "committer": {
+    "date": "2026-10-08T07:00:33Z"
+   },
+   "message": "MINOR: Remove redundant tools test-common-util dependency (#23745)"
+  },
+  "committer": {
+   "login": "user-7c865839",
+   "type": "User"
+  },
+  "sha": "0e3533b0e0655bde57c62c4ac6ce8e06c47485bb"
+ },
+ {
+  "author": {
+   "login": "user-87b8f8fb",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-08T06:51:11Z"
+   },
+   "committer": {
+    "date": "2026-10-08T06:51:11Z"
+   },
+   "message": "MINOR: Fix BackgroundConsumerSet.start() returning before all consumers have joined (#23702)"
+  },
+  "committer": {
+   "login": "user-7c865839",
+   "type": "User"
+  },
+  "sha": "bf8a0273f812cbd9913fe4928bab8947c2e79cc1"
+ },
+ {
+  "author": {
+   "login": "user-e609f766",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-07T18:23:44Z"
+   },
+   "committer": {
+    "date": "2026-10-07T18:23:44Z"
+   },
+   "message": "KAFKA-21237 Remove accidental JUnit 4 usage (#23741)"
+  },
+  "committer": {
+   "login": "user-7c865839",
+   "type": "User"
+  },
+  "sha": "2142c21a5ba651fde909acdb1c049029a89355ec"
+ },
+ {
+  "author": {
+   "login": "user-c7e19912",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-06T19:14:24Z"
+   },
+   "committer": {
+    "date": "2026-10-06T19:14:24Z"
+   },
+   "message": "MINOR: Metadata cluster check enabled for admin (#23678)"
+  },
+  "committer": {
+   "login": "user-7c865839",
+   "type": "User"
+  },
+  "sha": "4a0ae51b3b0ab85e03cc3f935278271b842affc4"
+ },
+ {
+  "author": {
+   "login": "user-33d76ed2",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-06T16:27:13Z"
+   },
+   "committer": {
+    "date": "2026-10-06T16:27:13Z"
+   },
+   "message": "KAFKA-21214: [1/N] Add primitive collections for the uniform2 assignor (#23722)"
+  },
+  "committer": {
+   "login": "user-7c865839",
+   "type": "User"
+  },
+  "sha": "b71243dc4880f330c3dc0cbabc9315b9416ca937"
+ },
+ {
+  "author": {
+   "login": "user-912bb780",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-06T14:51:11Z"
+   },
+   "committer": {
+    "date": "2026-10-06T14:51:11Z"
+   },
+   "message": "MINOR: Add streams group integration tests for the warm-up task lifecycle (#23620)"
+  },
+  "committer": {
+   "login": "user-7c865839",
+   "type": "User"
+  },
+  "sha": "54152f775ba83560ac8524bce37b99c00ed2b67f"
+ },
+ {
+  "author": {
+   "login": "user-33d76ed2",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-06T13:57:34Z"
+   },
+   "committer": {
+    "date": "2026-10-06T13:57:34Z"
+   },
+   "message": "MINOR: Size hash maps and sets exactly in the group coordinator (#23721)"
+  },
+  "committer": {
+   "login": "user-7c865839",
+   "type": "User"
+  },
+  "sha": "8ed535f41c2a8a783e64a3b4ff9468ab682959b8"
+ },
+ {
+  "author": {
+   "login": "user-c3735226",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-06T13:07:27Z"
+   },
+   "committer": {
+    "date": "2026-10-06T13:07:27Z"
+   },
+   "message": "MINOR: Fix produce-ack race in ShareConsumerDLQTest multi-topic tests. (#23718)"
+  },
+  "committer": {
+   "login": "user-7c865839",
+   "type": "User"
+  },
+  "sha": "05006c06eb85857210ad67cb27eb03b3e8676869"
+ },
+ {
+  "author": {
+   "login": "user-76e2d38f",
+   "type": "User"
+  },
+  "commit": {
+   "author": {
+    "date": "2026-10-06T12:19:43Z"
+   },
+   "committer": {
+    "date": "2026-10-06T12:19:43Z"
+   },
+   "message": "KAFKA-20278 : Refactor - Consolidate process-and-verify helpers, [2/N] (#22901)"
+  },
+  "committer": {
+   "login": "user-7c865839",
+   "type": "User"
+  },
+  "sha": "414153c5b5aca00590544c69100d88784badb19e"
+ }
+]

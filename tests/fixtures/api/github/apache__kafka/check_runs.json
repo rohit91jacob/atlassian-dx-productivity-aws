@@ -1,0 +1,1247 @@
+{
+ "04a5b78632baaafe3fbe14e3d4b1ab02aa997028": {
+  "check_runs": [
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T12:14:52Z",
+    "conclusion": "success",
+    "id": 112263202607,
+    "name": "Save PR Number",
+    "started_at": "2026-10-06T12:14:46Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T12:14:51Z",
+    "conclusion": "success",
+    "id": 112263198011,
+    "name": "Save PR Number",
+    "started_at": "2026-10-06T12:14:46Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-08-19T22:48:44Z",
+    "conclusion": "skipped",
+    "id": 96252360524,
+    "name": "build / Update Test Catalog",
+    "started_at": "2026-08-19T22:48:44Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-08-19T22:48:44Z",
+    "conclusion": "success",
+    "id": 96252267102,
+    "name": "build / Collate Test Catalog",
+    "started_at": "2026-08-19T22:48:20Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-08-19T22:48:22Z",
+    "conclusion": "success",
+    "id": 96252267097,
+    "name": "build / CI checks completed",
+    "started_at": "2026-08-19T22:48:20Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-08-19T22:47:54Z",
+    "conclusion": "success",
+    "id": 96208592397,
+    "name": "build / JUnit tests Java 17",
+    "started_at": "2026-08-19T20:03:31Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-08-19T20:14:43Z",
+    "conclusion": "success",
+    "id": 96208592378,
+    "name": "build / JUnit tests Java 25 (new)",
+    "started_at": "2026-08-19T20:03:30Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-08-19T22:48:17Z",
+    "conclusion": "success",
+    "id": 96208592371,
+    "name": "build / JUnit tests Java 25",
+    "started_at": "2026-08-19T20:03:31Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-08-19T20:15:53Z",
+    "conclusion": "success",
+    "id": 96208592189,
+    "name": "build / JUnit tests Java 17 (new)",
+    "started_at": "2026-08-19T20:03:30Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-08-19T20:12:40Z",
+    "conclusion": "success",
+    "id": 96208592156,
+    "name": "build / JUnit tests Java 25 (flaky)",
+    "started_at": "2026-08-19T20:03:21Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-08-19T20:16:08Z",
+    "conclusion": "success",
+    "id": 96208592111,
+    "name": "build / JUnit tests Java 17 (flaky)",
+    "started_at": "2026-08-19T20:03:16Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-08-19T19:57:51Z",
+    "conclusion": "success",
+    "id": 96206937286,
+    "name": "build / Load Test Catalog",
+    "started_at": "2026-08-19T19:57:31Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-08-19T20:03:07Z",
+    "conclusion": "success",
+    "id": 96206937171,
+    "name": "build / Compile and Check (Merge Ref)",
+    "started_at": "2026-08-19T19:57:33Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-08-19T19:57:29Z",
+    "conclusion": "success",
+    "id": 96206914179,
+    "name": "build / Configure Workflow",
+    "started_at": "2026-08-19T19:57:26Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-08-19T19:56:58Z",
+    "conclusion": "skipped",
+    "id": 96206788380,
+    "name": "Add triage label",
+    "started_at": "2026-08-19T19:56:59Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-08-19T19:57:24Z",
+    "conclusion": "success",
+    "id": 96206786665,
+    "name": "Labeler",
+    "started_at": "2026-08-19T19:57:12Z",
+    "status": "completed"
+   }
+  ],
+  "total_count": 16
+ },
+ "37dc04f67a9d6d68ffd8307d6967471cd995e67f": {
+  "check_runs": [
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-02T16:48:02Z",
+    "conclusion": "skipped",
+    "id": 110935492974,
+    "name": "build / Update Test Catalog",
+    "started_at": "2026-10-02T16:48:02Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-02T16:48:02Z",
+    "conclusion": "success",
+    "id": 110935340170,
+    "name": "build / Collate Test Catalog",
+    "started_at": "2026-10-02T16:47:40Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-02T16:47:43Z",
+    "conclusion": "success",
+    "id": 110935340154,
+    "name": "build / CI checks completed",
+    "started_at": "2026-10-02T16:47:40Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-02T14:30:18Z",
+    "conclusion": "success",
+    "id": 110881081966,
+    "name": "Save PR Number",
+    "started_at": "2026-10-02T14:30:14Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-02T16:47:37Z",
+    "conclusion": "success",
+    "id": 110880516303,
+    "name": "build / JUnit tests Java 17",
+    "started_at": "2026-10-02T14:30:15Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-02T15:18:19Z",
+    "conclusion": "success",
+    "id": 110880515747,
+    "name": "build / JUnit tests Java 25 (new)",
+    "started_at": "2026-10-02T14:28:39Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-02T16:35:43Z",
+    "conclusion": "success",
+    "id": 110880515709,
+    "name": "build / JUnit tests Java 25",
+    "started_at": "2026-10-02T14:28:50Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-02T14:43:03Z",
+    "conclusion": "success",
+    "id": 110880515653,
+    "name": "build / JUnit tests Java 25 (flaky)",
+    "started_at": "2026-10-02T14:29:46Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-02T15:16:41Z",
+    "conclusion": "success",
+    "id": 110880515647,
+    "name": "build / JUnit tests Java 17 (new)",
+    "started_at": "2026-10-02T14:28:50Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-02T14:42:12Z",
+    "conclusion": "success",
+    "id": 110880515624,
+    "name": "build / JUnit tests Java 17 (flaky)",
+    "started_at": "2026-10-02T14:30:00Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-02T14:27:55Z",
+    "conclusion": "success",
+    "id": 110875043191,
+    "name": "build / Compile and Check (Merge Ref)",
+    "started_at": "2026-10-02T14:14:33Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-02T14:14:44Z",
+    "conclusion": "success",
+    "id": 110875043066,
+    "name": "build / Load Test Catalog",
+    "started_at": "2026-10-02T14:14:29Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-02T14:14:13Z",
+    "conclusion": "success",
+    "id": 110874908385,
+    "name": "build / Configure Workflow",
+    "started_at": "2026-10-02T14:14:10Z",
+    "status": "completed"
+   }
+  ],
+  "total_count": 13
+ },
+ "6a40b2db1dc6b4a3ba864eb03cedeb6f76405d5f": {
+  "check_runs": [
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T13:24:34Z",
+    "conclusion": "success",
+    "id": 112292564812,
+    "name": "Save PR Number",
+    "started_at": "2026-10-06T13:24:30Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-04T22:57:30Z",
+    "conclusion": "skipped",
+    "id": 111552321367,
+    "name": "build / Update Test Catalog",
+    "started_at": "2026-10-04T22:57:30Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-04T22:57:30Z",
+    "conclusion": "success",
+    "id": 111552238354,
+    "name": "build / Collate Test Catalog",
+    "started_at": "2026-10-04T22:57:04Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-04T22:57:07Z",
+    "conclusion": "success",
+    "id": 111552238313,
+    "name": "build / CI checks completed",
+    "started_at": "2026-10-04T22:57:04Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-04T20:48:05Z",
+    "conclusion": "success",
+    "id": 111525902432,
+    "name": "build / JUnit tests Java 17 (new)",
+    "started_at": "2026-10-04T20:37:33Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-04T20:47:00Z",
+    "conclusion": "success",
+    "id": 111525902393,
+    "name": "build / JUnit tests Java 25 (flaky)",
+    "started_at": "2026-10-04T20:37:32Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-04T22:52:22Z",
+    "conclusion": "success",
+    "id": 111525902366,
+    "name": "build / JUnit tests Java 25",
+    "started_at": "2026-10-04T20:37:33Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-04T22:57:01Z",
+    "conclusion": "success",
+    "id": 111525902358,
+    "name": "build / JUnit tests Java 17",
+    "started_at": "2026-10-04T20:37:32Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-04T20:47:07Z",
+    "conclusion": "success",
+    "id": 111525902287,
+    "name": "build / JUnit tests Java 17 (flaky)",
+    "started_at": "2026-10-04T20:37:32Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-04T20:46:26Z",
+    "conclusion": "success",
+    "id": 111525902279,
+    "name": "build / JUnit tests Java 25 (new)",
+    "started_at": "2026-10-04T20:37:32Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-04T20:37:30Z",
+    "conclusion": "success",
+    "id": 111523366890,
+    "name": "build / Compile and Check (Merge Ref)",
+    "started_at": "2026-10-04T20:24:05Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-04T20:24:23Z",
+    "conclusion": "success",
+    "id": 111523366881,
+    "name": "build / Load Test Catalog",
+    "started_at": "2026-10-04T20:24:06Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-04T20:24:03Z",
+    "conclusion": "success",
+    "id": 111523354140,
+    "name": "build / Configure Workflow",
+    "started_at": "2026-10-04T20:24:01Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-04T20:23:56Z",
+    "conclusion": "skipped",
+    "id": 111523347808,
+    "name": "Add triage label",
+    "started_at": "2026-10-04T20:23:57Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-04T20:24:10Z",
+    "conclusion": "success",
+    "id": 111523346895,
+    "name": "Labeler",
+    "started_at": "2026-10-04T20:23:58Z",
+    "status": "completed"
+   }
+  ],
+  "total_count": 15
+ },
+ "7398af2d7583553eebcda3992808047af03ecea4": {
+  "check_runs": [
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T09:19:15Z",
+    "conclusion": "success",
+    "id": 112198135768,
+    "name": "Save PR Number",
+    "started_at": "2026-10-06T09:19:12Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T08:23:44Z",
+    "conclusion": "success",
+    "id": 112177160622,
+    "name": "Save PR Number",
+    "started_at": "2026-10-06T08:23:38Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-05T22:40:16Z",
+    "conclusion": "skipped",
+    "id": 112012474746,
+    "name": "build / Update Test Catalog",
+    "started_at": "2026-10-05T22:40:16Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-05T22:40:03Z",
+    "conclusion": "success",
+    "id": 112012354534,
+    "name": "build / CI checks completed",
+    "started_at": "2026-10-05T22:40:00Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-05T22:40:16Z",
+    "conclusion": "success",
+    "id": 112012354501,
+    "name": "build / Collate Test Catalog",
+    "started_at": "2026-10-05T22:40:01Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-05T22:39:55Z",
+    "conclusion": "success",
+    "id": 112010317230,
+    "name": "build / JUnit tests Java 25 (new)",
+    "started_at": "2026-10-05T22:35:01Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-05T22:36:47Z",
+    "conclusion": "success",
+    "id": 112010317087,
+    "name": "build / JUnit tests Java 17",
+    "started_at": "2026-10-05T22:34:53Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-05T22:36:01Z",
+    "conclusion": "success",
+    "id": 112010317076,
+    "name": "build / JUnit tests Java 25 (flaky)",
+    "started_at": "2026-10-05T22:34:33Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-05T22:39:52Z",
+    "conclusion": "success",
+    "id": 112010317066,
+    "name": "build / JUnit tests Java 17 (new)",
+    "started_at": "2026-10-05T22:34:41Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-05T22:36:30Z",
+    "conclusion": "success",
+    "id": 112010317059,
+    "name": "build / JUnit tests Java 25",
+    "started_at": "2026-10-05T22:34:12Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-05T22:35:33Z",
+    "conclusion": "success",
+    "id": 112010317040,
+    "name": "build / JUnit tests Java 17 (flaky)",
+    "started_at": "2026-10-05T22:34:17Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-05T22:29:00Z",
+    "conclusion": "success",
+    "id": 112008397767,
+    "name": "build / Load Test Catalog",
+    "started_at": "2026-10-05T22:28:40Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-05T22:34:01Z",
+    "conclusion": "success",
+    "id": 112008397655,
+    "name": "build / Compile and Check (Merge Ref)",
+    "started_at": "2026-10-05T22:28:39Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-05T22:28:35Z",
+    "conclusion": "success",
+    "id": 112008317432,
+    "name": "build / Configure Workflow",
+    "started_at": "2026-10-05T22:28:31Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-05T22:28:38Z",
+    "conclusion": "success",
+    "id": 112008315276,
+    "name": "Save PR Number",
+    "started_at": "2026-10-05T22:28:33Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-05T22:28:31Z",
+    "conclusion": "success",
+    "id": 112008301748,
+    "name": "Add triage label",
+    "started_at": "2026-10-05T22:28:27Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-05T22:28:41Z",
+    "conclusion": "success",
+    "id": 112008301534,
+    "name": "Labeler",
+    "started_at": "2026-10-05T22:28:24Z",
+    "status": "completed"
+   }
+  ],
+  "total_count": 17
+ },
+ "9d4bc5a337b3f0224c296affc3b4ff20e0ac3240": {
+  "check_runs": [
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T16:26:44Z",
+    "conclusion": "skipped",
+    "id": 112379722382,
+    "name": "build / Update Test Catalog",
+    "started_at": "2026-10-06T16:26:44Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T16:26:35Z",
+    "conclusion": "success",
+    "id": 112379245544,
+    "name": "build / CI checks completed",
+    "started_at": "2026-10-06T16:26:32Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T16:26:43Z",
+    "conclusion": "success",
+    "id": 112379245466,
+    "name": "build / Collate Test Catalog",
+    "started_at": "2026-10-06T16:26:21Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T16:14:14Z",
+    "conclusion": "skipped",
+    "id": 112374036515,
+    "name": "Approve CI",
+    "started_at": "2026-10-06T16:14:14Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T16:25:41Z",
+    "conclusion": "success",
+    "id": 112318481443,
+    "name": "build / JUnit tests Java 25",
+    "started_at": "2026-10-06T14:20:16Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T16:21:30Z",
+    "conclusion": "success",
+    "id": 112318481409,
+    "name": "build / JUnit tests Java 17",
+    "started_at": "2026-10-06T14:20:08Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T14:26:10Z",
+    "conclusion": "success",
+    "id": 112318481371,
+    "name": "build / JUnit tests Java 25 (new)",
+    "started_at": "2026-10-06T14:19:56Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T14:28:57Z",
+    "conclusion": "success",
+    "id": 112318481341,
+    "name": "build / JUnit tests Java 17 (new)",
+    "started_at": "2026-10-06T14:20:01Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T14:27:08Z",
+    "conclusion": "success",
+    "id": 112318481337,
+    "name": "build / JUnit tests Java 25 (flaky)",
+    "started_at": "2026-10-06T14:19:52Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T14:25:29Z",
+    "conclusion": "success",
+    "id": 112318481277,
+    "name": "build / JUnit tests Java 17 (flaky)",
+    "started_at": "2026-10-06T14:19:52Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T14:15:33Z",
+    "conclusion": "success",
+    "id": 112316322859,
+    "name": "Save PR Number",
+    "started_at": "2026-10-06T14:15:27Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T14:06:25Z",
+    "conclusion": "success",
+    "id": 112311938824,
+    "name": "build / Load Test Catalog",
+    "started_at": "2026-10-06T14:06:09Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T14:19:39Z",
+    "conclusion": "success",
+    "id": 112311937974,
+    "name": "build / Compile and Check (Merge Ref)",
+    "started_at": "2026-10-06T14:06:10Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T14:06:06Z",
+    "conclusion": "success",
+    "id": 112311839798,
+    "name": "build / Configure Workflow",
+    "started_at": "2026-10-06T14:06:01Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T14:04:57Z",
+    "conclusion": "skipped",
+    "id": 112311385890,
+    "name": "Add triage label",
+    "started_at": "2026-10-06T14:04:57Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T14:05:08Z",
+    "conclusion": "success",
+    "id": 112311384196,
+    "name": "Labeler",
+    "started_at": "2026-10-06T14:04:59Z",
+    "status": "completed"
+   }
+  ],
+  "total_count": 16
+ },
+ "d8eb64d7d8a255c5e3437c62ae0646c73b4e18ad": {
+  "check_runs": [
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T14:48:58Z",
+    "conclusion": "success",
+    "id": 112332479655,
+    "name": "Save PR Number",
+    "started_at": "2026-10-06T14:48:53Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T11:36:06Z",
+    "conclusion": "success",
+    "id": 112248498167,
+    "name": "Save PR Number",
+    "started_at": "2026-10-06T11:36:02Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T11:36:06Z",
+    "conclusion": "success",
+    "id": 112248497949,
+    "name": "Save PR Number",
+    "started_at": "2026-10-06T11:36:02Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T08:41:07Z",
+    "conclusion": "skipped",
+    "id": 112183677995,
+    "name": "build / Update Test Catalog",
+    "started_at": "2026-10-06T08:41:07Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T08:40:53Z",
+    "conclusion": "success",
+    "id": 112183539706,
+    "name": "build / CI checks completed",
+    "started_at": "2026-10-06T08:40:48Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T08:41:06Z",
+    "conclusion": "success",
+    "id": 112183539686,
+    "name": "build / Collate Test Catalog",
+    "started_at": "2026-10-06T08:40:47Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T07:22:12Z",
+    "conclusion": "success",
+    "id": 112155860967,
+    "name": "Save PR Number",
+    "started_at": "2026-10-06T07:22:08Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T06:45:07Z",
+    "conclusion": "success",
+    "id": 112142441369,
+    "name": "build / JUnit tests Java 17 (flaky)",
+    "started_at": "2026-10-06T06:39:30Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T06:48:13Z",
+    "conclusion": "success",
+    "id": 112142441310,
+    "name": "build / JUnit tests Java 17 (new)",
+    "started_at": "2026-10-06T06:39:31Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T06:46:35Z",
+    "conclusion": "success",
+    "id": 112142441289,
+    "name": "build / JUnit tests Java 25 (new)",
+    "started_at": "2026-10-06T06:39:31Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T08:40:45Z",
+    "conclusion": "success",
+    "id": 112142441284,
+    "name": "build / JUnit tests Java 17",
+    "started_at": "2026-10-06T06:39:30Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T06:46:58Z",
+    "conclusion": "success",
+    "id": 112142441277,
+    "name": "build / JUnit tests Java 25 (flaky)",
+    "started_at": "2026-10-06T06:39:30Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T08:28:47Z",
+    "conclusion": "success",
+    "id": 112142441260,
+    "name": "build / JUnit tests Java 25",
+    "started_at": "2026-10-06T06:39:30Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T06:35:00Z",
+    "conclusion": "success",
+    "id": 112141010329,
+    "name": "build / Load Test Catalog",
+    "started_at": "2026-10-06T06:34:44Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T06:39:28Z",
+    "conclusion": "success",
+    "id": 112141010290,
+    "name": "build / Compile and Check (Merge Ref)",
+    "started_at": "2026-10-06T06:34:44Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T06:34:41Z",
+    "conclusion": "success",
+    "id": 112140986766,
+    "name": "build / Configure Workflow",
+    "started_at": "2026-10-06T06:34:39Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T06:34:33Z",
+    "conclusion": "skipped",
+    "id": 112140971605,
+    "name": "Add triage label",
+    "started_at": "2026-10-06T06:34:34Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T06:34:49Z",
+    "conclusion": "success",
+    "id": 112140970375,
+    "name": "Labeler",
+    "started_at": "2026-10-06T06:34:36Z",
+    "status": "completed"
+   }
+  ],
+  "total_count": 18
+ },
+ "f51e87ce289ed5ddc82c4174a30bab7408886686": {
+  "check_runs": [
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T13:52:32Z",
+    "conclusion": "skipped",
+    "id": 112305488290,
+    "name": "build / Update Test Catalog",
+    "started_at": "2026-10-06T13:52:32Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T13:52:31Z",
+    "conclusion": "success",
+    "id": 112305316049,
+    "name": "build / Collate Test Catalog",
+    "started_at": "2026-10-06T13:52:13Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T13:52:16Z",
+    "conclusion": "success",
+    "id": 112305315538,
+    "name": "build / CI checks completed",
+    "started_at": "2026-10-06T13:52:13Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T12:03:55Z",
+    "conclusion": "success",
+    "id": 112255722322,
+    "name": "build / JUnit tests Java 25 (new)",
+    "started_at": "2026-10-06T11:55:26Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T12:02:22Z",
+    "conclusion": "success",
+    "id": 112255722218,
+    "name": "build / JUnit tests Java 17 (new)",
+    "started_at": "2026-10-06T11:55:26Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T13:44:09Z",
+    "conclusion": "success",
+    "id": 112255722177,
+    "name": "build / JUnit tests Java 25",
+    "started_at": "2026-10-06T11:55:26Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T13:52:10Z",
+    "conclusion": "success",
+    "id": 112255722151,
+    "name": "build / JUnit tests Java 17",
+    "started_at": "2026-10-06T11:55:26Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T12:01:00Z",
+    "conclusion": "success",
+    "id": 112255722116,
+    "name": "build / JUnit tests Java 25 (flaky)",
+    "started_at": "2026-10-06T11:55:26Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T12:01:55Z",
+    "conclusion": "success",
+    "id": 112255722073,
+    "name": "build / JUnit tests Java 17 (flaky)",
+    "started_at": "2026-10-06T11:55:27Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T11:52:56Z",
+    "conclusion": "success",
+    "id": 112254741063,
+    "name": "Save PR Number",
+    "started_at": "2026-10-06T11:52:51Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T11:48:26Z",
+    "conclusion": "success",
+    "id": 112252906265,
+    "name": "build / Load Test Catalog",
+    "started_at": "2026-10-06T11:48:02Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T11:55:24Z",
+    "conclusion": "success",
+    "id": 112252906246,
+    "name": "build / Compile and Check (Merge Ref)",
+    "started_at": "2026-10-06T11:48:02Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T11:48:00Z",
+    "conclusion": "success",
+    "id": 112252858891,
+    "name": "build / Configure Workflow",
+    "started_at": "2026-10-06T11:47:55Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T11:47:51Z",
+    "conclusion": "skipped",
+    "id": 112252852607,
+    "name": "Add triage label",
+    "started_at": "2026-10-06T11:47:51Z",
+    "status": "completed"
+   },
+   {
+    "app": {
+     "slug": "github-actions"
+    },
+    "completed_at": "2026-10-06T11:48:08Z",
+    "conclusion": "success",
+    "id": 112252851038,
+    "name": "Labeler",
+    "started_at": "2026-10-06T11:47:53Z",
+    "status": "completed"
+   }
+  ],
+  "total_count": 15
+ }
+}
