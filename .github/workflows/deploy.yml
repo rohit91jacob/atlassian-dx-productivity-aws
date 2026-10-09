@@ -1,0 +1,78 @@
+name: deploy
+
+# Ships code to a real AWS account. Gated twice:
+#   1. the repository variable AWS_DEPLOY_ROLE_ARN must be set (output deploy_role_arn of infra/);
+#      without it every job is skipped, so forks and this public repo never try to deploy;
+#   2. the `aws` environment (add required reviewers in the repository settings).
+# Authentication is GitHub OIDC -> sts:AssumeRoleWithWebIdentity. There are no stored AWS keys.
+# Infrastructure itself (terraform apply) is applied by an operator; see docs/runbook.md.
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_dbt:
+        description: "Run dbt build on Athena after shipping the code"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+env:
+  UV_LOCKED: "1"
+  PYTHON_VERSION: "3.12"
+  AWS_REGION: ${{ vars.AWS_REGION || 'eu-west-1' }}
+
+jobs:
+  deploy:
+    name: ship Lambda code + curate image, then dbt on Athena
+    if: vars.AWS_DEPLOY_ROLE_ARN != ''
+    runs-on: ubuntu-24.04-arm
+    timeout-minutes: 45
+    environment: aws
+    permissions:
+      contents: read
+      id-token: write
+    env:
+      EXTRACT_FUNCTION: ${{ vars.DX_EXTRACT_FUNCTION }}
+      CURATE_FUNCTION: ${{ vars.DX_CURATE_FUNCTION }}
+      CURATE_REPOSITORY_URL: ${{ vars.DX_CURATE_REPOSITORY_URL }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          enable-cache: true
+      - uses: aws-actions/configure-aws-credentials@e1253824e5c10ff9df46874f81ed3ec929e19cfd # v6.3.0
+        with:
+          role-to-assume: ${{ vars.AWS_DEPLOY_ROLE_ARN }}
+          role-session-name: dx-deploy-${{ github.run_id }}
+          aws-region: ${{ env.AWS_REGION }}
+      - run: uv sync
+      - name: Extractor zip -> Lambda
+        run: |
+          uv run python scripts/package_lambda.py
+          aws lambda update-function-code --function-name "$EXTRACT_FUNCTION" \
+            --zip-file fileb://dist/extract_lambda.zip --architectures arm64 --publish
+      - name: Curate image -> ECR -> Lambda
+        run: |
+          make curate-requirements
+          registry="${CURATE_REPOSITORY_URL%%/*}"
+          aws ecr get-login-password | docker login --username AWS --password-stdin "$registry"
+          tag="$CURATE_REPOSITORY_URL:${GITHUB_SHA::12}"
+          docker build -f infra/lambda/curate.Dockerfile -t "$tag" .
+          docker push "$tag"
+          aws lambda update-function-code --function-name "$CURATE_FUNCTION" --image-uri "$tag" --publish
+      - name: dbt build on Athena
+        if: inputs.run_dbt
+        env:
+          DBT_TARGET: athena
+          DX_ATHENA_WORKGROUP: ${{ vars.DX_ATHENA_WORKGROUP }}
+          DX_ATHENA_STAGING_DIR: ${{ vars.DX_ATHENA_STAGING_DIR }}
+          DX_ATHENA_DATA_DIR: ${{ vars.DX_ATHENA_DATA_DIR }}
+          DX_ATHENA_CURATED_DATABASE: ${{ vars.DX_ATHENA_CURATED_DATABASE }}
+        run: uv run dx transform --target athena --command build
