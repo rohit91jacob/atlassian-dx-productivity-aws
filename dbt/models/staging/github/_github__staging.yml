@@ -1,0 +1,81 @@
+version: 2
+
+models:
+  - name: stg_github__pull_requests
+    description: Pull requests with the Jira project their repository maps to.
+    columns:
+      - name: pr_key
+        data_tests: [unique, not_null]
+      - name: jira_project
+        data_tests: [not_null]
+      - name: state
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [open, closed]
+      - name: created_at
+        data_tests:
+          - not_null
+          - not_after:
+              arguments:
+                other_column: github_merged_at
+  - name: stg_github__reviews
+    description: Submitted reviews (PENDING drafts removed).
+    columns:
+      - name: review_id
+        data_tests: [unique, not_null]
+      - name: pr_key
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_github__pull_requests')
+                field: pr_key
+      - name: state
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [APPROVED, CHANGES_REQUESTED, COMMENTED, DISMISSED]
+  - name: stg_github__check_runs
+    description: Check runs with duration and a failure flag.
+    columns:
+      - name: check_run_id
+        data_tests: [unique, not_null]
+      - name: duration_minutes
+        data_tests:
+          - between:
+              arguments:
+                min_value: 0
+                max_value: 100000
+  - name: stg_github__commits
+    description: Default-branch commits.
+    columns:
+      - name: sha
+        data_tests: [unique, not_null]
+      - name: reference_style
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [merge_commit, closes, this_closes, squash_title]
+  - name: stg_github__pr_jira_links
+    description: Jira keys referenced by PR titles.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [pr_key, jira_key]
+  - name: stg_github__releases
+    description: GitHub Releases.
+    columns:
+      - name: release_id
+        data_tests: [unique, not_null]
+  - name: stg_github__pr_fetches
+    description: Enrichment fetch log (one row per PR and kind).
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [pr_key, kind]
+    columns:
+      - name: kind
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [reviews, check_runs]

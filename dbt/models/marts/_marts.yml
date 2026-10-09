@@ -1,0 +1,231 @@
+version: 2
+
+models:
+  - name: fct_pull_requests
+    description: >
+      One row per GitHub pull request: effective merge (GitHub merge or default-branch commit
+      reference), cycle-time breakdown, human review activity, CI on the final head commit, the
+      Jira issue named in the title and the release that shipped it. Review metrics are null until
+      the PR's reviews have been fetched (has_review_data).
+    columns:
+      - name: pr_key
+        description: "<owner>/<repo>#<number>"
+        data_tests: [unique, not_null]
+      - name: merge_source
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [github_merge, commit_reference]
+      - name: created_at
+        data_tests:
+          - not_null
+          - not_after:
+              arguments:
+                other_column: merged_at
+      - name: hours_to_merge
+        data_tests:
+          - between:
+              arguments:
+                min_value: 0
+                max_value: 1000000
+      - name: hours_to_first_review
+        description: Hours from PR creation to the first human review (can be negative only if a review predates the PR, which never happens on GitHub).
+        data_tests:
+          - between:
+              arguments:
+                min_value: 0
+                max_value: 1000000
+      - name: lead_time_for_change_days
+        data_tests:
+          - between:
+              arguments:
+                min_value: 0
+                max_value: 100000
+      - name: review_rounds
+        data_tests:
+          - between:
+              arguments:
+                min_value: 0
+                max_value: 1000
+
+  - name: fct_jira_issues
+    description: One row per Jira issue with flow state, lead and cycle time, age and first fix release.
+    columns:
+      - name: issue_key
+        data_tests: [unique, not_null]
+      - name: lead_time_days
+        data_tests:
+          - between:
+              arguments:
+                min_value: 0
+                max_value: 100000
+          # Issues migrated into Jira can carry a resolution date before their creation date.
+          - not_null:
+              config:
+                where: "is_done and resolved_at is not null and resolved_at >= created_at"
+      - name: cycle_time_days
+        data_tests:
+          - between:
+              arguments:
+                min_value: 0
+                max_value: 100000
+      - name: flow_state
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [todo, in_progress, in_review, done]
+
+  - name: fct_releases
+    description: >
+      One row per released Jira version with release type, cadence and the change-failure proxy
+      (is_failed_proxy is null when the release cannot be judged from the extracted window).
+    columns:
+      - name: version_id
+        data_tests: [unique, not_null]
+      - name: release_date
+        data_tests: [not_null]
+      - name: days_since_previous_release
+        data_tests:
+          - between:
+              arguments:
+                min_value: 0
+                max_value: 100000
+      - name: is_failed_proxy
+        data_tests:
+          - not_null:
+              config:
+                where: "is_evaluable"
+
+  - name: mart_dora_monthly
+    description: DORA four keys (documented proxies) per Jira project and month.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [project_key, month]
+    columns:
+      - name: deployments
+        data_tests:
+          - between:
+              arguments:
+                min_value: 0
+                max_value: 1000
+      - name: change_failure_rate_proxy
+        data_tests:
+          - between:
+              arguments:
+                min_value: 0
+                max_value: 1
+      - name: failed_releases
+        data_tests:
+          - not_after:
+              arguments:
+                other_column: evaluable_releases
+
+  - name: mart_pr_cycle_time_weekly
+    description: PR cycle-time breakdown per repository and week of merge.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [repo, week]
+    columns:
+      - name: p50_hours_to_merge
+        data_tests:
+          - not_after:
+              arguments:
+                other_column: p90_hours_to_merge
+      - name: share_first_review_within_24h
+        data_tests:
+          - between:
+              arguments:
+                min_value: 0
+                max_value: 1
+
+  - name: mart_issue_flow_weekly
+    description: Jira arrivals, throughput, lead/cycle time and reconstructed WIP per project and week.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [project_key, week]
+    columns:
+      - name: wip_end_of_week
+        data_tests:
+          - between:
+              arguments:
+                min_value: 0
+                max_value: 1000000
+      - name: p50_lead_time_days
+        data_tests:
+          - not_after:
+              arguments:
+                other_column: p85_lead_time_days
+
+  - name: mart_issue_aging
+    description: Open issues by flow state and age bucket as of the run.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [project_key, flow_state, age_bucket]
+    columns:
+      - name: flow_state
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [todo, in_progress, in_review]
+
+  - name: mart_reviewer_load_weekly
+    description: Reviews per pseudonymised human reviewer, repository and week.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [repo, week, reviewer_id]
+    columns:
+      - name: reviewer_id
+        data_tests: [not_null]
+
+  - name: mart_reviewer_load_summary
+    description: Concentration of review work per repository and week.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [repo, week]
+    columns:
+      - name: top_reviewer_share
+        data_tests:
+          - between:
+              arguments:
+                min_value: 0
+                max_value: 1
+      - name: top3_reviewer_share
+        data_tests:
+          - between:
+              arguments:
+                min_value: 0
+                max_value: 1
+
+  - name: mart_pr_jira_linkage
+    description: Share of merged PRs that name a Jira issue, and whether that issue is in the data.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [repo, week]
+    columns:
+      - name: linked_share
+        data_tests:
+          - between:
+              arguments:
+                min_value: 0
+                max_value: 1
+
+  - name: mart_ci_health_weekly
+    description: Check-run failure share and CI wall time on closed PRs per repository and week.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [repo, week]
+    columns:
+      - name: share_prs_ci_failed
+        data_tests:
+          - between:
+              arguments:
+                min_value: 0
+                max_value: 1

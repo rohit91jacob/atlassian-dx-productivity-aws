@@ -1,0 +1,50 @@
+version: 2
+
+models:
+  - name: int_pr_merges
+    description: Effective merge time per PR (GitHub merge, or a default-branch commit reference).
+    columns:
+      - name: pr_key
+        data_tests: [unique, not_null]
+      - name: merge_source
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [github_merge, commit_reference]
+  - name: int_pr_review_stats
+    description: Human (non-bot, non-author) review activity per PR.
+    columns:
+      - name: pr_key
+        data_tests: [unique, not_null]
+      - name: review_rounds
+        data_tests:
+          - between:
+              arguments:
+                min_value: 0
+                max_value: 1000
+  - name: int_pr_ci_stats
+    description: Check-run outcome per PR head commit.
+    columns:
+      - name: pr_key
+        data_tests: [unique, not_null]
+  - name: int_pr_releases
+    description: The release that shipped each merged, Jira-linked PR.
+    columns:
+      - name: pr_key
+        data_tests: [unique, not_null]
+  - name: int_issue_flow
+    description: Lead and cycle time per issue.
+    columns:
+      - name: issue_key
+        data_tests: [unique, not_null]
+      - name: cycle_time_hours
+        data_tests:
+          - between:
+              arguments:
+                min_value: 0
+                max_value: 1000000
+  - name: int_jira_coverage
+    description: Per-project window over which the extracted Jira data is complete.
+    columns:
+      - name: project_key
+        data_tests: [unique, not_null]

@@ -1,0 +1,42 @@
+version: 2
+
+sources:
+  - name: curated
+    description: >
+      Curated Iceberg tables written by `dx curate` (pyiceberg). On AWS they are Glue Data Catalog
+      tables queried by Athena. Locally and in CI `dx transform` snapshots them into the DuckDB
+      warehouse's `curated` schema first (recording each table's Iceberg snapshot id in
+      curated._snapshots). People are pseudonymised (u_<hmac>) upstream.
+    schema: "{{ var('athena_curated_database') if target.type == 'athena' else 'curated' }}"
+    tables:
+      - name: jira_issues
+        description: One row per Jira issue (latest version seen).
+        columns:
+          - name: issue_key
+            data_tests: [unique, not_null]
+      - name: jira_issue_versions
+        description: Issue x version bridge (relation = fix | affects).
+      - name: jira_status_transitions
+        description: Status changes from the issue changelog.
+      - name: jira_versions
+        description: Jira project versions = the projects' releases.
+        columns:
+          - name: version_id
+            data_tests: [unique, not_null]
+      - name: gh_pull_requests
+        description: One row per GitHub pull request (latest version seen).
+        columns:
+          - name: pr_key
+            data_tests: [unique, not_null]
+      - name: gh_reviews
+        description: Submitted PR reviews.
+      - name: gh_check_runs
+        description: CI check runs on the head commit of closed PRs.
+      - name: gh_commits
+        description: Default-branch commits with the PR number each one references.
+      - name: gh_releases
+        description: GitHub Releases (empty for repos that publish releases elsewhere).
+      - name: gh_pr_jira_links
+        description: Jira keys found in PR titles.
+      - name: gh_pr_fetches
+        description: Which PRs had reviews / check runs fetched (separates none from not-fetched).

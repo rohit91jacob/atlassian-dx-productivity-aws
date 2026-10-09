@@ -1,0 +1,44 @@
+name: dx
+version: "1.0.0"
+config-version: 2
+profile: dx
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+analysis-paths: ["analyses"]
+target-path: target
+clean-targets: ["target", "logs"]
+
+vars:
+  # Evaluation instant for ages, WIP and "is this release old enough to judge". `dx transform`
+  # passes the run's as-of time; the default only applies to ad-hoc `dbt` invocations.
+  as_of: "2026-10-09 00:00:00"
+  # A release counts as failed (change-failure-rate proxy) when a Blocker/Critical bug that
+  # affects it is reported within this many days of its release date.
+  cfr_window_days: 30
+  # Priorities treated as production-impacting for the CFR and time-to-restore proxies.
+  severe_priorities: ["Blocker", "Critical"]
+  # Glue database holding the curated Iceberg tables (Athena target only).
+  athena_curated_database: "{{ env_var('DX_ATHENA_CURATED_DATABASE', 'dx_curated') }}"
+
+models:
+  dx:
+    staging:
+      +schema: staging
+      +materialized: view
+    intermediate:
+      +schema: intermediate
+      +materialized: table
+    marts:
+      +schema: marts
+      +materialized: table
+
+seeds:
+  dx:
+    +schema: reference
+
+data_tests:
+  dx:
+    +severity: error

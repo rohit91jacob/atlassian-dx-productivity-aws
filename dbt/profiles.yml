@@ -1,0 +1,27 @@
+# DuckDB (dev/ci): `dx transform` first snapshots the curated Iceberg tables into the warehouse's
+# `curated` schema (the local stand-in for Athena reading Glue tables), then runs dbt. Athena reads
+# the same Iceberg tables from the Glue Data Catalog. Running `dbt` by hand from this directory
+# works after `make pipeline` (DX_DUCKDB_PATH defaults to ../data/warehouse/dx.duckdb).
+dx:
+  target: "{{ env_var('DBT_TARGET', 'dev') }}"
+  outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('DX_DUCKDB_PATH', '../data/warehouse/dx.duckdb') }}"
+      threads: 4
+    ci:
+      type: duckdb
+      path: "{{ env_var('DX_DUCKDB_PATH', '../data/warehouse/dx.duckdb') }}"
+      threads: 2
+    # Compiled in CI (no connection); runs for real from the gated deploy workflow via OIDC.
+    athena:
+      type: athena
+      region_name: "{{ env_var('AWS_REGION', 'eu-west-1') }}"
+      database: awsdatacatalog
+      schema: "{{ env_var('DX_ATHENA_SCHEMA', 'dx_analytics') }}"
+      work_group: "{{ env_var('DX_ATHENA_WORKGROUP', 'dx-analytics') }}"
+      s3_staging_dir: "{{ env_var('DX_ATHENA_STAGING_DIR', 's3://dx-athena-results-placeholder/staging/') }}"
+      s3_data_dir: "{{ env_var('DX_ATHENA_DATA_DIR', 's3://dx-curated-placeholder/dbt/') }}"
+      s3_data_naming: schema_table_unique
+      table_type: iceberg
+      threads: 4

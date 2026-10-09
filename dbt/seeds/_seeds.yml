@@ -1,0 +1,27 @@
+version: 2
+
+seeds:
+  - name: jira_status_map
+    description: >
+      Maps Jira workflow status names (as they appear in the changelog) to flow states. Unknown
+      names fall back to the issue's status category (new -> todo, indeterminate -> in_progress,
+      done -> done) for the current status, and to 'other' for historical transitions.
+    config:
+      column_types: {status: varchar, flow_state: varchar}
+    columns:
+      - name: status
+        data_tests: [unique, not_null]
+      - name: flow_state
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [todo, in_progress, in_review, done]
+  - name: repo_project_map
+    description: GitHub repository -> the Jira project its PR titles reference.
+    config:
+      column_types: {repo: varchar, jira_project: varchar}
+    columns:
+      - name: repo
+        data_tests: [unique, not_null]
+      - name: jira_project
+        data_tests: [unique, not_null]

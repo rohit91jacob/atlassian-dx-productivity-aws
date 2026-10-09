@@ -1,0 +1,61 @@
+version: 2
+
+models:
+  - name: stg_jira__issues
+    description: Jira issues with flow state and the flags the metrics need.
+    columns:
+      - name: issue_key
+        data_tests: [unique, not_null]
+      - name: project_key
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('repo_project_map')
+                field: jira_project
+      - name: flow_state
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [todo, in_progress, in_review, done]
+      - name: created_at
+        data_tests:
+          - not_null
+          - not_after:
+              arguments:
+                other_column: updated_at
+  - name: stg_jira__status_transitions
+    description: Changelog status transitions mapped to flow states.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [issue_key, history_id, item_seq]
+    columns:
+      - name: issue_key
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_jira__issues')
+                field: issue_key
+      - name: changed_at
+        data_tests: [not_null]
+  - name: stg_jira__issue_versions
+    description: Fix/affects version bridge.
+    columns:
+      - name: relation
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [fix, affects]
+  - name: stg_jira__versions
+    description: Jira versions (releases) with parsed semantic version and release type.
+    columns:
+      - name: version_id
+        data_tests: [unique, not_null]
+      - name: release_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [major, minor, patch, subproject]

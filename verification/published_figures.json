@@ -1,0 +1,20 @@
+{
+  "_comment": "Independent published sources used by `dx verify`. Figures are fetched live; nothing here is a hand-typed number.",
+  "release_dates": {
+    "since": "2025-01-01",
+    "sources": [
+      {"project": "KAFKA", "kind": "kafka_downloads", "url": "https://kafka.apache.org/community/downloads/"},
+      {"project": "SPARK", "kind": "spark_news", "url": "https://spark.apache.org/news/index.html"},
+      {"project": "FLINK", "kind": "flink_downloads", "url": "https://flink.apache.org/downloads/"}
+    ]
+  },
+  "release_notes": {
+    "items": [
+      {"project": "KAFKA", "version": "4.1.0", "url": "https://archive.apache.org/dist/kafka/4.1.0/RELEASE_NOTES.html"},
+      {"project": "KAFKA", "version": "4.2.0", "url": "https://archive.apache.org/dist/kafka/4.2.0/RELEASE_NOTES.html"},
+      {"project": "KAFKA", "version": "4.3.0", "url": "https://archive.apache.org/dist/kafka/4.3.0/RELEASE_NOTES.html"}
+    ]
+  },
+  "jira_throughput": {"weeks": 2, "jira_url": "https://issues.apache.org/jira"},
+  "github_merged": {"days_back": 1, "repos": ["apache/kafka", "apache/flink"]}
+}

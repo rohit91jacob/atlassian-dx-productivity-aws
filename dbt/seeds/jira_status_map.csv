@@ -1,0 +1,12 @@
+status,flow_state
+Open,todo
+Reopened,todo
+To Do,todo
+Backlog,todo
+In Progress,in_progress
+Patch Available,in_review
+In Review,in_review
+Pull Request Available,in_review
+Resolved,done
+Closed,done
+Done,done
