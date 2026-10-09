@@ -48,3 +48,10 @@ models:
     columns:
       - name: project_key
         data_tests: [unique, not_null]
+  - name: int_github_coverage
+    description: Per-repository window over which merged and closed PRs are completely extracted.
+    columns:
+      - name: repo
+        data_tests: [unique, not_null]
+      - name: covered_from
+        data_tests: [not_null]

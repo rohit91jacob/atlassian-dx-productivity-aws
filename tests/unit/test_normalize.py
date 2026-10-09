@@ -161,3 +161,19 @@ def test_reviews_and_check_runs_carry_fetch_log_and_bot_flag() -> None:
 def test_unknown_entity_is_rejected() -> None:
     with pytest.raises(ValueError, match="no normalizer"):
         Normalizer("salt", PROJECTS).envelope(_envelope("github", "gists", "x", []), "raw/x")
+
+
+def test_pulls_older_than_the_listing_window_are_dropped() -> None:
+    # The last listing page holds PRs updated before the run's lower bound; the extractor does
+    # not queue them, so curation must not keep them either (they are not a complete set).
+    pulls = json.loads(
+        (FIXTURES / "github" / "apache__kafka" / "pulls.json").read_text(encoding="utf-8")
+    )
+    stamps = sorted(p["updated_at"] for p in pulls)
+    lower = stamps[len(stamps) // 2]
+    env = _envelope("github", "pulls", "apache__kafka", pulls)
+    env["meta"].update(repo="apache/kafka", lower_bound=lower)
+    prs = Normalizer("salt", PROJECTS).envelope(env, "raw/p1")["gh_pull_requests"]
+    kept = {p["number"] for p in prs}
+    assert kept == {p["number"] for p in pulls if p["updated_at"] >= lower}
+    assert 0 < len(kept) < len(pulls)

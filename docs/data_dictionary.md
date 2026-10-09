@@ -86,12 +86,13 @@ One per curated table (`stg_jira__issues`, `stg_jira__status_transitions`,
 | `int_pr_releases` | merged, linked PR | `released_in_version`, `released_on`: earliest released fix version of the PR's first Jira key that shipped on/after the merge date |
 | `int_issue_flow` | issue | `work_started_at` (first move to In Progress / Patch Available), `reopen_count`, `lead_time_hours`, `cycle_time_hours` |
 | `int_jira_coverage` | project | `covered_from` (earliest `updated` extracted), `covered_to`: the window inside which the data is complete |
+| `int_github_coverage` | repository | `covered_from` (earliest PR `updated_at` extracted), `covered_to`: every PR merged or closed after `covered_from` is present, so merge-based marts (`mart_pr_cycle_time_weekly`, `mart_pr_jira_linkage`, `prs_merged` in `mart_dora_monthly`) count only merges from then on |
 
 ### Marts (tables, schema `marts`)
 
 | Model | Grain | Key columns |
 |---|---|---|
-| `fct_pull_requests` | PR | `merged_at`, `merge_source`, `is_merged`, `has_review_data`, `review_count`, `reviewer_count`, `review_rounds`, `changes_requested_count`, `hours_to_first_review`, `hours_review_to_approval`, `hours_approval_to_merge`, `hours_to_merge`, `check_runs`, `failed_check_runs`, `ci_failed`, `ci_wall_minutes`, `jira_key`, `linked_jira_keys`, `is_linked`, `jira_issue_in_data`, `released_in_version`, `released_on`, `lead_time_for_change_days` |
+| `fct_pull_requests` | PR | `merged_at`, `merge_source`, `is_merged`, `merged_in_coverage`, `has_review_data`, `review_count`, `reviewer_count`, `review_rounds`, `changes_requested_count`, `hours_to_first_review`, `hours_review_to_approval`, `hours_approval_to_merge`, `hours_to_merge`, `check_runs`, `failed_check_runs`, `ci_failed`, `ci_wall_minutes`, `jira_key`, `linked_jira_keys`, `is_linked`, `jira_issue_in_data`, `released_in_version`, `released_on`, `lead_time_for_change_days` |
 | `fct_jira_issues` | issue | `flow_state`, `is_bug`, `is_severe`, `is_done`, `is_fixed`, `work_started_at`, `lead_time_days`, `cycle_time_days`, `age_days` (open issues), `wip_age_days` (in progress), `first_fix_release_date`, `lead_time_to_release_days`, `reopen_count`, `is_changelog_truncated` |
 | `fct_releases` | released Jira version | `release_type`, `release_date`, `previous_release_date`, `days_since_previous_release`, `issues_fixed_in_data`, `escaped_bugs`, `escaped_severe_bugs`, `escaped_severe_bugs_in_window`, `is_evaluable`, `is_failed_proxy` |
 | `mart_dora_monthly` | project x month | `deployments`, `core_releases`, `feature_releases`, `patch_releases`, `prs_merged`, `merge_lead_time_p50_hours`, `prs_shipped`, `lead_time_for_changes_p50_days`, `issues_shipped`, `issue_lead_time_to_release_p50_days`, `evaluable_releases`, `failed_releases`, `change_failure_rate_proxy`, `severe_bugs_fixed`, `time_to_restore_p50_hours` |

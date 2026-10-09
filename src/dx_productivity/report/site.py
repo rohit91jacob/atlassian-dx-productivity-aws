@@ -277,10 +277,13 @@ def collect(settings: Settings) -> dict[str, Any]:
                 " FROM intermediate.int_jira_coverage c ORDER BY 1"
             ),
             "gh_coverage": wh.rows(
-                "SELECT repo, count(*) AS prs, min(f.created_at) AS first_created, max(p.updated_at) AS last_updated,"
+                "SELECT repo, count(*) AS prs, min(f.created_at) AS first_created,"
+                " min(c.covered_from) AS covered_from, max(p.updated_at) AS last_updated,"
                 " sum(CASE WHEN has_review_data THEN 1 ELSE 0 END) AS with_reviews,"
-                " sum(CASE WHEN is_merged THEN 1 ELSE 0 END) AS merged"
+                " sum(CASE WHEN is_merged THEN 1 ELSE 0 END) AS merged,"
+                " sum(CASE WHEN merged_in_coverage THEN 1 ELSE 0 END) AS merged_in_coverage"
                 " FROM marts.fct_pull_requests f JOIN staging.stg_github__pull_requests p USING (pr_key, repo)"
+                " JOIN intermediate.int_github_coverage c USING (repo)"
                 " GROUP BY 1 ORDER BY 1"
             ),
             "dora_12m": wh.rows(
@@ -321,7 +324,8 @@ def collect(settings: Settings) -> dict[str, Any]:
                 " quantile_cont(hours_to_first_review, 0.5) AS p50_first_review_hours,"
                 " avg(review_rounds) AS avg_rounds,"
                 " avg(CASE WHEN has_review_data THEN CASE WHEN hours_to_first_review <= 24 THEN 1.0 ELSE 0.0 END END) AS within_24h"
-                " FROM marts.fct_pull_requests WHERE is_merged AND NOT author_is_bot GROUP BY 1, 2 ORDER BY 1"
+                " FROM marts.fct_pull_requests WHERE is_merged AND merged_in_coverage AND NOT author_is_bot"
+                " GROUP BY 1, 2 ORDER BY 1"
             ),
             "pr_weekly": wh.rows(
                 "SELECT * FROM marts.mart_pr_cycle_time_weekly ORDER BY repo, week"
@@ -384,7 +388,7 @@ DEFINITIONS = [
     ),
     (
         "Merge lead time",
-        "PR opened to merged. 'Merged' is GitHub's merged_at, or, when a project closes PRs from a merge script (Apache Spark), the default-branch commit that names the PR (\"Closes #123\").",
+        "PR opened to merged. 'Merged' is GitHub's merged_at, or, when a project closes PRs from a merge script (Apache Spark), the default-branch commit that names the PR (\"Closes #123\"). Only merges inside the GitHub coverage window count: a PR merged earlier is in the data only if it was touched again later.",
     ),
     (
         "Change failure rate (proxy)",
@@ -587,7 +591,7 @@ def render(data: dict[str, Any], *, generated: str, as_of: str, mode: str) -> st
         )
         + "<h2>Pull-request cycle time</h2>"
         + _table(
-            "Merged PRs in the extracted window (bot-authored PRs excluded)",
+            "PRs merged inside the GitHub coverage window (bot-authored PRs excluded)",
             merge_cols,
             data["merge"],
             "No merged PRs yet.",
@@ -716,12 +720,14 @@ def render(data: dict[str, Any], *, generated: str, as_of: str, mode: str) -> st
             "No Jira data.",
         )
         + _table(
-            "GitHub coverage",
+            "GitHub coverage (PRs updated inside the extraction window; merge metrics count only merges from 'Covered from' on)",
             [
                 _col("Repository", "repo"),
                 _col("PRs", "prs", _int, True),
-                _col("Merged", "merged", _int, True),
+                _col("Merged (any time)", "merged", _int, True),
+                _col("Merged inside coverage", "merged_in_coverage", _int, True),
                 _col("Reviews fetched", "with_reviews", _int, True),
+                Column("Covered from", lambda r: _esc(_iso(r["covered_from"]))),
                 Column("Latest PR update", lambda r: _esc(_iso(r["last_updated"]))),
             ],
             data["gh_coverage"],

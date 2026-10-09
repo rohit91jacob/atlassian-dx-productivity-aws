@@ -5,7 +5,7 @@ with prs as (
         *,
         cast({{ dbt.date_trunc('week', 'merged_at') }} as date) as merge_week
     from {{ ref('fct_pull_requests') }}
-    where is_merged and not author_is_bot
+    where is_merged and merged_in_coverage and not author_is_bot
 )
 
 select

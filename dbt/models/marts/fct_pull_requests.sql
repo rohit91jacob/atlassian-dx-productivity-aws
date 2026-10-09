@@ -5,6 +5,8 @@
 --   hours_to_merge           created -> merge (GitHub merge or commit reference)
 --   lead_time_for_change_days created -> release date of the Jira fix version that shipped it
 -- Review metrics are null when the PR's reviews have not been fetched yet (has_review_data).
+-- merged_in_coverage: merged at or after the repository's extraction coverage start
+-- (int_github_coverage). Merge-based marts count only these; earlier merges are a biased sample.
 with prs as (
     select * from {{ ref('stg_github__pull_requests') }}
 ),
@@ -47,6 +49,10 @@ releases as (
     select * from {{ ref('int_pr_releases') }}
 ),
 
+coverage as (
+    select * from {{ ref('int_github_coverage') }}
+),
+
 joined as (
     select
         p.pr_key,
@@ -63,6 +69,7 @@ joined as (
         m.merged_at,
         m.merge_source,
         m.merged_at is not null as is_merged,
+        coalesce(m.merged_at >= cov.covered_from, false) as merged_in_coverage,
         coalesce(f.has_review_data, false) as has_review_data,
         coalesce(f.has_ci_data, false) as has_ci_data,
         r.first_review_at,
@@ -94,6 +101,7 @@ joined as (
     left join links as l on p.pr_key = l.pr_key
     left join issues as i on l.jira_key = i.issue_key
     left join releases as rel on p.pr_key = rel.pr_key
+    left join coverage as cov on p.repo = cov.repo
 )
 
 select

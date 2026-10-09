@@ -16,6 +16,12 @@ models:
           - accepted_values:
               arguments:
                 values: [github_merge, commit_reference]
+      - name: merged_in_coverage
+        description: >
+          Merged at or after the repository's extraction coverage start (int_github_coverage).
+          Merge-based marts count only these PRs; earlier merges appear only when something
+          touched the PR later, which is a biased sample.
+        data_tests: [not_null]
       - name: created_at
         data_tests:
           - not_null

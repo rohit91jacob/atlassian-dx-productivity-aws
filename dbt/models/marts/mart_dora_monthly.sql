@@ -45,7 +45,7 @@ merge_months as (
         count(*) as prs_merged,
         {{ percentile('hours_to_merge', 0.5) }} as merge_lead_time_p50_hours
     from prs
-    where is_merged
+    where is_merged and merged_in_coverage
     group by 1, 2
 ),
 

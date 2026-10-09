@@ -222,7 +222,15 @@ class Normalizer:
 
     def _gh_pulls(self, page: dict, env: dict, raw_key: str, rows: Rows) -> None:
         repo = env["meta"]["repo"]
+        # The last listing page of a run also holds PRs updated before the run's window (the API
+        # pages by 100). Keep only in-window PRs, exactly the set the extractor queued, so that
+        # "every PR updated since the first watermark, and nothing older" holds for the curated
+        # table and the coverage start (int_github_coverage) is a true completeness boundary.
+        lower = ts(env["meta"].get("lower_bound"))
         for pr in page["body"]:
+            updated = ts(pr.get("updated_at"))
+            if lower is not None and updated is not None and updated < lower:
+                continue
             row = self._pr_row(repo, pr, page["fetched_at"], raw_key)
             rows["gh_pull_requests"].append(row)
             rows[PARENTS + "gh_pr_jira_links"].append(

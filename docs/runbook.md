@@ -18,7 +18,7 @@ function has not run for 26 hours.
 ## First run and backfill
 
 The first run has no watermark, so it starts `DX_JIRA_LOOKBACK_DAYS` / `DX_GITHUB_LOOKBACK_DAYS`
-back. Jira: 60 days of KAFKA + SPARK + FLINK is about 4,200 issues, 60 pages, 3 minutes at the
+back. Jira: 60 days of KAFKA + SPARK + FLINK is about 4,200 issues, 88 pages, 3 minutes at the
 default 1 request/second. GitHub: PR enrichment costs one request per PR (plus one for closed
 PRs' check runs), so a large backlog drains over several runs within `DX_GITHUB_MAX_REQUESTS`.
 Nothing is skipped: the `pulls` watermark only passes a PR once its details are landed.
@@ -105,5 +105,7 @@ Not done for this portfolio (no cloud account is used); the steps are:
    `DX_CURATE_REPOSITORY_URL`, `DX_ATHENA_WORKGROUP`, `DX_ATHENA_STAGING_DIR`,
    `DX_ATHENA_DATA_DIR`, `DX_ATHENA_CURATED_DATABASE` from the outputs; add reviewers to the
    `aws` environment. `deploy.yml` then ships code and runs dbt on Athena.
-5. Costs are capped by the budget alarm (`monthly_budget_usd`), Athena's per-query scan limit,
-   reserved concurrency 1 and S3 lifecycle rules.
+5. Costs are bounded by Athena's per-query scan limit, reserved concurrency 1 and S3 lifecycle
+   rules, and watched by the budget alerts (`monthly_budget_usd`; AWS Budgets alerts, it does not
+   stop spend). The budget filters on the `Project` tag, so activate it as a cost allocation tag
+   in the Billing console first.

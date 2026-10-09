@@ -5,7 +5,9 @@ independently, fetching those figures live (sources in
 [`verification/published_figures.json`](../verification/published_figures.json)). The run
 below was made on **9 October 2026 at 17:44 UTC** against the warehouse built from the real
 download described in the README (Jira: 60 days, 4,229 issues; GitHub: a 3-day window,
-714 PRs). Mismatches are reported as found; none were tuned away.
+569 PRs updated in the window). Mismatches are reported as found; none were tuned away.
+It was re-run during the independent review on the same data, after the GitHub coverage fix
+(PR merge metrics now count only merges inside the GitHub window), with the same result.
 
 Summary: **39 matches, 16 mismatches, 1 missing** across four checks. The PR and issue *counts*
 reconcile exactly; the mismatches are differences between the *sources themselves* (Jira
