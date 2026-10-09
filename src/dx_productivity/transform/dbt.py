@@ -115,7 +115,7 @@ def run_dbt(
         args += ["--target", target]
     args += extra_args or []
     with _environ(dbt_env(settings)):
-        log.info("dbt", extra={"args": args})
+        log.info("dbt", extra={"dbt_args": args})
         result = dbtRunner().invoke(args)
     if result.success:
         return

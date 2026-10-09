@@ -44,7 +44,8 @@ def env(tmp_path, monkeypatch) -> Settings:
     monkeypatch.setenv("DX_FIXTURES_DIR", str(FIXTURES))
     monkeypatch.setenv("DX_AS_OF", AS_OF.isoformat())
     monkeypatch.setenv("DX_LOG_FORMAT", "text")
-    monkeypatch.setenv("DX_LOG_LEVEL", "WARNING")
+    # INFO, as in production: a structured-log call that only fails when emitted must fail here.
+    monkeypatch.setenv("DX_LOG_LEVEL", "INFO")
     return Settings.from_env()
 
 
