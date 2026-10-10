@@ -366,7 +366,8 @@ load is reported as distributions, never leaderboards.
 * **A private salt and short-lived GitHub credentials.** The Lambda environment in
   `infra/main.tf` does not set `DX_PSEUDONYM_SALT`, so a deployment would pseudonymise with the
   public default salt, with which anyone can re-identify a login by hashing candidates
-  (`pseudonym.py`); production would read a private salt from Secrets Manager. The GitHub token
+  (`pseudonym.py`); production would read a private salt from Secrets Manager. The scheduled
+  refresh uses a `DX_PSEUDONYM_SALT` repository secret when one is set. The GitHub token
   is a fine-grained token rotated by hand (runbook); a GitHub App installation token minted per
   run would end that rotation.
 * **Switch on what is configured but not enforced.** Lambda code signing is skipped until a

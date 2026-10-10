@@ -35,6 +35,10 @@ env:
   DX_GITHUB_LOOKBACK_DAYS: "30"
   # The Actions token allows 1,000 REST requests/hour per repository; leave headroom.
   DX_GITHUB_MAX_REQUESTS: "900"
+  # Private pseudonymisation salt. Without the secret the public default salt is used, with
+  # which anyone can re-identify a login by hashing candidates. Set it before the first run (or
+  # run once with full_refresh after setting it) so pseudonyms stay consistent across runs.
+  DX_PSEUDONYM_SALT: ${{ secrets.DX_PSEUDONYM_SALT }}
 
 jobs:
   build:

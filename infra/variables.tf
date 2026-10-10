@@ -46,7 +46,7 @@ variable "extract_schedule" {
 }
 
 variable "curate_schedule" {
-  description = "Schedule for the curate Lambda; runs after the extractors have finished."
+  description = "Schedule for the curate Lambda: a fixed time after the extract schedule. It does not wait for the extractors; anything they land later is merged on the next run."
   type        = string
   default     = "cron(45 4 * * ? *)"
 }

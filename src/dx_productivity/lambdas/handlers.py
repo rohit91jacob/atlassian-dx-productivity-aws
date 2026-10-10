@@ -1,9 +1,11 @@
 """AWS Lambda entry points (deployed by infra/, invoked by EventBridge Scheduler).
 
 * ``extract_handler``: zip-packaged Lambda (standard library + the boto3 the runtime ships).
-  Event ``{"sources": ["jira"]}`` or ``{"sources": ["github"]}``; one schedule per source so a
-  slow or rate-limited source never delays the other. Stops cleanly ~60 s before the Lambda
-  timeout, keeping every watermark it has checkpointed.
+  Event ``{"sources": ["jira"]}`` or ``{"sources": ["github"]}``; one schedule per source, so
+  each source gets its own invocation, time budget and watermarks. Both schedules fire together
+  and the function has a reserved concurrency of 1, so the two invocations run one after the
+  other. Stops cleanly ~60 s before the Lambda timeout, keeping every watermark it has
+  checkpointed.
 * ``curate_handler``: container-image Lambda (pyarrow + pyiceberg). Merges new raw objects into
   the Glue-catalogued Iceberg tables behind the raw and curated DQ gates.
 
