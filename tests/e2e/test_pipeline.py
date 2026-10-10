@@ -9,6 +9,8 @@ from __future__ import annotations
 import gzip
 import hashlib
 import json
+import re
+from datetime import datetime
 from pathlib import Path
 
 import duckdb
@@ -18,6 +20,7 @@ from dx_productivity.cli import EXIT_DQ, EXIT_OK, main
 from dx_productivity.config import Settings
 from dx_productivity.curate.iceberg import load_catalog
 from dx_productivity.curate.schemas import TABLES
+from dx_productivity.extract.watermark import parse_ts
 from tests.conftest import AS_OF, FIXTURES
 
 pytestmark = pytest.mark.e2e
@@ -85,8 +88,76 @@ def query(settings: Settings, sql: str) -> list[tuple]:
         con.close()
 
 
+class RecordedSources:
+    """The independent side of `dx verify`, answered from the recorded API responses instead of
+    the live services: Jira's versions API, a Jira count for a resolved-in-week JQL, and GitHub
+    search's merged-PR count for a day. Counted directly from the raw records, not the pipeline."""
+
+    def __init__(self, root: Path):
+        self.root = root
+
+    def _load(self, *parts: str):
+        return json.loads(self.root.joinpath(*parts).read_text(encoding="utf-8"))
+
+    def jira_versions(self, project: str) -> dict:
+        return {v["name"]: v for v in self._load("jira", f"versions_{project}.json")}
+
+    def jira_total(self, jql: str) -> int:
+        m = re.fullmatch(
+            r'project = "(\w+)" AND statusCategory = Done'
+            r' AND resolved >= "([\d/]+)" AND resolved < "([\d/]+)"',
+            jql,
+        )
+        project, lo, hi = m.group(1), *(datetime.strptime(d, "%Y/%m/%d") for d in m.groups()[1:])
+        return sum(
+            1
+            for i in self._load("jira", f"issues_{project}.json")
+            if i["fields"]["status"]["statusCategory"]["key"] == "done"
+            and i["fields"]["resolutiondate"]
+            and lo <= parse_ts(i["fields"]["resolutiondate"]).replace(tzinfo=None) < hi
+        )
+
+    def github_search_total(self, query: str) -> int:
+        m = re.fullmatch(r"repo:(\S+) is:pr is:merged merged:(\S+)T00:00:00Z\.\.\S+", query)
+        repo, day = m.group(1), m.group(2)
+        return sum(
+            1
+            for pr in self._load("github", repo.replace("/", "__"), "pulls.json")
+            if (pr.get("merged_at") or "").startswith(day)
+        )
+
+
 def test_full_pipeline_rerun_and_full_refresh(env: Settings, tmp_path: Path) -> None:
     assert main(["run"]) == EXIT_OK
+
+    # The pipeline reproduces the source figures `dx verify` compares against (here answered from
+    # the recorded responses): Jira release dates, weekly Jira throughput, daily GitHub merges.
+    from dx_productivity.verify.published import (
+        Report,
+        check_github_merged,
+        check_jira_throughput,
+        check_release_dates_jira,
+    )
+
+    figures = json.loads(
+        (Path(__file__).parents[2] / "verification" / "published_figures.json").read_text("utf-8")
+    )
+    report = Report()
+    con = duckdb.connect(str(env.warehouse_db))
+    try:
+        sources = RecordedSources(FIXTURES)
+        check_release_dates_jira(con, sources, figures["release_dates"], report)
+        check_jira_throughput(con, sources, figures["jira_throughput"], report)
+        check_github_merged(con, sources, figures["github_merged"], AS_OF, report)
+    finally:
+        con.close()
+    by_check: dict[str, dict[str, int]] = {}
+    for o in report.outcomes:
+        by_check.setdefault(o.check, {}).setdefault(o.status, 0)
+        by_check[o.check][o.status] += 1
+    assert not [o for o in report.outcomes if o.status in {"mismatch", "missing_ours"}], by_check
+    assert set(by_check) == {"release_dates_jira", "jira_throughput", "github_merged"}, by_check
+    assert all(counts.get("match") for counts in by_check.values()), by_check
 
     # Every mart is built, and the headline facts match the recorded real data.
     for mart in MARTS[:4]:
@@ -138,6 +209,17 @@ def test_full_pipeline_rerun_and_full_refresh(env: Settings, tmp_path: Path) -> 
     assert main(["report", "--out", str(out)]) == EXIT_OK
     html = (out / "index.html").read_text(encoding="utf-8")
     assert "DORA keys (proxies)" in html and "apache/spark" in html
+    # Weekly PR percentiles carry their sample size; small-sample weeks are flagged, not charted.
+    assert "Merged (n)" in html and "Reviewed (n)" in html
+    small, charted = query(
+        env,
+        "SELECT count(*) FILTER (WHERE is_small_merge_sample),"
+        " count(*) FILTER (WHERE NOT is_small_merge_sample)"
+        " FROM marts.mart_pr_cycle_time_weekly",
+    )[0]
+    assert small > 0  # the recorded sample has thin weeks
+    assert html.count("<abbr class=flag") >= small
+    assert html.count("hours (n = ") == charted
     summary = json.loads((out / "summary.json").read_text(encoding="utf-8"))
     assert summary["headline"]["jira_issues"] == sum(
         len(json.loads(p.read_text("utf-8"))) for p in (FIXTURES / "jira").glob("issues_*.json")

@@ -9,12 +9,22 @@
     ]
   },
   "release_notes": {
+    "_comment": "Compared on the release-note issues last updated inside the extracted Jira window (see docs/verification.md).",
     "items": [
       {"project": "KAFKA", "version": "4.1.0", "url": "https://archive.apache.org/dist/kafka/4.1.0/RELEASE_NOTES.html"},
+      {"project": "KAFKA", "version": "4.1.1", "url": "https://archive.apache.org/dist/kafka/4.1.1/RELEASE_NOTES.html"},
+      {"project": "KAFKA", "version": "4.1.2", "url": "https://archive.apache.org/dist/kafka/4.1.2/RELEASE_NOTES.html"},
       {"project": "KAFKA", "version": "4.2.0", "url": "https://archive.apache.org/dist/kafka/4.2.0/RELEASE_NOTES.html"},
-      {"project": "KAFKA", "version": "4.3.0", "url": "https://archive.apache.org/dist/kafka/4.3.0/RELEASE_NOTES.html"}
+      {"project": "KAFKA", "version": "4.2.1", "url": "https://archive.apache.org/dist/kafka/4.2.1/RELEASE_NOTES.html"},
+      {"project": "KAFKA", "version": "4.2.2", "url": "https://archive.apache.org/dist/kafka/4.2.2/RELEASE_NOTES.html"},
+      {"project": "KAFKA", "version": "4.3.0", "url": "https://archive.apache.org/dist/kafka/4.3.0/RELEASE_NOTES.html"},
+      {"project": "KAFKA", "version": "4.3.1", "url": "https://archive.apache.org/dist/kafka/4.3.1/RELEASE_NOTES.html"}
     ]
   },
-  "jira_throughput": {"weeks": 2, "jira_url": "https://issues.apache.org/jira"},
-  "github_merged": {"days_back": 1, "repos": ["apache/kafka", "apache/flink"]}
+  "jira_throughput": {"weeks": 4, "jira_url": "https://issues.apache.org/jira"},
+  "github_merged": {
+    "_comment": "Each of the last `days` complete UTC days, where the day lies wholly inside the extracted GitHub window.",
+    "days": 7,
+    "repos": ["apache/kafka", "apache/flink"]
+  }
 }

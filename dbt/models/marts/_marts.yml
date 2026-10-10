@@ -128,12 +128,56 @@ models:
                 other_column: evaluable_releases
 
   - name: mart_pr_cycle_time_weekly
-    description: PR cycle-time breakdown per repository and week of merge.
+    description: >
+      PR cycle-time breakdown per repository and week of merge. Every percentile's sample size
+      (n) is a column; a figure whose n is below var('min_weekly_sample') is a small sample.
     data_tests:
       - unique_combination:
           arguments:
             columns: [repo, week]
     columns:
+      - name: prs_merged
+        description: n of the merge-time percentiles (every merged PR has a merge time).
+        data_tests:
+          - not_null
+      - name: prs_with_review_data
+        description: PRs whose reviews were fetched; n of avg_review_rounds, avg_reviewers and the shares.
+        data_tests:
+          - not_null
+          - not_after:
+              arguments:
+                other_column: prs_merged
+      - name: prs_reviewed
+        description: PRs with a human review; n of the first-review percentiles.
+        data_tests:
+          - not_null
+          - not_after:
+              arguments:
+                other_column: prs_with_review_data
+      - name: prs_approved
+        description: PRs with an approval; n of p50_hours_review_to_approval.
+        data_tests:
+          - not_null
+          - not_after:
+              arguments:
+                other_column: prs_reviewed
+      - name: prs_approved_before_merge
+        description: PRs approved at or before their merge; n of p50_hours_approval_to_merge.
+        data_tests:
+          - not_null
+          - not_after:
+              arguments:
+                other_column: prs_approved
+      - name: sample_threshold
+        description: var('min_weekly_sample'), the n below which a figure is a small sample.
+      - name: is_small_merge_sample
+        description: prs_merged < sample_threshold. The site does not chart that week's merge median.
+        data_tests:
+          - not_null
+      - name: is_small_review_sample
+        description: prs_reviewed < sample_threshold (the first-review percentiles are a small sample).
+        data_tests:
+          - not_null
       - name: p50_hours_to_merge
         data_tests:
           - not_after:

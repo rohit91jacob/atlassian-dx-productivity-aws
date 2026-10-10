@@ -26,11 +26,14 @@ and the matching **GitHub** repositories (apache/kafka, apache/spark, apache/fli
   and SQLite stand-in, against **moto** in the tests (including Glue + Iceberg on S3), and against
   **LocalStack** in CI. Terraform is validated (fmt, validate, tflint, checkov), never applied.
   dbt runs on DuckDB and is compiled for Athena through the real dbt-athena adapter.
-* **Proof.** Weekly Jira throughput matches Jira's own server-side counts for 6 of 6
-  project-weeks, and daily merged-PR counts match GitHub search for both repositories that use
-  GitHub's merge button. Release dates agree with the official download pages for 30 of 45
-  releases; the 14 differences (12 of them Flink) are real disagreements between Jira and the
-  announcements, reported in [docs/verification.md](docs/verification.md).
+* **Proof.** Checked against figures fetched live ([docs/verification.md](docs/verification.md)):
+  release dates match the Jira versions API for 44 of 44 releases, Kafka release contents match
+  the official release notes for all 47 comparable issues, weekly Jira throughput matches Jira's
+  own server-side count for 12 of 12 project-weeks, and daily merged-PR counts match GitHub
+  search for 14 of 14 repository-days. Jira's release dates differ from the projects'
+  announcement pages for 14 of 45 releases (12 of them Flink), and one announced release is
+  not marked released in Jira: differences between the two sources, documented release by
+  release.
 
 ## Architecture
 
@@ -75,11 +78,11 @@ Athena.
 | Raw zone | `extract/raw.py`, `storage/objects.py` | Each response stored as received in a deterministic gzip envelope with its request; S3 or filesystem. |
 | State | `storage/state.py`, `extract/watermark.py` | DynamoDB or SQLite with conditional writes on a `version` attribute: a racing run gets `ConflictError`, never a lost update. |
 | Curate | `curate/` | Raw gate, then pure normalisers (pseudonymise people, parse Jira keys from PR titles, detect `Closes #123` merges), then a latest-version-wins merge at the parent grain (a newer issue replaces its whole set of transitions and versions), curated gate, Iceberg copy-on-write publish with a content hash. Unchanged tables are not rewritten. |
-| Data quality | `quality/checks.py`, dbt tests | 3 gates: raw envelope shape; 40 curated checks (keys, orphans, timestamps, states); 110 dbt tests and 7 mart checks. `error` blocks the layer (exit 3), `warn` is recorded. Results land in `ops/dq_results/`. |
+| Data quality | `quality/checks.py`, dbt tests | 3 gates: raw envelope shape; 40 curated checks (keys, orphans, timestamps, states); 121 dbt tests and 7 mart checks. `error` blocks the layer (exit 3), `warn` is recorded. Results land in `ops/dq_results/`. |
 | dbt | `dbt/` | 11 staging views, 7 intermediate and 11 mart tables. Cross-engine macros (`percentile`, `hours_between`, `count_when`) so the same SQL runs on DuckDB and Athena. |
 | Lambdas | `lambdas/handlers.py` | `extract_handler` (zip, no third-party wheels, enforced by a test) and `curate_handler` (container). |
-| Report | `report/site.py` | Static HTML + inline SVG, no JavaScript, table view for every chart. |
-| Verification | `verify/published.py` | Live comparison with release pages, release notes, Jira and GitHub search counts. |
+| Report | `report/site.py` | Static HTML + inline SVG, no JavaScript, table view for every chart. Weekly PR figures show their sample size n (a strip under the chart, an n column for each figure in the table); figures from fewer than 5 PRs are marked as small samples, and the chart leaves those weeks out. |
+| Verification | `verify/published.py` | Live comparison of pipeline outputs with the Jira versions API, release pages, release notes, Jira's own counts and GitHub search, each scoped like-for-like. |
 | Infrastructure | `infra/` | Terraform modules: KMS, data lake (4 buckets), state table, Lambda (x2), scheduler, analytics (Glue, Athena), monitoring (alarms, budget), GitHub OIDC deploy role. |
 
 ## Tech stack
@@ -133,32 +136,33 @@ Columns, keys and every metric definition are in the
 
 ## Results from a real run
 
-From a real download on **9 October 2026** (Jira: 60-day window; GitHub: a 3-day window,
-unauthenticated, so PR details were **sampled**: reviews for 52 of the 569 PRs updated in the
-window). These are the numbers on the generated site; the daily refresh in Actions uses 90 days
-of Jira, 30 days of GitHub and an authenticated GitHub budget. PR merge metrics count only PRs
-merged inside the GitHub window (from 6 October 2026, about 12:20-14:45 UTC depending on the
-repository): a PR merged earlier is in the data only if something touched it later, which is a
-biased sample (`int_github_coverage`).
+From a real download on **10 October 2026** (Jira: 90-day window from 12 July 2026; GitHub:
+30-day window from 10 September 2026, authenticated, with reviews fetched for all 2,253 PRs
+updated in the window and check runs for every closed one). These are the numbers on the
+generated site, from the warehouse that [docs/verification.md](docs/verification.md) checks. PR
+merge metrics count only PRs merged inside the GitHub window: a PR merged earlier is in the data
+only if something touched it later, which is a biased sample (`int_github_coverage`).
 
 | | Kafka | Spark | Flink |
 |---|---|---|---|
-| Jira issues in window | 831 | 2,035 | 1,363 |
+| Jira issues in window | 1,046 | 2,812 | 1,634 |
 | Releases, last 12 months (core) | 10 (10) | 19 (9) | 26 (10) |
-| Lead time to release, Jira, p50 | 77.0 d (n = 18) | n/a: no core release in the window | 29.6 d (n = 22) |
-| Time to restore proxy, p50 | 602.9 h (n = 16) | 91.1 h (n = 11) | 221.3 h (n = 29) |
-| Weekly throughput, mean of complete weeks | 25.1 | 137.1 | 55.7 |
-| WIP at week end, mean | 132.0 | 12.9 | 38.4 |
-| PRs merged in the 3-day window / via commit reference | 33 / 0 | 35 / 35 | 38 / 4 |
-| PR time to merge, p50 | 173.9 h | 131.6 h | 34.6 h |
-| Merged PRs naming a Jira key | 23 of 33 | 33 of 35 | 37 of 38 |
-| Closed PRs with a failed check run (sample) | 9% of 11 | 23% of 13 | no GitHub check runs |
+| Lead time to release, Jira, p50 | 82.6 d (n = 21) | 40.4 d (n = 141) | 41.3 d (n = 35) |
+| Time to restore proxy, p50 | 419.6 h (n = 24) | 90.4 h (n = 13) | 338.6 h (n = 31) |
+| Change failure rate proxy | not evaluable yet (0 releases) | 60% (3 of 5 releases) | 0% (0 of 3 releases) |
+| Weekly throughput, mean of 12 complete weeks | 26.8 | 134.2 | 46.4 |
+| WIP at week end, mean | 159.2 | 14.8 | 38.8 |
+| PRs merged in the 30-day window / via commit reference | 227 / 0 | 384 / 384 | 232 / 15 |
+| PR time to merge, p50 | 60.8 h | 77.3 h | 37.7 h |
+| PR time to first review, p50 | 13.1 h | 11.8 h | 9.4 h |
+| Merged PRs naming a Jira key | 131 of 227 | 371 of 384 | 210 of 232 |
+| Closed PRs with a failed check run | 5% of 299 | 13% of 639 | 5% of 20 (most Flink CI is outside GitHub) |
 
 ![Results site built from the real run](docs/img/results-site.png)
 
-Change failure rate is shown as "not evaluable" for now: with a 60-day window only one release
-(Flink) had both its release and its 30-day bug window inside the data; it had no escaped
-Blocker/Critical bug. It fills in as the daily refresh accumulates history.
+The change failure rate proxy needs a release whose 30-day bug window has passed and lies inside
+the extracted Jira history; with 90 days of Jira that is 8 releases (Spark 5, Flink 3, Kafka
+none yet). It covers more releases as the daily refresh accumulates history.
 
 ## Quickstart
 
@@ -183,17 +187,20 @@ DX_SOURCE=fixtures DX_DATA_DIR=.fixture-run uv run dx report --out site
 ### Live
 
 ```bash
-cp .env.example .env            # 60 days of Jira, 3 days of GitHub, 50-request GitHub budget
+cp .env.example .env            # 60 days of Jira, 3 days of GitHub, 50-request GitHub budget, no token
 uv run dx run                   # first run: about 3 minutes for Jira, then curate + dbt
-uv run dx run                   # later runs are incremental (one Jira page per project: ~10 s)
+uv run dx run                   # later runs are incremental (one Jira page per project)
 uv run dx report --out site     # open site/index.html
 uv run dx verify --out verification-run.md
 uv run dx sql "SELECT * FROM marts.mart_dora_monthly WHERE month >= DATE '2026-01-01' ORDER BY 1, 2"
 ```
 
-Measured on the author's laptop (Windows 11): the first Jira extraction of 60 days landed
-4,220 issues in 91 raw objects in 185 s; the next incremental run fetched 69 changed issues in
-10 s. Curate + dbt build (141 nodes) + mart DQ on that data took about 75 s on a re-run during review.
+The run in the results above was authenticated (`GITHUB_TOKEN` set) and used
+`DX_JIRA_LOOKBACK_DAYS=90`, `DX_GITHUB_LOOKBACK_DAYS=30` and `DX_GITHUB_MAX_REQUESTS=4500`
+(commands in [docs/verification.md](docs/verification.md#reproduce)). Measured on the author's
+laptop (Windows 11): its first Jira extraction landed 5,488 issues in 119 raw objects in
+226 s; the first GitHub extraction made 3,530 requests in 63 minutes and fetched the details
+of every PR; a later incremental `dx run` (extract, curate, dbt build, mart DQ) took 120 s.
 
 `make help` lists the targets (`make test`, `make pipeline`, `make infra-check`, ...); each
 target is a one-line wrapper, so the commands also work without `make`.
@@ -227,7 +234,7 @@ gateway alone (about 32 USD/month) would exceed the 10 USD default budget.
 ## Testing and CI
 
 ```bash
-uv run pytest tests/unit      # 79 tests, no network
+uv run pytest tests/unit      # 91 tests, no network
 uv run pytest tests/aws       # 6 tests: Lambda handlers on moto, Glue + Iceberg on a moto S3 server
 uv run pytest tests/e2e       # 4 end-to-end tests on the recorded fixtures (about 2 minutes)
 ```
@@ -243,6 +250,10 @@ query semantics, so the unmodified extractors run against them. The tests check 
 * conditional writes reject a racing run on both SQLite and DynamoDB;
 * a corrupt raw object stops curation (exit 3) with nothing published; a broken relationship
   fails dbt tests (exit 3);
+* the pipeline reproduces the figures `dx verify` compares against (Jira release dates, weekly
+  Jira throughput, daily GitHub merges), counted directly from the recorded API responses;
+* weekly PR figures carry their sample size, and small samples are flagged on the site and
+  left out of its chart;
 * the extractor Lambda imports no third-party wheels.
 
 | Workflow | Trigger | What it does |
@@ -306,9 +317,10 @@ verification/            # published_figures.json (sources for dx verify)
 
 ## Limitations
 
-* **Sampled GitHub details in the local run.** Without a token, 60 requests/hour (shared with
-  everything else on the IP) allowed reviews for 52 PRs. Review-based numbers above are
-  indicative only; the Actions refresh uses an authenticated budget.
+* **GitHub details need a token.** Without one, GitHub allows 60 requests/hour (shared with
+  everything else on the IP), enough for the reviews and check runs of only a few dozen PRs
+  per run, so review-based figures then describe a sample. The run above and the Actions
+  refresh are authenticated.
 * **Window effects.** Only issues and PRs updated since the first watermark are extracted, so WIP
   and aging miss long-untouched issues, CFR/lead-time-to-release only cover releases inside the
   window (`int_jira_coverage`), and PR merge metrics only cover merges inside the GitHub window

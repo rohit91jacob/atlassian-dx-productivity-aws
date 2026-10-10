@@ -67,9 +67,12 @@ th, td { padding: .28rem .6rem; border-bottom: 1px solid var(--line); text-align
 th { font-weight: 600; color: var(--ink-2); }
 td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .empty { color: var(--ink-3); font-style: italic; }
+.low { color: var(--ink-3); }
+abbr.flag { text-decoration: none; cursor: help; }
 figure { margin: .6rem 0 1rem; max-width: 760px; }
 figcaption { color: var(--ink-2); font-size: .85rem; margin-bottom: .3rem; }
 svg text { fill: var(--ink-2); font-size: 11px; }
+svg text.n { font-size: 10px; font-variant-numeric: tabular-nums; }
 svg .grid { stroke: var(--line); stroke-width: 1; }
 svg .axis { stroke: var(--ink-3); stroke-width: 1; }
 .legend { font-size: .82rem; color: var(--ink-2); margin: .2rem 0; }
@@ -139,31 +142,57 @@ def _col(
 
 
 # --------------------------------------------------------------------------- charts
+Point = tuple[str, float | None] | tuple[str, float | None, int | None]
+
+
 def line_chart(
     title: str,
-    series: dict[str, list[tuple[str, float | None]]],
+    series: dict[str, list[Point]],
     *,
     unit: str,
     width: int = 520,
     height: int = 200,
 ) -> str:
-    """Multi-series line chart (one per project/repo) with a shared x axis of ISO dates."""
-    xs = sorted({x for points in series.values() for x, _ in points})
-    values = [v for points in series.values() for _, v in points if v is not None]
+    """Multi-series line chart (one per project/repo) with a shared x axis of ISO dates.
+
+    A point is ``(x, value)`` or ``(x, value, n)``. ``n`` is the sample size behind the value: it
+    is printed in a strip under the x axis (one row per series, including points not plotted)
+    and in the mark's tooltip. A ``None`` value is a gap: the line is broken there rather than
+    drawn across it.
+    """
+    xs = sorted({p[0] for points in series.values() for p in points})
+    values = [p[1] for points in series.values() for p in points if p[1] is not None]
     if not xs or not values:
         return f'<p class="empty">{html.escape(title)}: no data yet.</p>'
+    sizes = {
+        name: {p[0]: p[2] for p in points if len(p) > 2 and p[2] is not None}
+        for name, points in series.items()
+    }
+    strip = [name for name in series if sizes[name]]
     left, right, top, bottom = 44, 12, 10, 26
     plot_w, plot_h = width - left - right, height - top - bottom
     vmax = max(values) * 1.1 or 1.0
     step = plot_w / max(1, len(xs) - 1)
     x_of = {x: left + i * step for i, x in enumerate(xs)}
+    total_h = height + (14 * len(strip) + 4 if strip else 0)
 
     def y_of(v: float) -> float:
         return top + plot_h - (v / vmax) * plot_h
 
     parts = [
-        f'<svg viewBox="0 0 {width} {height}" width="100%" role=img aria-label="{html.escape(title)}">'
+        f'<svg viewBox="0 0 {width} {total_h}" width="100%" role=img aria-label="{html.escape(title)}">'
     ]
+    for row, name in enumerate(strip):
+        y = height + 14 * (row + 1)
+        slot = PROJECT_COLOURS.get(name.split("/")[-1].upper(), 4)
+        parts.append(
+            f'<rect x={left - 30} y={y - 8} width=8 height=8 rx=1 fill="var(--s{slot})"/>'
+            f"<text x={left - 6} y={y} text-anchor=end><title>{html.escape(name)}: sample size</title>n</text>"
+        )
+        parts.extend(
+            f'<text class=n x="{x_of[x]:.1f}" y={y} text-anchor=middle>{int(n):,}</text>'
+            for x, n in sizes[name].items()
+        )
     for frac in (0, 0.5, 1):
         y = top + plot_h - frac * plot_h
         parts.append(f'<line class=grid x1={left} x2={width - right} y1="{y:.1f}" y2="{y:.1f}"/>')
@@ -178,21 +207,25 @@ def line_chart(
             )
     for name, points in series.items():
         slot = PROJECT_COLOURS.get(name.split("/")[-1].upper(), 4)
-        segment: list[str] = []
-        for x, v in points:
+        segments: list[list[str]] = [[]]
+        for x, v, *_ in points:
+            if v is None:
+                if segments[-1]:
+                    segments.append([])
+                continue
+            segments[-1].append(f"{x_of[x]:.1f},{y_of(v):.1f}")
+        for segment in segments:
+            if len(segment) > 1:
+                parts.append(
+                    f'<polyline fill=none stroke="var(--s{slot})" stroke-width=2 stroke-linejoin=round points="{" ".join(segment)}"/>'
+                )
+        for x, v, *rest in points:
             if v is None:
                 continue
-            segment.append(f"{x_of[x]:.1f},{y_of(v):.1f}")
-        if len(segment) > 1:
-            parts.append(
-                f'<polyline fill=none stroke="var(--s{slot})" stroke-width=2 stroke-linejoin=round points="{" ".join(segment)}"/>'
-            )
-        for x, v in points:
-            if v is None:
-                continue
+            n = f" (n = {int(rest[0]):,})" if rest and rest[0] is not None else ""
             parts.append(
                 f'<circle cx="{x_of[x]:.1f}" cy="{y_of(v):.1f}" r=4 fill="var(--s{slot})" stroke="var(--surface)" stroke-width=2>'
-                f"<title>{html.escape(name)} {html.escape(x)}: {v:,.1f} {html.escape(unit)}</title></circle>"
+                f"<title>{html.escape(name)} {html.escape(x)}: {v:,.1f} {html.escape(unit)}{n}</title></circle>"
             )
     parts.append("</svg>")
     legend = (
@@ -510,11 +543,26 @@ def render(data: dict[str, Any], *, generated: str, as_of: str, mode: str) -> st
         series(complete_weeks, "project_key", "wip_end_of_week"),
         unit="issues",
     )
-    merge_chart = line_chart(
-        "PR time to merge, weekly median (hours)",
-        series(data["pr_weekly"], "repo", "p50_hours_to_merge"),
-        unit="hours",
-    )
+    min_n = max((int(r["sample_threshold"]) for r in data["pr_weekly"]), default=0)
+    merge_points: dict[str, list[Point]] = {}
+    for r in data["pr_weekly"]:
+        value = None if r["is_small_merge_sample"] else r["p50_hours_to_merge"]
+        merge_points.setdefault(r["repo"], []).append((str(r["week"]), value, r["prs_merged"]))
+    merge_title = "PR time to merge, weekly median (hours)"
+    if min_n:
+        merge_title += f". n = merged PRs in the week; a week with n below {min_n} is not plotted"
+    merge_chart = line_chart(merge_title, merge_points, unit="hours")
+
+    def sampled(key: str, n_key: str, fmt: Callable[[object], str] = _num) -> Callable[[Row], str]:
+        """A weekly figure, marked when its own sample size is below the threshold."""
+
+        def cell(r: Row) -> str:
+            if r.get(key) is None or int(r[n_key]) >= int(r["sample_threshold"]):
+                return fmt(r.get(key))
+            tip = f"small sample: n = {int(r[n_key])}, below {int(r['sample_threshold'])}"
+            return f'<span class=low>{fmt(r[key])}<abbr class=flag title="{tip}">*</abbr></span>'
+
+        return cell
 
     dora_cols = [
         Column("Project", lambda r: _swatch(r["project_key"]) + _esc(r["project_key"])),
@@ -598,17 +646,32 @@ def render(data: dict[str, Any], *, generated: str, as_of: str, mode: str) -> st
         )
         + merge_chart
         + _table(
-            "Weekly PR cycle time",
+            "Weekly PR cycle time. Each (n) column is the sample size of the figures to its"
+            f" right; * marks a figure from fewer than {min_n} PRs, a small sample",
             [
                 Column("Repository", lambda r: _esc(r["repo"])),
                 _col("Week", "week"),
-                _col("Merged", "prs_merged", _int, True),
-                _col("Merge p50 (h)", "p50_hours_to_merge", _num, True),
-                _col("Merge p90 (h)", "p90_hours_to_merge", _num, True),
-                _col("With reviews", "prs_with_review_data", _int, True),
-                _col("First review p50 (h)", "p50_hours_to_first_review", _num, True),
-                _col("Approval→merge p50 (h)", "p50_hours_approval_to_merge", _num, True),
-                _col("Avg rounds", "avg_review_rounds", lambda v: _num(v, 2), True),
+                _col("Merged (n)", "prs_merged", _int, True),
+                Column("Merge p50 (h)", sampled("p50_hours_to_merge", "prs_merged"), True),
+                Column("Merge p90 (h)", sampled("p90_hours_to_merge", "prs_merged"), True),
+                _col("Reviewed (n)", "prs_reviewed", _int, True),
+                Column(
+                    "First review p50 (h)",
+                    sampled("p50_hours_to_first_review", "prs_reviewed"),
+                    True,
+                ),
+                _col("Approved (n)", "prs_approved_before_merge", _int, True),
+                Column(
+                    "Approval→merge p50 (h)",
+                    sampled("p50_hours_approval_to_merge", "prs_approved_before_merge"),
+                    True,
+                ),
+                _col("Reviews fetched (n)", "prs_with_review_data", _int, True),
+                Column(
+                    "Avg rounds",
+                    sampled("avg_review_rounds", "prs_with_review_data", lambda v: _num(v, 2)),
+                    True,
+                ),
             ],
             data["pr_weekly"],
             "No merged PRs yet.",
@@ -683,7 +746,7 @@ def render(data: dict[str, Any], *, generated: str, as_of: str, mode: str) -> st
             data["ci"],
             "No check runs fetched yet.",
         )
-        + "<p class=note>Apache Flink's CI reports through an external system rather than GitHub check runs, so it has no rows here.</p>"
+        + "<p class=note>Apache Flink's main CI reports through an external system rather than GitHub check runs: only the few Flink PRs counted in the PRs column carry GitHub Actions runs, so its row is not comparable with Kafka's and Spark's.</p>"
         + "<h2>Recent releases</h2>"
         + _table(
             "Latest released Jira versions",

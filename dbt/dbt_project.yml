@@ -20,6 +20,10 @@ vars:
   cfr_window_days: 30
   # Priorities treated as production-impacting for the CFR and time-to-restore proxies.
   severe_priorities: ["Blocker", "Critical"]
+  # Weekly percentiles over fewer observations than this are flagged as small samples; the
+  # results site marks them in its tables and leaves them out of its charts. A median of 2 PRs
+  # is noise, not a trend.
+  min_weekly_sample: 5
   # Glue database holding the curated Iceberg tables (Athena target only).
   athena_curated_database: "{{ env_var('DX_ATHENA_CURATED_DATABASE', 'dx_curated') }}"
 
