@@ -137,7 +137,7 @@ Columns, keys and every metric definition are in the
 ## Results from a real run
 
 From a real download on **10 October 2026** (Jira: 90-day window from 12 July 2026; GitHub:
-30-day window from 10 September 2026, authenticated, with reviews fetched for all 2,253 PRs
+30-day window from 10 September 2026, authenticated, with reviews fetched for all 2,260 PRs
 updated in the window and check runs for every closed one). These are the numbers on the
 generated site, from the warehouse that [docs/verification.md](docs/verification.md) checks. PR
 merge metrics count only PRs merged inside the GitHub window: a PR merged earlier is in the data
@@ -145,17 +145,17 @@ only if something touched it later, which is a biased sample (`int_github_covera
 
 | | Kafka | Spark | Flink |
 |---|---|---|---|
-| Jira issues in window | 1,046 | 2,812 | 1,634 |
-| Releases, last 12 months (core) | 10 (10) | 19 (9) | 26 (10) |
-| Lead time to release, Jira, p50 | 82.6 d (n = 21) | 40.4 d (n = 141) | 41.3 d (n = 35) |
+| Jira issues in window | 1,046 | 2,823 | 1,635 |
+| Releases, last 12 months (core) | 10 (10) | 19 (9) | 27 (10) |
+| Lead time to release, Jira, p50 | 82.6 d (n = 21) | 40.4 d (n = 141) | 75.9 d (n = 114) |
 | Time to restore proxy, p50 | 419.6 h (n = 24) | 90.4 h (n = 13) | 338.6 h (n = 31) |
 | Change failure rate proxy | not evaluable yet (0 releases) | 60% (3 of 5 releases) | 0% (0 of 3 releases) |
 | Weekly throughput, mean of 12 complete weeks | 26.8 | 134.2 | 46.4 |
 | WIP at week end, mean | 159.2 | 14.8 | 38.8 |
-| PRs merged in the 30-day window / via commit reference | 227 / 0 | 384 / 384 | 232 / 15 |
-| PR time to merge, p50 | 60.8 h | 77.3 h | 37.7 h |
-| PR time to first review, p50 | 13.1 h | 11.8 h | 9.4 h |
-| Merged PRs naming a Jira key | 131 of 227 | 371 of 384 | 210 of 232 |
+| PRs merged in the 30-day window / via commit reference | 227 / 0 | 384 / 384 | 233 / 15 |
+| PR time to merge, p50 | 60.8 h | 77.3 h | 38.5 h |
+| PR time to first review, p50 | 13.1 h | 11.8 h | 9.5 h |
+| Merged PRs naming a Jira key | 131 of 227 | 371 of 384 | 211 of 233 |
 | Closed PRs with a failed check run | 5% of 299 | 13% of 639 | 5% of 20 (most Flink CI is outside GitHub) |
 
 ![Results site built from the real run](docs/img/results-site.png)
@@ -200,7 +200,8 @@ The run in the results above was authenticated (`GITHUB_TOKEN` set) and used
 (commands in [docs/verification.md](docs/verification.md#reproduce)). Measured on the author's
 laptop (Windows 11): its first Jira extraction landed 5,488 issues in 119 raw objects in
 226 s; the first GitHub extraction made 3,530 requests in 63 minutes and fetched the details
-of every PR; a later incremental `dx run` (extract, curate, dbt build, mart DQ) took 120 s.
+of every PR; later incremental `dx run`s (extract, curate, dbt build, mart DQ) took 2 to 5
+minutes.
 
 `make help` lists the targets (`make test`, `make pipeline`, `make infra-check`, ...); each
 target is a one-line wrapper, so the commands also work without `make`.

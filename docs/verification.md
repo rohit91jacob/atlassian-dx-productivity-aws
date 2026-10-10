@@ -3,9 +3,9 @@
 `dx verify` compares this pipeline's outputs with figures the projects and platforms publish
 independently, fetching those figures live (sources in
 [`verification/published_figures.json`](../verification/published_figures.json)). The run
-below was made on **10 October 2026 at 06:32 UTC**, right after an incremental refresh (06:29 to
-06:31 UTC) of the warehouse built from the real download described in the README (Jira: 90-day
-window, 5,492 issues; GitHub: 30-day window, authenticated, 2,253 PRs, with reviews fetched for
+below was made on **10 October 2026 at 14:26 UTC**, right after an incremental refresh (14:20 to
+14:25 UTC) of the warehouse built from the real download described in the README (Jira: 90-day
+window, 5,504 issues; GitHub: 30-day window, authenticated, 2,260 PRs, with reviews fetched for
 every PR and check runs for every closed one). Mismatches are reported as found; none were tuned
 away.
 
@@ -129,7 +129,7 @@ against the `KAFKA-*` keys in the official `RELEASE_NOTES.html` shipped with eac
 
 Like-for-like scope: the pipeline only holds issues updated since its first Jira watermark, so
 the comparable published population is the release-note issues whose *current* Jira `updated`
-lies inside the extracted window (12 July 04:16 to 10 October 06:14 UTC for Kafka, rounded
+lies inside the extracted window (12 July 04:16 to 10 October 11:01 UTC for Kafka, rounded
 inwards to Jira's minute precision) and that still carry the fix version. An issue last touched
 inside the window was extracted in its current state, so every one of them must be in the
 pipeline with that fix version. Jira is used only to find that scope (one JQL query per
@@ -168,7 +168,7 @@ for the last four complete weeks.
 
 (ours / Jira) 12 of 12 match. This is the end-to-end check of the incremental Jira extractor
 (keyset paging on `updated`, overlap, de-duplication, latest-version merge) across a 90-day
-backfill and two incremental runs: no issue was lost or double-counted.
+backfill and three incremental runs: no issue was lost or double-counted.
 
 ## 4. GitHub merges: our daily counts vs GitHub search
 

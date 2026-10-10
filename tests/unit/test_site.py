@@ -27,6 +27,10 @@ def test_line_chart_breaks_the_line_at_suppressed_points_and_shows_n() -> None:
     # The n strip under the axis prints every week's sample size, the suppressed week's too.
     assert re.findall(r"<text class=n [^>]*>([\d,]+)</text>", svg) == ["9", "2", "7"]
     assert 'viewBox="0 0 520 218"' in svg  # 200 + one 14 px row + 4 px padding
+    # The row label ("n") is left-aligned at the far left, clear of the first week's value, which
+    # is centred on the y axis (x = 44) and can be several digits wide.
+    label = re.search(r"<text x=(\d+) y=214 text-anchor=start><title>apache/kafka: sample", svg)
+    assert label and int(label.group(1)) + 10 < 44 - 12
 
 
 def test_line_chart_draws_one_line_per_unbroken_run() -> None:

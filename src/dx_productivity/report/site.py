@@ -185,9 +185,11 @@ def line_chart(
     for row, name in enumerate(strip):
         y = height + 14 * (row + 1)
         slot = PROJECT_COLOURS.get(name.split("/")[-1].upper(), 4)
+        # Swatch and "n" sit at the far left so they clear the first week's value, which is
+        # centred on the y axis.
         parts.append(
-            f'<rect x={left - 30} y={y - 8} width=8 height=8 rx=1 fill="var(--s{slot})"/>'
-            f"<text x={left - 6} y={y} text-anchor=end><title>{html.escape(name)}: sample size</title>n</text>"
+            f'<rect x=2 y={y - 8} width=8 height=8 rx=1 fill="var(--s{slot})"/>'
+            f"<text x=13 y={y} text-anchor=start><title>{html.escape(name)}: sample size</title>n</text>"
         )
         parts.extend(
             f'<text class=n x="{x_of[x]:.1f}" y={y} text-anchor=middle>{int(n):,}</text>'
