@@ -26,3 +26,7 @@ updates:
     directory: /infra/lambda
     schedule:
       interval: weekly
+    ignore:
+      # Lambda Python 3.13+: the pinned libraries are not on 3.13+ yet
+      - dependency-name: lambda/python
+        versions: [">=3.13"]
