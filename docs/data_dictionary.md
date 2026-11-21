@@ -73,7 +73,7 @@ One per curated table (`stg_jira__issues`, `stg_jira__status_transitions`,
   back to the status category; `is_bug`, `is_severe` (Blocker or Critical), `is_done`, `is_fixed`;
 * parsed semantic versions (`major`, `minor`, `patch`) and `release_type` (major / minor / patch,
   or `subproject` for names such as `kafka-5.0.0` or `kubernetes-operator-1.16.0`);
-* `jira_project` for each PR (seed `repo_project_map`); `duration_minutes` and `is_failure` for
+* `jira_project` for each PR (seed `repo_project_map`); `duration_minutes` (null when negative or above 100,000 minutes) and `is_failure` for
   check runs; PENDING (unsubmitted) reviews removed.
 
 ### Intermediate (tables, schema `intermediate`)
